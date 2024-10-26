@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.23)  25 OCT 2024 15:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.23)  26 OCT 2024 14:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -286,7 +286,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ]
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 125.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 119.
  (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
@@ -297,16 +297,19 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 <fig1.png, id=17, 249.3315pt x 189.22694pt>
 File: fig1.png Graphic file (type png)
 <use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 230.
+Package pdftex.def Info: fig1.png  used on input line 224.
 (pdftex.def)             Requested size: 249.33087pt x 189.22647pt.
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 241.
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 235.
  (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 241.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 235.
 
 
+
+
+[3 <./fig1.png (PNG copy)>]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -320,24 +323,28 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-[3 <./fig1.png (PNG copy)>] (literatur_seminar_rcs_olbertz_david.aux)
+
+
+[4
+
+] (literatur_seminar_rcs_olbertz_david.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4277 strings out of 473899
- 68074 string characters out of 5726499
+ 4278 strings out of 473899
+ 68082 string characters out of 5726499
  472441 words of memory out of 5000000
- 27098 multiletter control sequences out of 15000+600000
+ 27099 multiletter control sequences out of 15000+600000
  603169 words of font info for 121 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,65p,690b,304s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,11n,65p,722b,304s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on literatur_seminar_rcs_olbertz_david.pdf (3 pages, 155593 bytes).
+Output written on literatur_seminar_rcs_olbertz_david.pdf (4 pages, 157473 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
+ 72 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
