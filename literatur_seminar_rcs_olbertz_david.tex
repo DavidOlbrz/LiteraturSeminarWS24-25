@@ -43,7 +43,18 @@ Ziel dieser Seminararbeit ist, Rich Communication Services als Nachfolger der SM
 
 \subsection{Short Message Service}
 
-\dots
+\begin{itemize}
+    \item seit den späten 1990ern im Einsatz
+    \item Short Messaging Service Center (SMSC) routen Nachrichten
+    \item Nachricht zwischen Base Station und Gerät verschlüsselt, innerhalb des Systems allerdings nicht
+    \item External Short Message Entities
+          \begin{itemize}
+              \item managen das Senden \& Empfangen von viele Nachrichten für Unternehmen (z.B. für One-Time-Passwords)
+          \end{itemize}
+    \item "Gatekeeper" \& Interface zu SMS
+    \item entweder direkten Zugriff auf SMSC über Short Message Peer-to-Peer (SMPP) oder Verkaufen Zugriff weiter (?)
+\end{itemize}
+\cite{sendoutsms}
 
 \subsection{Over-the-Top Instant Messenger}
 
@@ -53,11 +64,34 @@ Ziel dieser Seminararbeit ist, Rich Communication Services als Nachfolger der SM
 
 \subsection{Definition}
 
-\dots
+\begin{itemize}
+    \item verschiedene Versionen nach und nach released
+    \item erste Version nur enriched phonebook, enriched calling, enriched messaging
+    \item phonebook
+          \begin{itemize}
+              \item Profil erstellen
+              \item andere können Profil sehen (freiwillig, beide müssen Profil teilen)
+          \end{itemize}
+    \item calling
+          \begin{itemize}
+              \item Multimedia während dem Anruf teilen (Videoanruf)
+          \end{itemize}
+    \item messaging
+          \begin{itemize}
+              \item Dateitransfer
+              \item Gruppenchats
+          \end{itemize}
+    \item bereits da Idee, dass es nativ im Betriebssystem integriert sein sollte
+\end{itemize}
+\cite{rcsuite}
 
 \subsection{Funktionsweise}
 
-\dots
+\begin{itemize}
+    \item erste version
+    \item unified composer (entscheidet selbst, ob als SMS oder MMS gesendet wird und sagt user bescheid)
+\end{itemize}
+\cite{rcsuite}
 
 \subsection{Sicherheit}
 
@@ -65,11 +99,26 @@ Ziel dieser Seminararbeit ist, Rich Communication Services als Nachfolger der SM
 
 \section{Vorteile von RCS gegenüber SMS}
 
-\dots
+SMS
+
+\begin{itemize}
+    \item Nachricht zwischen Base Station und Gerät verschlüsselt, innerhalb des Systems allerdings nicht
+    \item Gateways speichern Nachrichten teilweise für längere Zeit
+    \item External Short Message Entities können für Betrug genutzt werden
+\end{itemize}
+\cite{sendoutsms}
 
 \section{Schwächen von RCS}
 
-\dots
+\begin{itemize}
+    \item SMS SIM Swap Attack
+          \begin{itemize}
+              \item Angreifer gibt sich als das Opfer aus, um neue SIM-Karte zu erhalten oder eine Umleitung einzurichten
+              \item kann Nachrichten abfangen, wie One-Time-Passwords
+              \item durch RCS nicht gelöst, da es auch über die Telefonnummer läuft
+          \end{itemize}
+\end{itemize}
+\cite{sendoutsms}
 
 \section{Fazit}
 
