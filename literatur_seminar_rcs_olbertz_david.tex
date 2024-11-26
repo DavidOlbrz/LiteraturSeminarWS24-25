@@ -94,7 +94,30 @@ Ziel dieser Seminararbeit ist, Rich Communication Services als Nachfolger der SM
 \end{itemize}
 \cite{ottmobinter}
 
+\begin{itemize}
+    \item nativ im Betriebssystem implementiert (von OS Entwickler oder OEM / Gerätehersteller)
+    \item verschiedene Dienste miteinander verknüpft, wie Nachrichten schreiben, Kontakte-App, Telefon-App
+    \item kann alternativ als App installiert werden (z.B. App der Telekom, ! brauche zusätzliche Quelle hier !)
+\end{itemize}
+\cite{uniprof}
+
 \subsection{Funktionen}
+
+\begin{itemize}
+    \item "1-to-1 Messaging" - einfacher Nachrichtenaustausch zwischen zwei Personen
+    \item Dateitransfer ist möglich (egal welcher Typ, Status: Pending, Progress, Cancelled, Sent, Delivered)
+    \item bestimmte Dateien sollen auf bestimmte Art und Weise dargestellt werden (Video, Bild, Audio, GIF, PDF)
+    \item man kann Sprachnachrichten aufnehmen und versenden
+    \item man kann den aktuellen Status der Nachricht sehen (Versendet, Fehler, SMS-Fallback, Gelesen)
+    \item man kann sehen, wenn der Kontakt am schreiben ist
+    \item man kann seinen (Live-)Standort teilen
+    \item Gruppenchats
+    \item "Enriched Calling" - Dateitransfer während Anruf möglich $\rightarrow$ Videoanruf
+    \item Chatbots für z.B. Unternehmen (Gemini Integrierung ! Quelle nötig !), enthalten Beschreibung
+    \item (mit Chatbots kann anonym gechattet werden)
+    \item Spam kann vermieden werden
+\end{itemize}
+\cite{uniprof}
 
 \subsection{Technik}
 
@@ -109,6 +132,13 @@ Ziel dieser Seminararbeit ist, Rich Communication Services als Nachfolger der SM
     \item 2011 unter anderem Deutsche Telekom, Telefonica, Vodafone angekündigt, Zusammenschluss zu bilden für eine gemeinsame RCS Implementierung, auch RCS-e (oder Rich Communication Services enhanced) genannt
 \end{itemize}
 \cite{rcsmno}
+
+\begin{itemize}
+    \item "Capability Discovery" zeigt den Clients, welche RCS Funktionen verfügbar sind
+    \item RCS Dienste werden automatisch aktiviert
+    \item es wird dem Nutzer direkt angezeigt, ob RCS verfügbar ist und falls nicht, wird auf SMS als Backup zurückgegriffen
+\end{itemize}
+\cite{uniprof}
 
 \subsection{Sicherheit}
 
@@ -129,8 +159,13 @@ SMS
     \item anstatt für jeden Instant Messenger eigenen Client zu installieren, der Leistung braucht, universeller integrierter Messenger
     \item es ist möglich, RCS über ein Mobilgerät oder auch PC zu nutzen
 \end{itemize}
-
 \cite{rcsmno}
+
+\begin{itemize}
+    \item man kann clients auf mehreren Geräten nutzen
+    \item bei Dual-SIM ist RCS mit beiden Karten gleichzeitig möglich
+\end{itemize}
+\cite{uniprof}
 
 \section{Schwächen von RCS}
 
@@ -165,6 +200,7 @@ SMS
     \bibitem{rcsuite} K. Henry, Q. Liu, und S. Pasquereau, "Rich Communication Suite", in 2009 13th International Conference on Intelligence in Next Generation Networks, Okt. 2009, S. 1–6. doi: 10.1109/ICIN.2009.5357089.
     \bibitem{rcsmno} M. Lin und J. Arenzana Arias, "Rich Communication Suite: The challenge and opportunity for MNOs", in 2011 15th International Conference on Intelligence in Next Generation Networks, Okt. 2011, S. 187–190. doi: 10.1109/ICIN.2011.6081071.
     \bibitem{ottmobinter} N. Wellmann, "Are OTT messaging and mobile telecommunication an interrelated market? An empirical analysis", Telecommun. Policy, Bd. 43, Nr. 9, Oktober 2019, doi: 10.1016/j.telpol.2019.101831.
+    \bibitem{uniprof} GSMA. "RCS Universal Profile Service Definition Document". Zugriff: 06.11.2024. Verfügbar: https://www.gsma.com/solutions-and-impact/technologies/networks/wp-content/uploads/2019/10/RCC.71-v2.4.pdf
 \end{thebibliography}
 
 \end{document}
