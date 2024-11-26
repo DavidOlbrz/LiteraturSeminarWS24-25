@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.20)  26 NOV 2024 15:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.20)  26 NOV 2024 20:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -291,7 +291,7 @@ Underfull \hbox (badness 2269) in paragraph at lines 52--53
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
 []\OT1/ptm/m/n/10 verschiedene Di-en-ste miteinan-der verkn[]upft, wie
  []
 
@@ -301,34 +301,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
 
 ]
-Underfull \hbox (badness 4217) in paragraph at lines 115--116
+Underfull \hbox (badness 4217) in paragraph at lines 121--122
 []\OT1/ptm/m/n/10 "Enriched Call-ing" - Dateitrans-fer w[]ahrend An-ruf
  []
 
 
-Underfull \hbox (badness 6032) in paragraph at lines 139--140
+Underfull \hbox (badness 6032) in paragraph at lines 145--146
 \OT1/ptm/m/n/10 ist und falls nicht, wird auf SMS als Backup
  []
 
 
-Underfull \hbox (badness 1360) in paragraph at lines 154--155
+Underfull \hbox (badness 3354) in paragraph at lines 152--153
+\OT1/ptm/m/n/10 then-tifizierung nutzen, auf an-deren Ger[]aten an-dere
+ []
+
+
+
+
+Underfull \hbox (badness 1360) in paragraph at lines 164--165
 []\OT1/ptm/m/n/10 External Short Mes-sage En-ti-ties k[]onnen f[]ur Be-trug
  []
 
 
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 176--177
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
 []\OT1/ptm/m/n/10 kann Nachrichten ab-fan-gen, wie One-Time-
  []
 
 
-Underfull \hbox (badness 4518) in paragraph at lines 203--204
+Underfull \hbox (badness 4518) in paragraph at lines 213--214
 []\OT1/ptm/m/n/8 GSMA. "RCS Uni-ver-sal Pro-file Ser-vice Def-i-ni-tion Doc-u-ment".
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--204
+Underfull \hbox (badness 10000) in paragraph at lines 213--214
 \OT1/ptm/m/n/8 impact/technologies/networks/wp-content/uploads/2019/10/RCC.71-
  []
 
@@ -354,13 +359,13 @@ L3 programming layer <2024-11-02>
 Here is how much of TeX's memory you used:
  4162 strings out of 473682
  66491 string characters out of 5719215
- 475649 words of memory out of 5000000
+ 476649 words of memory out of 5000000
  27219 multiletter control sequences out of 15000+600000
  590242 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,8n,65p,620b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on literatur_seminar_rcs_olbertz_david.pdf (2 pages, 82545 bytes).
+Output written on literatur_seminar_rcs_olbertz_david.pdf (2 pages, 82915 bytes).
 PDF statistics:
  40 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
