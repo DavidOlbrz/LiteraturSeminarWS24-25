@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.20)  26 NOV 2024 20:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.1)  1 DEC 2024 13:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/david/OneDrive/Dokumente/Literatur-Seminar/LiteraturSeminarWS24-25/literatur_seminar_rcs_olbertz_david.tex
-(c:/Users/david/OneDrive/Dokumente/Literatur-Seminar/LiteraturSeminarWS24-25/literatur_seminar_rcs_olbertz_david.tex
+**c:/Users/david/Documents/LiteraturSeminarWS24-25/literatur_seminar_rcs_olbertz_david.tex
+(c:/Users/david/Documents/LiteraturSeminarWS24-25/literatur_seminar_rcs_olbertz_david.tex
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
 (IEEEtran.cls
@@ -271,27 +271,16 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 47.
- (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 55.
+(C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 47.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 55.
  (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
-[]\OT1/ptm/m/n/10 Short Mes-sag-ing Ser-vice Cen-ter (SMSC) routen
- []
-
-
-Underfull \hbox (badness 2269) in paragraph at lines 52--53
-[]\OT1/ptm/m/n/10 managen das Senden & Emp-fan-gen von viele
- []
-
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
 []\OT1/ptm/m/n/10 verschiedene Di-en-ste miteinan-der verkn[]upft, wie
  []
 
@@ -301,42 +290,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
 
 ]
-Underfull \hbox (badness 4217) in paragraph at lines 121--122
+Underfull \hbox (badness 4217) in paragraph at lines 114--115
 []\OT1/ptm/m/n/10 "Enriched Call-ing" - Dateitrans-fer w[]ahrend An-ruf
  []
 
 
-Underfull \hbox (badness 6032) in paragraph at lines 145--146
+Underfull \hbox (badness 6032) in paragraph at lines 138--139
 \OT1/ptm/m/n/10 ist und falls nicht, wird auf SMS als Backup
  []
 
 
-Underfull \hbox (badness 3354) in paragraph at lines 152--153
+Underfull \hbox (badness 3354) in paragraph at lines 145--146
 \OT1/ptm/m/n/10 then-tifizierung nutzen, auf an-deren Ger[]aten an-dere
  []
 
 
 
 
-Underfull \hbox (badness 1360) in paragraph at lines 164--165
+Underfull \hbox (badness 1360) in paragraph at lines 157--158
 []\OT1/ptm/m/n/10 External Short Mes-sage En-ti-ties k[]onnen f[]ur Be-trug
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--187
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
 []\OT1/ptm/m/n/10 kann Nachrichten ab-fan-gen, wie One-Time-
  []
 
 
-Underfull \hbox (badness 4518) in paragraph at lines 213--214
+Underfull \hbox (badness 4518) in paragraph at lines 206--207
 []\OT1/ptm/m/n/8 GSMA. "RCS Uni-ver-sal Pro-file Ser-vice Def-i-ni-tion Doc-u-ment".
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--214
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
 \OT1/ptm/m/n/8 impact/technologies/networks/wp-content/uploads/2019/10/RCC.71-
  []
 
+
+
+[2]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -350,24 +342,28 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-[2] (literatur_seminar_rcs_olbertz_david.aux)
+
+
+[3
+
+] (literatur_seminar_rcs_olbertz_david.aux)
  ***********
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4162 strings out of 473682
- 66491 string characters out of 5719215
- 476649 words of memory out of 5000000
- 27219 multiletter control sequences out of 15000+600000
+ 4163 strings out of 473682
+ 66283 string characters out of 5719216
+ 477649 words of memory out of 5000000
+ 27220 multiletter control sequences out of 15000+600000
  590242 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,8n,65p,620b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,8n,65p,971b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on literatur_seminar_rcs_olbertz_david.pdf (2 pages, 82915 bytes).
+Output written on literatur_seminar_rcs_olbertz_david.pdf (3 pages, 83848 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
+ 43 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

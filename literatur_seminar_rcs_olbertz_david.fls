@@ -1,6 +1,6 @@
-PWD c:\Users\david\OneDrive\Dokumente\Literatur-Seminar\LiteraturSeminarWS24-25
+PWD c:\Users\david\Documents\LiteraturSeminarWS24-25
 INPUT C:\Users\david\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\david\OneDrive\Dokumente\Literatur-Seminar\LiteraturSeminarWS24-25\literatur_seminar_rcs_olbertz_david.tex
+INPUT c:\Users\david\Documents\LiteraturSeminarWS24-25\literatur_seminar_rcs_olbertz_david.tex
 OUTPUT literatur_seminar_rcs_olbertz_david.log
 INPUT .\IEEEtran.cls
 INPUT IEEEtran.cls
