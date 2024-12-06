@@ -87,8 +87,19 @@ Mit WhatsApp Business ist es möglich, dass Nutzer mit Unternehmen kommunizieren
 
 \subsection{Definition}
 
+Seit dem Aufstieg von OTT sinkt die Nutzung von klassischen Kommunikationsarten wie SMS.
+Laut einer Statistik der Bundesnetzagentur ist die Nutzung von SMS im Jahr 2015 bereits um 41\% gesunken \cite{ottmobinter}.
+2008 veröffentlichte die "Groupe Speciale Mobile Association" (GSMA) die erste Version des Universal Profiles, welche die Funktionen der Rich Communication Services (RCS) definiert \cite{rcsuite}.
+Zu den Grundideen gehört unter anderem die Verknüpfung verschiedener Dienste, wie das Nachrichtenschreiben, die Kontakte-App und die Kontakte-App.
+Außerdem sollen die Funktionen nativ im Betriebssystem implementiert sein.
+Für die Implementation sind die Entwickler des Betriebssystems bzw. der Gerätehersteller zuständig.
+Beispiel dafür ist die Android-Implementation in Samsung Messages oder Google Messages [Quelle folgt].
+Seit 2024 ist RCS auch auf iOS-Geräten über iMessage verfügbar [Quelle folgt].
+Alternativ gibt es die Möglichkeit, RCS-Funktionalität durch das Installieren einer dafür entwickelten App zu erhalten \cite{uniprof}.
+
+\subsection{Funktionen}
+
 \begin{itemize}
-    \item verschiedene Versionen nach und nach released
     \item erste Version nur enriched phonebook, enriched calling, enriched messaging
     \item phonebook
           \begin{itemize}
@@ -109,21 +120,6 @@ Mit WhatsApp Business ist es möglich, dass Nutzer mit Unternehmen kommunizieren
 \cite{rcsuite}
 
 \begin{itemize}
-    \item seit dem Aufstieg von OTT sinkt die Nutzung von klassischen Kommunikationsarten wie SMS
-    \item 2015 Nutzung in Deutschland bereits um 41 \% gesunken
-\end{itemize}
-\cite{ottmobinter}
-
-\begin{itemize}
-    \item nativ im Betriebssystem implementiert (von OS Entwickler oder OEM / Gerätehersteller)
-    \item verschiedene Dienste miteinander verknüpft, wie Nachrichten schreiben, Kontakte-App, Telefon-App
-    \item kann alternativ als App installiert werden (z.B. App der Telekom, ! brauche zusätzliche Quelle hier !)
-\end{itemize}
-\cite{uniprof}
-
-\subsection{Funktionen}
-
-\begin{itemize}
     \item "1-to-1 Messaging" - einfacher Nachrichtenaustausch zwischen zwei Personen
     \item Dateitransfer ist möglich (egal welcher Typ, Status: Pending, Progress, Cancelled, Sent, Delivered)
     \item bestimmte Dateien sollen auf bestimmte Art und Weise dargestellt werden (Video, Bild, Audio, GIF, PDF)
@@ -142,7 +138,6 @@ Mit WhatsApp Business ist es möglich, dass Nutzer mit Unternehmen kommunizieren
 \subsection{Technik}
 
 \begin{itemize}
-    \item erste version
     \item unified composer (entscheidet selbst, ob als SMS oder MMS gesendet wird und sagt user bescheid)
 \end{itemize}
 \cite{rcsuite}
