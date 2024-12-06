@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.1)  6 DEC 2024 14:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.1)  6 DEC 2024 15:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -334,27 +334,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 200--201
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--228
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
 []\OT1/ptm/m/n/8 GSMA. "RCS Uni-ver-sal Pro-file Ser-vice Def-i-ni-tion Doc-u-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--228
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
 \OT1/ptm/m/n/8 ment". Zuge-grif-fen: 06.11.2024. [On-line]. Verf[]ugbar unter:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--228
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
 \OT1/ptm/m/n/8 https://www.gsma.com/solutions-and-impact/technologies/networks/wp-
  []
 
 
-Underfull \hbox (badness 7522) in paragraph at lines 229--230
+Underfull \hbox (badness 7522) in paragraph at lines 228--229
 []\OT1/ptm/m/n/8 "WhatsApp kosten-los und n[]utzlicher machen", What-sApp.com.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--230
+Underfull \hbox (badness 10000) in paragraph at lines 228--229
 \OT1/ptm/m/n/8 Zuge-grif-fen: 4. Dezem-ber 2024. [On-line]. Verf[]ugbar unter:
  []
 
@@ -400,7 +400,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  57i,8n,65p,971b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on literatur_seminar_rcs_olbertz_david.pdf (3 pages, 86568 bytes).
+Output written on literatur_seminar_rcs_olbertz_david.pdf (3 pages, 86598 bytes).
 PDF statistics:
  43 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
