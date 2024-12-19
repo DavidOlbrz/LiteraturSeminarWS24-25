@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.1)  16 DEC 2024 11:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.1)  16 DEC 2024 21:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -300,10 +300,15 @@ Underfull \hbox (badness 1377) in paragraph at lines 72--82
 
 
 ]
+Underfull \hbox (badness 1629) in paragraph at lines 107--120
+[]\OT1/ptm/m/n/10 Die Funk-tio-nen sind grunds[]atzlich in drei Kat-e-gorien
+ []
 
 
-Underfull \hbox (badness 4217) in paragraph at lines 131--132
-[]\OT1/ptm/m/n/10 "Enriched Call-ing" - Dateitrans-fer w[]ahrend An-ruf
+
+
+Underfull \hbox (badness 2452) in paragraph at lines 133--134
+\OT1/ptm/m/n/10 Mes-sages [12], oder Chats zum Emp-fan-gen von 2FA-
  []
 
 
@@ -317,13 +322,13 @@ Underfull \hbox (badness 3354) in paragraph at lines 161--162
  []
 
 
+
+[2]
 Underfull \hbox (badness 1360) in paragraph at lines 173--174
 []\OT1/ptm/m/n/10 External Short Mes-sage En-ti-ties k[]onnen f[]ur Be-trug
  []
 
 
-
-[2]
 Underfull \hbox (badness 10000) in paragraph at lines 195--196
 []\OT1/ptm/m/n/10 kann Nachrichten ab-fan-gen, wie One-Time-
  []
@@ -342,6 +347,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 220--221
 Underfull \hbox (badness 10000) in paragraph at lines 220--221
 \OT1/ptm/m/n/8 https://www.gsma.com/solutions-and-impact/technologies/networks/wp-
  []
+
+
 
 
 Underfull \hbox (badness 7522) in paragraph at lines 223--224
@@ -379,6 +386,14 @@ Overfull \hbox (41.94177pt too wide) in paragraph at lines 227--228
  []
 
 
+Underfull \hbox (badness 3612) in paragraph at lines 229--230
+[]\OT1/ptm/m/n/8 "Gemini in Google Mes-sages ver-wen-den - Google Mes-sages".
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
+\OT1/ptm/m/n/8 Zuge-grif-fen: 16. Dezem-ber 2024. [On-line]. Verf[]ugbar unter:
+ []
 
 
 ** Conference Paper **
@@ -400,17 +415,17 @@ L3 programming layer <2024-11-02>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4171 strings out of 473682
- 66377 string characters out of 5719216
- 475669 words of memory out of 5000000
- 27228 multiletter control sequences out of 15000+600000
+ 4172 strings out of 473682
+ 66390 string characters out of 5719216
+ 472673 words of memory out of 5000000
+ 27229 multiletter control sequences out of 15000+600000
  590242 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,8n,65p,971b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on literatur_seminar_rcs_olbertz_david.pdf (3 pages, 87614 bytes).
+<C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on literatur_seminar_rcs_olbertz_david.pdf (3 pages, 79761 bytes).
 PDF statistics:
- 43 PDF objects out of 1000 (max. 8388607)
+ 38 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

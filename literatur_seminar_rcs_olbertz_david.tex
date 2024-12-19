@@ -100,40 +100,40 @@ Alternativ gibt es die Möglichkeit, RCS-Funktionalität durch das Installieren 
 \subsection{Funktionen}
 
 \begin{itemize}
-    \item erste Version nur enriched phonebook, enriched calling, enriched messaging
-    \item phonebook
-          \begin{itemize}
-              \item Profil erstellen
-              \item andere können Profil sehen (freiwillig, beide müssen Profil teilen)
-          \end{itemize}
-    \item calling
-          \begin{itemize}
-              \item Multimedia während dem Anruf teilen (Videoanruf)
-          \end{itemize}
-    \item messaging
-          \begin{itemize}
-              \item Dateitransfer
-              \item Gruppenchats
-          \end{itemize}
-    \item bereits da Idee, dass es nativ im Betriebssystem integriert sein sollte
-\end{itemize}
-\cite{rcsuite}
-
-\begin{itemize}
-    \item "1-to-1 Messaging" - einfacher Nachrichtenaustausch zwischen zwei Personen
-    \item Dateitransfer ist möglich (egal welcher Typ, Status: Pending, Progress, Cancelled, Sent, Delivered)
-    \item bestimmte Dateien sollen auf bestimmte Art und Weise dargestellt werden (Video, Bild, Audio, GIF, PDF)
-    \item man kann Sprachnachrichten aufnehmen und versenden
-    \item man kann den aktuellen Status der Nachricht sehen (Versendet, Fehler, SMS-Fallback, Gelesen)
-    \item man kann sehen, wenn der Kontakt am schreiben ist
-    \item man kann seinen (Live-)Standort teilen
-    \item Gruppenchats
-    \item "Enriched Calling" - Dateitransfer während Anruf möglich $\rightarrow$ Videoanruf
-    \item Chatbots für z.B. Unternehmen (Gemini Integrierung ! Quelle nötig !), enthalten Beschreibung
-    \item (mit Chatbots kann anonym gechattet werden)
     \item Spam kann vermieden werden
 \end{itemize}
 \cite{uniprof}
+
+Die Funktionen sind grundsätzlich in drei Kategorien eingeteilt: "Enriched Messaging", "Enriched Calling" und "Enriched Phonebook".
+Beim "Enriched Messaging" gibt es das klassische "1-to-1 Messaging", sprich den Nachrichtenaustausch zwischen zwei Personen, wie man es auch von SMS kennt, und die Möglichkeit, in Gruppenchats mit mehreren Personen gleichzeitig zu kommunizieren.
+Innerhalb der Chats ist es möglich, Dateien zu versenden.
+Dabei kann jeder Dateityp versendet werden. Bestimmte Dateiformate werden auf eine bestimmte Weise im Chat dargestellt, wie z.B. pdf-Dateien mit Dokumentenvorschau, direkt im Chat abspielbare Audio-Dateien und animierte GIFs.
+Bilder und Videos sind ebenfalls möglich.
+Nach dem Senden kann für gesendete Dateien der Sende-Status eingesehen werden.
+Dadurch kann geprüft werden, ob eine Datei korrekt versendet wurde oder ob der Transfer noch aussteht oder sogar fehlgeschlagen ist.
+Sprachnachrichten können direkt in der App aufgenommen und verschickt werden.
+Der aktuelle Standort des Senders kann ebenfalls geteilt werden, entweder als Snapshot oder Live-Standort.
+Bei jeder verschickten Nachricht kann der Sender sehen, ob die Nachricht angekommen ist und ob sie bereits vom Empfänger gelesen wurde.
+Außerdem sieht der Chatteilnehmer, wenn der jeweils Andere eine Nachricht am Eintippen ist.
+Mit "Enriched Calling" kann man während einem Anruf unter anderem einen Dateitransfer durchführen.
+Dies ermöglicht Videoanrufe, bei denen die Teilnehmer live die Aufnahme ihrer Kamera teilen können.
+
+\cite{uniprof}
+
+\dots
+
+Die Idee beim "Enriched Phonebook" ist, dass Nutzer sich ihr eigenes Profil einrichten können.
+Dadurch kann jeder andere Nutzer das Profil sehen.
+(freiwillig, beide müssen Profil teilen)
+
+\cite{rcsuite}
+
+\dots
+
+Anstatt nur mit Personen zu interagieren, existiert die Möglichkeit, mit Diensten zu kommunizieren. Dazu gehören Chatbots, wie z.B. die Integrierung von Gemini in Google Messages \cite{geminiinteg}, oder Chats zum Empfangen von 2FA-Codes. Diese Unternehmenskontakte beinhalten in deren Profil zusätzlich Informationen zum Chatbot bzw. zum Unternehmen.
+
+\cite{uniprof}
+
 
 \subsection{Technik}
 
@@ -226,6 +226,7 @@ SMS
     \bibitem{rcsuite} K. Henry, Q. Liu, und S. Pasquereau, "Rich Communication Suite", in 2009 13th International Conference on Intelligence in Next Generation Networks, Okt. 2009, S. 1–6. doi: 10.1109/ICIN.2009.5357089.
     \bibitem{googlemessages} "\"RCS-Chats\" in Google Messages aktivieren - Google Messages". Zugegriffen: 16. Dezember 2024. [Online]. Verfügbar unter: https://support.google.com/messages/answer/7189714?sjid=17429263824577998783-EU\&hl=de
     \bibitem{applemessages} "Was ist der Unterschied zwischen iMessage, RCS und SMS/MMS? - Apple Support (DE)", Apple Support. Zugegriffen: 16. Dezember 2024. [Online]. Verfügbar unter: https://support.apple.com/de-de/104972
+    \bibitem{geminiinteg} "Gemini in Google Messages verwenden - Google Messages". Zugegriffen: 16. Dezember 2024. [Online]. Verfügbar unter: https://support.google.com/messages/answer/14599070?hl=de
 \end{thebibliography}
 
 \end{document}
