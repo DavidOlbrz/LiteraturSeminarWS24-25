@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.1)  19 DEC 2024 15:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.1)  19 DEC 2024 16:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -366,27 +366,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 220--221
  []
 
 
-Underfull \hbox (badness 2762) in paragraph at lines 222--223
-[]\OT1/ptm/m/n/8 "[]RCS-Chats[]^^Pn Google Mes-sages ak-tivieren - Google Mes-sages".
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
+Underfull \hbox (badness 10000) in paragraph at lines 222--224
 \OT1/ptm/m/n/8 Zuge-grif-fen: 16. Dezem-ber 2024. [On-line]. Verf[]ugbar unter:
  []
 
 
-Overfull \hbox (41.94177pt too wide) in paragraph at lines 222--223
-\OT1/ptm/m/n/8 https://support.google.com/messages/answer/7189714?sjid=17429263824577998783-
+Underfull \hbox (badness 10000) in paragraph at lines 222--224
+\OT1/ptm/m/n/8 https://support.google.com/messages/answer/7189714?sjid=174292638
  []
 
 
-Underfull \hbox (badness 3612) in paragraph at lines 224--225
+Underfull \hbox (badness 3612) in paragraph at lines 225--226
 []\OT1/ptm/m/n/8 "Gemini in Google Mes-sages ver-wen-den - Google Mes-sages".
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--225
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
 \OT1/ptm/m/n/8 Zuge-grif-fen: 16. Dezem-ber 2024. [On-line]. Verf[]ugbar unter:
  []
 
@@ -410,15 +405,15 @@ L3 programming layer <2024-11-02>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4172 strings out of 473682
- 66390 string characters out of 5719216
+ 4170 strings out of 473682
+ 66373 string characters out of 5719216
  471673 words of memory out of 5000000
- 27229 multiletter control sequences out of 15000+600000
+ 27227 multiletter control sequences out of 15000+600000
  590242 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,8n,65p,971b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on literatur_seminar_rcs_olbertz_david.pdf (3 pages, 80267 bytes).
+Output written on literatur_seminar_rcs_olbertz_david.pdf (3 pages, 80115 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
