@@ -137,23 +137,16 @@ Anstatt nur mit Personen zu interagieren, existiert die Möglichkeit, mit Dienst
 
 \subsection{Technik}
 
-\begin{itemize}
-    \item unified composer (entscheidet selbst, ob als SMS oder MMS gesendet wird und sagt user bescheid)
-\end{itemize}
-\cite{rcsuite}
+Damit möglichst alle Funktionen von RCS reibungslos funktionieren, müssen sich die Mobilfunk-Operatoren auf eine gängige Implementierung einigen.
+Um dies zu erreichen haben sich 2011 mehrere große Unternehmen, darunter die Deutsche Telekom, Telefonica und Vodafone angekündigt, einen Zusammenschluss zu bilden und eine gemeinsame RCS-Implementierung, auch RCS-e (Rich Communication Services enhanced) genannt, zu definieren \cite{rcsmno}.
 
-\begin{itemize}
-    \item damit alles nahtlos funktioniert, müssen die Mobilfunk-Operatoren sich auf eine gängige Implementierung einigen
-    \item 2011 unter anderem Deutsche Telekom, Telefonica, Vodafone angekündigt, Zusammenschluss zu bilden für eine gemeinsame RCS Implementierung, auch RCS-e (oder Rich Communication Services enhanced) genannt
-\end{itemize}
-\cite{rcsmno}
+Da aber trotz solchen Maßnahmen immer noch Implementierungsverschiedenheiten existieren können, existiert die "Capability Discovery"-Funktion.
+Sie dient dazu, den Clients zu zeigen, welche RCS-Funktionen verfügbar sind.
+Damit eine Funktion verfügbar ist, muss sie bei beiden Clients implementiert sein bzw. vom Mobilfunkanbieter unterstützt werden.
+Falls die Funktionen verfügbar sind, werden sie automatisch aktiviert.
+Falls dies nicht der Fall sein sollte, wird dem Nutzer angeboten, seine Nachricht alternativ als SMS zu verschicken \cite{uniprof}.
+Dabei entscheidet der "Unified Composer", ob die Nachricht als SMS oder MMS (bei Mediendateien) verschickt werden muss \cite{rcsuite}.
 
-\begin{itemize}
-    \item "Capability Discovery" zeigt den Clients, welche RCS Funktionen verfügbar sind
-    \item RCS Dienste werden automatisch aktiviert
-    \item es wird dem Nutzer direkt angezeigt, ob RCS verfügbar ist und falls nicht, wird auf SMS als Backup zurückgegriffen
-\end{itemize}
-\cite{uniprof}
 
 \subsection{Sicherheit}
 
