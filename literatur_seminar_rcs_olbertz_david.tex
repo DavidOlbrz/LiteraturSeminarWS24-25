@@ -9,6 +9,7 @@
 \usepackage{graphicx}
 \usepackage{textcomp}
 \usepackage{xcolor}
+\usepackage{svg}
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \begin{document}
@@ -50,11 +51,32 @@ Dabei werden auch die Eigenschaften von RCS mit denen von SMS verglichen, wobei 
 
 \subsection{Short Message Service}
 
-Der Short Message Service, kurz SMS, ist seit den späten 1990er Jahren im Einsatz. Dieser erlaubt es Nutzern mittels eines Mobiltelefons kurze Textnachrichten an andere Personen zu verschicken, unabhängig von der Distanz \cite{sendoutsms}.
+Der Short Message Service, kurz SMS, ist seit den späten 1990er Jahren im Einsatz \cite{sendoutsms}.
+Dafür wurde der Global System for Mobile Communications Standard etabliert, welcher von dem European Telecommunications Standards Institute entwickelt wurde \cite{smshow}.
+SMS erlaubt es Nutzern mittels eines Mobiltelefons kurze Textnachrichten an andere Personen zu verschicken, unabhängig von der Distanz \cite{sendoutsms}.
+Die Nachrichten können standardmäßig in der 7-Bit-Kodierung eine Länge von 160 Zeichen haben.
+Das SMS Protokoll besteht aus 4 Schichten, die alle Informationen zum Versenden, wie unter anderem den Empfänger und der Nachrichteninhalt selbst, enthalten.
+Zu den Schichten gehört der Application Layer, Transfer Layer, Relay Layer und Link Layer \cite{smshow}.
 
-\dots
+Damit Nachrichten überhaupt über große Distanzen versendet und empfangen werden können, wird eine gewisse Infrastruktur für den Mobilfunk benötigt.
+Das Mobilfunknetz besteht aus Basisstationen, mit denen sich die Endgeräte drahtlos verbinden können, und aus Short Message Service Centers (SMSC), welche die versendeten Nachrichten an den korrekten Empfänger weiterleiten \cite{sendoutsms}.
+Falls der Empfänger aus irgendeinem Grund nicht erreichbar ist und die Nachricht nicht zugestellt werden kann, wird sie im SMSC temporär gespeichert. Sobald der Empfänger wieder erreichbar ist, wird die Nachricht endgültig zugestellt und aus dem SMSC gelöscht \cite{smshow}.
+Während der Übermittlung der Nachricht ist der Bereich zwischen dem Endgerät und der Basisstation verschlüsselt, innerhalb des Mobilfunknetzes allerdings nicht mehr \cite{sendoutsms}.
 
-Das Mobilfunknetz besteht aus Basisstationen, mit denen sich die Endgeräte drahtlos verbinden können, und aus Short Message Service Centers (SMSC), welche die versendeten Nachrichten an den korrekten Empfänger weiterleiten. Während der Übermittlung der Nachricht ist der Bereich zwischen dem Endgerät und der Basisstation verschlüsselt, innerhalb des Mobilfunknetzes allerdings nicht mehr. External Short Message Entities sind ebenfalls Bestandteil des Netzes und werden meist von Unternehmen genutzt. Verwendungszweck dafür ist das Senden und Empfangen einer großen Menge an Nachrichten. Dies wird z.B. für das Versenden von One-Time-Passwords oder Notfallmeldungen genutzt. External Short Message Entities fungieren als Schnittstelle und erlauben so einen direkten Zugriff auf die SMSCs oder Verkaufen den Zugriff an Dritte weiter \cite{sendoutsms}.
+\begin{figure}[htbp]
+    \centerline{\includegraphics{mobilfunknetz.png}}
+    \caption{Beispiel Mobilfunknetz}
+\end{figure}
+
+External Short Message Entities (ESME) sind ebenfalls Bestandteil des Netzes und werden meist von Unternehmen genutzt.
+Verwendungszweck dafür ist das Senden und Empfangen einer großen Menge an Nachrichten.
+Dies wird z.B. für das Versenden von One-Time-Passwords oder Notfallmeldungen genutzt.
+ESMEs fungieren also als Schnittstelle und erlauben so einen direkten Zugriff auf die SMSCs oder Verkaufen den Zugriff an Dritte weiter.
+Es existieren zum Beispiel Systeme, die einzelne Telefonnummern auf einer Website öffentlich zugänglich machen, damit Nutzer ohne Angabe persönlicher Daten darüber Nachrichten empfangenen kann.
+Das wird teilweise noch weiter getrieben, sodass es Dienste gibt, bei denen man ganz einfach an Telefonnummern kommt, mit denen auch Nachrichten versendet werden können.
+Da hier wieder keine Angaben persönlicher Daten notwendig sind, werden solche Nummern oft für Betrugszwecke ausgenutzt.
+Nicht zuletzt sollte aus Sicht des Datenschutzes beachtet werden, dass die gesendeten und empfangenen Nachrichten eventuell für längere Zeit von ESMEs gespeichert werden \cite{sendoutsms}.
+
 
 \subsection{Over-the-Top Instant Messenger}
 
@@ -160,15 +182,6 @@ Alles (?) ist während der Übertragung durch gängige Protokolle, wie TLS und I
 
 \section{Vorteile von RCS gegenüber SMS}
 
-SMS
-
-\begin{itemize}
-    \item Nachricht zwischen Base Station und Gerät verschlüsselt, innerhalb des Systems allerdings nicht
-    \item Gateways speichern Nachrichten teilweise für längere Zeit
-    \item External Short Message Entities können für Betrug genutzt werden
-\end{itemize}
-\cite{sendoutsms}
-
 \begin{itemize}
     \item anstatt für jeden Instant Messenger eigenen Client zu installieren, der Leistung braucht, universeller integrierter Messenger
     \item es ist möglich, RCS über ein Mobilgerät oder auch PC zu nutzen
@@ -223,6 +236,7 @@ SMS
     24577998783-EU\&hl=de
     \bibitem{applemessages} "Was ist der Unterschied zwischen iMessage, RCS und SMS/MMS? - Apple Support (DE)", Apple Support. Zugegriffen: 16. Dezember 2024. [Online]. Verfügbar unter: https://support.apple.com/de-de/104972
     \bibitem{geminiinteg} "Gemini in Google Messages verwenden - Google Messages". Zugegriffen: 16. Dezember 2024. [Online]. Verfügbar unter: https://support.google.com/messages/answer/14599070?hl=de
+    \bibitem{smshow} J. Brown, B. Shipman, und R. Vetter, "SMS: The Short Message Service", Computer, Bd. 40, Nr. 12, S. 106–110, Dez. 2007, doi: 10.1109/MC.2007.440.
 \end{thebibliography}
 
 \end{document}
