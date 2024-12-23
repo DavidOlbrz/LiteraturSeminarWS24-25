@@ -61,7 +61,7 @@ Zu den Schichten gehört der Application Layer, Transfer Layer, Relay Layer und 
 Damit Nachrichten überhaupt über große Distanzen versendet und empfangen werden können, wird eine gewisse Infrastruktur für den Mobilfunk benötigt.
 Das Mobilfunknetz besteht aus Basisstationen, mit denen sich die Endgeräte drahtlos verbinden können, und aus Short Message Service Centers (SMSC), welche die versendeten Nachrichten an den korrekten Empfänger weiterleiten \cite{sendoutsms}.
 Falls der Empfänger aus irgendeinem Grund nicht erreichbar ist und die Nachricht nicht zugestellt werden kann, wird sie im SMSC temporär gespeichert. Sobald der Empfänger wieder erreichbar ist, wird die Nachricht endgültig zugestellt und aus dem SMSC gelöscht \cite{smshow}.
-Während der Übermittlung der Nachricht ist der Bereich zwischen dem Endgerät und der Basisstation verschlüsselt, innerhalb des Mobilfunknetzes allerdings nicht mehr \cite{sendoutsms}.
+Während der Übermittlung der Nachricht ist der Bereich zwischen dem Endgerät und der Basisstation verschlüsselt, innerhalb des Mobilfunknetzes allerdings nicht mehr \cite{sendoutsms}. Es besteht also die Möglichkeit, dass der Mobilfunknetzbetreiber die Nachrichten auslesen kann.
 
 \begin{figure}[htbp]
     \centerline{\includegraphics{mobilfunknetz.png}}
@@ -76,6 +76,13 @@ Es existieren zum Beispiel Systeme, die einzelne Telefonnummern auf einer Websit
 Das wird teilweise noch weiter getrieben, sodass es Dienste gibt, bei denen man ganz einfach an Telefonnummern kommt, mit denen auch Nachrichten versendet werden können.
 Da hier wieder keine Angaben persönlicher Daten notwendig sind, werden solche Nummern oft für Betrugszwecke ausgenutzt.
 Nicht zuletzt sollte aus Sicht des Datenschutzes beachtet werden, dass die gesendeten und empfangenen Nachrichten eventuell für längere Zeit von ESMEs gespeichert werden \cite{sendoutsms}.
+
+\dots
+
+SIM Swap Attack:
+Der Angreifer kann sich bei dem Mobilfunkanbieter melden und sich als das Opfer ausgeben.
+Er kann behaupten, seine SIM Karte verloren zu haben, um eine Ersatz-SIM zu erhalten.
+So kann er dann die SMS Nachrichten abfangen und zum Beispiel an One-Time-Passwörter gelangen, um sich in Accounts des Opfers einzuloggen \cite{sendoutsms}.
 
 
 \subsection{Over-the-Top Instant Messenger}
@@ -200,12 +207,7 @@ Dadurch ist dies nicht plattformübergreifend verfügbar \cite{googlemessagessec
 \section{Schwächen von RCS}
 
 \begin{itemize}
-    \item SMS SIM Swap Attack
-          \begin{itemize}
-              \item Angreifer gibt sich als das Opfer aus, um neue SIM-Karte zu erhalten oder eine Umleitung einzurichten
-              \item kann Nachrichten abfangen, wie One-Time-Passwords
-              \item durch RCS nicht gelöst, da es auch über die Telefonnummer läuft
-          \end{itemize}
+    \item SMS SIM Swap Attack - durch RCS nicht gelöst, da es auch über die Telefonnummer läuft
 \end{itemize}
 \cite{sendoutsms}
 
