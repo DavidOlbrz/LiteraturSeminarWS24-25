@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.1)  23 DEC 2024 13:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.29)  29 DEC 2024 20:32
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **c:/Users/david/Documents/LiteraturSeminarWS24-25/literatur_seminar_rcs_olbertz_david.tex
 (c:/Users/david/Documents/LiteraturSeminarWS24-25/literatur_seminar_rcs_olbertz_david.tex
-LaTeX2e <2024-11-01>
-L3 programming layer <2024-11-02>
+LaTeX2e <2024-11-01> patch level 1
+L3 programming layer <2024-12-09>
 (IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
@@ -232,7 +232,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 ) (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/svg\svg.sty
 Package: svg 2020/11/26 v2.02k (include SVG pictures)
  (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
+Package: iftex 2024/12/12 v1.0g TeX engine tests
 ) (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
 Package: scrbase 2024/10/24 v3.43 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
  (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.sty
@@ -258,8 +258,16 @@ Package pdftexcmds Info: \pdfdraftmode found.
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ) (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/tools\shellesc.sty
 Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
-Package shellesc Info: Restricted shell escape enabled on input line 77.
-)
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+) (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/ifplatform\ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+ (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/generic/catchfile\catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+ (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)) (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+))
 \c@svg@param@lastpage=\count293
 \svg@box=\box56
 \c@svg@param@currpage=\count294
@@ -427,74 +435,74 @@ Underfull \hbox (badness 3049) in paragraph at lines 187--191
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--234
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
 []\OT1/ptm/m/n/8 GSMA. "RCS Uni-ver-sal Pro-file Ser-vice Def-i-ni-tion Doc-u-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--234
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
 \OT1/ptm/m/n/8 ment". Zuge-grif-fen: 06.11.2024. [On-line]. Verf[]ugbar unter:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--234
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
 \OT1/ptm/m/n/8 https://www.gsma.com/solutions-and-impact/technologies/networks/wp-
- []
-
-
-Underfull \hbox (badness 7522) in paragraph at lines 236--237
-[]\OT1/ptm/m/n/8 "WhatsApp kosten-los und n[]utzlicher machen", What-sApp.com.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--237
-\OT1/ptm/m/n/8 Zuge-grif-fen: 4. Dezem-ber 2024. [On-line]. Verf[]ugbar unter:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 238--239
-[]\OT1/ptm/m/n/8 WhatsApp. "What-sApp En-cryp-tion Overview Tech-ni-cal White
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 238--239
-\OT1/ptm/m/n/8 https://faq.whatsapp.com/820124435853543#nachrichtenaustausch-mit-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 240--242
-\OT1/ptm/m/n/8 Zuge-grif-fen: 16. Dezem-ber 2024. [On-line]. Verf[]ugbar unter:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 240--242
-\OT1/ptm/m/n/8 https://support.google.com/messages/answer/7189714?sjid=174292638
  []
 
 
 
 [3]
-Underfull \hbox (badness 3612) in paragraph at lines 243--244
-[]\OT1/ptm/m/n/8 "Gemini in Google Mes-sages ver-wen-den - Google Mes-sages".
+Underfull \hbox (badness 7522) in paragraph at lines 248--249
+[]\OT1/ptm/m/n/8 "WhatsApp kosten-los und n[]utzlicher machen", What-sApp.com.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
+\OT1/ptm/m/n/8 Zuge-grif-fen: 4. Dezem-ber 2024. [On-line]. Verf[]ugbar unter:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
+[]\OT1/ptm/m/n/8 WhatsApp. "What-sApp En-cryp-tion Overview Tech-ni-cal White
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
+\OT1/ptm/m/n/8 https://faq.whatsapp.com/820124435853543#nachrichtenaustausch-mit-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--254
 \OT1/ptm/m/n/8 Zuge-grif-fen: 16. Dezem-ber 2024. [On-line]. Verf[]ugbar unter:
  []
 
 
-Underfull \hbox (badness 2837) in paragraph at lines 245--247
+Underfull \hbox (badness 10000) in paragraph at lines 252--254
+\OT1/ptm/m/n/8 https://support.google.com/messages/answer/7189714?sjid=174292638
+ []
+
+
+Underfull \hbox (badness 3612) in paragraph at lines 255--256
+[]\OT1/ptm/m/n/8 "Gemini in Google Mes-sages ver-wen-den - Google Mes-sages".
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
+\OT1/ptm/m/n/8 Zuge-grif-fen: 16. Dezem-ber 2024. [On-line]. Verf[]ugbar unter:
+ []
+
+
+Underfull \hbox (badness 2837) in paragraph at lines 257--259
 []\OT1/ptm/m/n/8 "So sch[]utzen wir die Ver-traulichkeit von RCS-Chats - Google
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--247
+Underfull \hbox (badness 10000) in paragraph at lines 257--259
 \OT1/ptm/m/n/8 https://support.google.com/messages/answer/9592174?sjid=2530033474
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--247
+Underfull \hbox (badness 10000) in paragraph at lines 257--259
 \OT1/ptm/m/n/8 497695451-EU&hl=de#zippy=%2Chow-we-protect-your-data%2Cso-
  []
 
@@ -517,20 +525,20 @@ Before submitting the final camera ready copy, remember to:
 
 ] (literatur_seminar_rcs_olbertz_david.aux)
  ***********
-LaTeX2e <2024-11-01>
-L3 programming layer <2024-11-02>
+LaTeX2e <2024-11-01> patch level 1
+L3 programming layer <2024-12-09>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6544 strings out of 473682
- 120975 string characters out of 5719216
- 547494 words of memory out of 5000000
- 29503 multiletter control sequences out of 15000+600000
+ 6669 strings out of 473574
+ 123857 string characters out of 5716127
+ 549708 words of memory out of 5000000
+ 29714 multiletter control sequences out of 15000+600000
  589135 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,8n,93p,553b,264s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on literatur_seminar_rcs_olbertz_david.pdf (4 pages, 89722 bytes).
+Output written on literatur_seminar_rcs_olbertz_david.pdf (4 pages, 90062 bytes).
 PDF statistics:
  47 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
