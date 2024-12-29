@@ -176,6 +176,15 @@ Falls die Funktionen verfügbar sind, werden sie automatisch aktiviert.
 Falls dies nicht der Fall sein sollte, wird dem Nutzer angeboten, seine Nachricht alternativ als SMS zu verschicken \cite{uniprof}.
 Dabei entscheidet der "Unified Composer", ob die Nachricht als SMS oder MMS (bei Mediendateien) verschickt werden muss \cite{rcsuite}.
 
+\begin{itemize}
+    \item über 4G / 5G / WiFi
+    \item Authentifizierung mit One-Time-Password OTP und IMSI (International Mobile Subscriber Identity)
+    \item IMSI ist eine private ID auf der SIM
+    \item OTP zur Verifizierung wird unsichtbar als SMS verschickt und automatisch vom System geladen
+    \item Keyserver für den Schlüsselaustausch der Ende-zu-Ende-Verschlüsselung
+    \item Media Server für das Zwischenspeichern der verschickten Dateien
+\end{itemize}
+\cite{5gmsg}
 
 \subsection{Sicherheit}
 
@@ -212,6 +221,11 @@ Dadurch ist dies nicht plattformübergreifend verfügbar \cite{googlemessagessec
     \item es gibt keine strikte Längenbegrenzung für Nachrichten
 \end{itemize}
 
+\begin{itemize}
+    \item Instant Messenger müssen von Jedem installiert werden, RCS nicht
+\end{itemize}
+\cite{5gmsg}
+
 \section{Schwächen von RCS}
 
 \begin{itemize}
@@ -224,6 +238,22 @@ Dadurch ist dies nicht plattformübergreifend verfügbar \cite{googlemessagessec
     \item alle Hersteller von Mobilgeräten müssen RCS implementieren, damit die Verbreitung besser vorangetrieben wird
 \end{itemize}
 \cite{rcsmno}
+
+\begin{itemize}
+    \item kompromittierte Accounts können ausgenutzt werden, egal ob über 4G / 5G / WiFi
+          \begin{itemize}
+              \item dann bringt selbst Ende-zu-Ende-Verschlüsselung nicht viel
+          \end{itemize}
+    \item oft wird nicht komplette IMSI genutzt, sondern nur ein Teil davon, welcher aber oft zum Mobilfunkanbieter gehört und dadurch leicht über die Telefonnummer geholt werden kann
+    \item OTP SMS kann über eine dritte App abgefangen werden
+    \item Anmeldung bei RCS über gespoofte Telefonnummer und IMSI
+    \item Hack funktioniert unabhängig vom Handymodell
+    \item Ende-zu-Ende-Verschlüsselung kann durch "Downgrade Attack" deaktiviert werden, sprich man gibt vor, die Funktion nicht zu unterstützen
+    \item Angreifer kann Ende-zu-Ende-Verschlüsselung Schlüssel austauschen und eine verschlüsselte Verbindung "vortäuschen"
+    \item Attacke ist unbemerkt
+    \item File Sharing Spam - es werden konstant große Dateien verschickt, die beim Empfänger automatisch heruntergeladen
+\end{itemize}
+\cite{5gmsg}
 
 \begin{itemize}
     \item Nachrichten können nicht im Hintergrund empfangen werden, wenn man kein Internet angeschaltet hat
@@ -256,6 +286,8 @@ Dadurch ist dies nicht plattformübergreifend verfügbar \cite{googlemessagessec
     \bibitem{smshow} J. Brown, B. Shipman, und R. Vetter, "SMS: The Short Message Service", Computer, Bd. 40, Nr. 12, S. 106–110, Dez. 2007, doi: 10.1109/MC.2007.440.
     \bibitem{googlemessagessecure} "So schützen wir die Vertraulichkeit von RCS-Chats - Google Messages". Zugegriffen: 23. Dezember 2024. [Online]. Verfügbar unter: https://support.google.com/messages/answer/9592174?sjid=2530033474
     497695451-EU\&hl=de\#zippy=\%2Chow-we-protect-your-data\%2Cso-sch\%C3\%BCtzen-wir-ihre-daten
+    \bibitem{5gmsg} J. Zhao, Q. Li, Z. Yuan, Z. Zhang, und S. Lu, "5G Messaging: System Insecurity and Defenses", in 2022 IEEE Conference on Communications and Network Security (CNS), Okt. 2022, S. 37–45. doi: 10.1109/CNS56114.2022.9947238.
+
 \end{thebibliography}
 
 \end{document}
