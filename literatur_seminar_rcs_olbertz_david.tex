@@ -201,6 +201,8 @@ Dadurch ist dies nicht plattformübergreifend verfügbar \cite{googlemessagessec
 
 \section{Vorteile von RCS gegenüber SMS}
 
+Wenn man einen Instant Messenger, wie z.B. WhatsApp, nutzen möchte, muss man den entsprechenden Client installieren. Dazu gehört zum einen das Herunterladen und Installieren der App auf dem Gerät, zum anderen dann noch das Einrichten der App. Dagegen muss für die Nutzung von RCS kaum etwas selbst getan werden, da es direkt im Betriebssystem integriert ist. Es muss nur die Nachrichten App (auf Android Google Messages) geöffnet werden und schon wird man beim Schreiben von Nachrichten automatisch bei RCS angemeldet und falls verfügbar auch genutzt.
+
 \begin{itemize}
     \item anstatt für jeden Instant Messenger eigenen Client zu installieren, der Leistung braucht, universeller integrierter Messenger
     \item es ist möglich, RCS über ein Mobilgerät oder auch PC zu nutzen
@@ -228,16 +230,31 @@ Dadurch ist dies nicht plattformübergreifend verfügbar \cite{googlemessagessec
 
 \section{Schwächen von RCS}
 
-\begin{itemize}
-    \item SMS SIM Swap Attack - durch RCS nicht gelöst, da es auch über die Telefonnummer läuft
-\end{itemize}
-\cite{sendoutsms}
+Dadurch, dass die Authentifizierung bei RCS SIM-basiert stattfindet, kann die klassische "SIM Swap"-Attacke auch hier weiterhin ausgenutzt werden \cite{sendoutsms}.
 
-\begin{itemize}
-    \item alle Mobilfunkanbieter müssen zusammenarbeiten, damit die Kommunikation auch über Ländergrenzen hinweg nahtlos funktionieren kann, es sollte eine standardisierte Implementation geben
-    \item alle Hersteller von Mobilgeräten müssen RCS implementieren, damit die Verbreitung besser vorangetrieben wird
-\end{itemize}
-\cite{rcsmno}
+\dots
+
+Damit die Kommunikation auch über Ländergrenzen hinweg nahtlos funktionieren kann, müssen alle Mobilfunkanbieter zusammenarbeiten. Funktionen von RCS können nur funktionieren, wenn sie bei allen Kontaktteilnehmern unterstützt werden. Dafür braucht es idealerweise eine standardisierte Implementierung von RCS. Ebenfalls müssen die Hersteller von Mobilgeräten zusammenarbeiten, diese Implementierung umzusetzen und die Verbreitung von RCS voranzutreiben \cite{rcsmno}.
+
+\dots
+
+Unabhängig davon, ob die Opfer 4G, 5G oder WiFi nutzen, können ihre Accounts kompromittiert und ausgenutzt werden \cite{5gmsg}.
+
+\dots
+
+Eine Möglichkeit, die Ende-zu-Ende-Verschlüsselung auszuhebeln, ist die sogenannte "Downgrade" Attacke.
+Bei dieser gibt der Angreifer vor, dies nicht zu unterstützen.
+Wenn eine RCS-Funktion nicht bei beiden Geräten verfügbar ist, ist sie nicht nutzbar.
+Aus diesem Grund wird dann automatisch die Ende-zu-Ende-Verschlüsselung deaktiviert und der Angreifer kann die unverschlüsselten Nachrichten abfangen \cite{5gmsg}.
+
+Es gibt allerdings auch eine komplexere Methode, welche es ermöglicht, den Schlüssel für die Verschlüsselung über den Key Server auszutauschen.
+Dadurch wird der Chat des Opfers weiterhin als sicherer und verschlüsselt angezeigt.
+Der Angreifer kann so komplett unbemerkt sich für den anderen Teilnehmer ausgeben \cite{5gmsg}.
+
+\dots
+
+Mittels File Sharing Spam kann man das Gerät des Opfers überladen, indem konstant große Dateien verschickt werden.
+Der Empfänger-Client wird automatisch versuchen, alle Dateien parallel herunterzuladen \cite{5gmsg}.
 
 \begin{itemize}
     \item kompromittierte Accounts können ausgenutzt werden, egal ob über 4G / 5G / WiFi
@@ -248,22 +265,12 @@ Dadurch ist dies nicht plattformübergreifend verfügbar \cite{googlemessagessec
     \item OTP SMS kann über eine dritte App abgefangen werden
     \item Anmeldung bei RCS über gespoofte Telefonnummer und IMSI
     \item Hack funktioniert unabhängig vom Handymodell
-    \item Ende-zu-Ende-Verschlüsselung kann durch "Downgrade Attack" deaktiviert werden, sprich man gibt vor, die Funktion nicht zu unterstützen
-    \item Angreifer kann Ende-zu-Ende-Verschlüsselung Schlüssel austauschen und eine verschlüsselte Verbindung "vortäuschen"
-    \item Attacke ist unbemerkt
-    \item File Sharing Spam - es werden konstant große Dateien verschickt, die beim Empfänger automatisch heruntergeladen
 \end{itemize}
 \cite{5gmsg}
 
-\begin{itemize}
-    \item Nachrichten können nicht im Hintergrund empfangen werden, wenn man kein Internet angeschaltet hat
-\end{itemize}
+\dots
 
-\begin{itemize}
-    \item Samsung Messages
-    \item Google Messages
-    \item iMessage (nur neuste iOS Version)
-\end{itemize}
+Da RCS im Gegensatz zu SMS über das Internet läuft, können keine Nachrichten im Hintergrund empfangen werden, wenn man an seinem Gerät Internet komplett ausgeschaltet hat.
 
 \section{Fazit}
 
