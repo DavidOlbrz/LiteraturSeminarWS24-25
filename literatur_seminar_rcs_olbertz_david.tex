@@ -199,34 +199,36 @@ Diese Funktion funktioniert allerdings auch nur in diesem Fall, da die GSMA kein
 Dadurch ist dies nicht plattformübergreifend verfügbar \cite{googlemessagessecure}.
 
 
-\section{Vorteile von RCS gegenüber SMS}
+\section{Vorteile von RCS}
 
-Wenn man einen Instant Messenger, wie z.B. WhatsApp, nutzen möchte, muss man den entsprechenden Client installieren. Dazu gehört zum einen das Herunterladen und Installieren der App auf dem Gerät, zum anderen dann noch das Einrichten der App. Dagegen muss für die Nutzung von RCS kaum etwas selbst getan werden, da es direkt im Betriebssystem integriert ist. Es muss nur die Nachrichten App (auf Android Google Messages) geöffnet werden und schon wird man beim Schreiben von Nachrichten automatisch bei RCS angemeldet und falls verfügbar auch genutzt.
+Rich Communication Services bieten zahlreiche Vorteile, die es von herkömmlichen SMS-Diensten und teilweise auch OTT Messengern abheben.
+
+Um einen Instant Messenger wie z.B. WhatsApp zu nutzen, muss zuerst der entsprechende Client in Form einer App heruntergeladen und auf dem Gerät installiert werden.
+Zusätzlich ist noch eine Einrichtung der App erforderlich, um sie auch nutzen zu können \cite{5gmsg,rcsmno}.
+
+Im Gegensatz dazu muss für die Nutzung von RCS nicht viel vom Nutzer selbst getan werden, da es direkt im Betriebssystem integriert ist.
+Solange es unterstützt wird, wird RCS automatisch im Hintergrund konfiguriert.
+Der Nutzer kann direkt die Standart-Nachrichten-App des Betriebssystems öffnen und Nachrichten schreiben (solange der Gesprächspartner ebenfalls RCS unterstützt) \cite{5gmsg,rcsmno}.
+
+Während das Versenden einer SMS meist eine kleine Gebühr kostet (0,09 €, Telekom MagentaMobil Prepaid \cite{telekomsms}), fallen bei RCS keine Zusatzkosten an (0,00 €, Telekom MagentaMobil Prepaid \cite{telekomrcs}).
+
+Des Weiteren ist es möglich, RCS nicht nur auf einem Mobilgerät zu verwenden, wie es bei SMS der Fall ist.
+Aufgrund der Multi-Plattform-Funktionalität kann der Dienst auch über mehrere Geräte mit unterschiedlichen Plattformen genutzt werden, welche unter Umständen keine SIM Karte besitzen und nur über WiFi kommunizieren.
+So ist die Nutzung beispielsweise auch auf Laptops oder Tablets gewährleistet \cite{rcsmno,uniprof}.
+
+Darüber hinaus verfügt RCS über viele moderne Funktionen, die man aus OTT Messengern kennt, wie zum Beispiel das Versenden von Dateien oder dem Standort \cite{wafaq,uniprof}.
+
+Ein weiterer Vorteil ist die Möglichkeit, Nachrichten nicht nur über das mobile Netz (4G / 5G) zu verschicken, sondern auch über WiFi \cite{5gmsg}.
+Dadurch kann an einem Ort, der zwar keinen Empfang hat, aber einen WiFi-Hotspot anbietet, weiterhin der Dienst genutzt werden.
+Außerdem existiert für Nachrichten keine strikte Längenbegrenzung wie bei SMS, wodurch längere Texte problemlos verschickt werden können.
+
+\dots
 
 \begin{itemize}
-    \item anstatt für jeden Instant Messenger eigenen Client zu installieren, der Leistung braucht, universeller integrierter Messenger
-    \item es ist möglich, RCS über ein Mobilgerät oder auch PC zu nutzen
-\end{itemize}
-\cite{rcsmno}
-
-\begin{itemize}
-    \item man kann clients auf mehreren Geräten nutzen
     \item bei Dual-SIM ist RCS mit beiden Karten gleichzeitig möglich
 \end{itemize}
 \cite{uniprof}
 
-\begin{itemize}
-    \item es fallen keine Zusatzkosten an
-    \item ist bereits im Betriebssystem integriert, keine zusätzliche App nötig
-    \item es besitzt viele moderne Funktionen, die auch in OTT Messengern vorhanden sind
-    \item senden auch über WLAN möglich, wenn man z.B. keinen guten Empfang hat
-    \item es gibt keine strikte Längenbegrenzung für Nachrichten
-\end{itemize}
-
-\begin{itemize}
-    \item Instant Messenger müssen von Jedem installiert werden, RCS nicht
-\end{itemize}
-\cite{5gmsg}
 
 \section{Schwächen von RCS}
 
@@ -294,7 +296,8 @@ Da RCS im Gegensatz zu SMS über das Internet läuft, können keine Nachrichten 
     \bibitem{googlemessagessecure} "So schützen wir die Vertraulichkeit von RCS-Chats - Google Messages". Zugegriffen: 23. Dezember 2024. [Online]. Verfügbar unter: https://support.google.com/messages/answer/9592174?sjid=2530033474
     497695451-EU\&hl=de\#zippy=\%2Chow-we-protect-your-data\%2Cso-sch\%C3\%BCtzen-wir-ihre-daten
     \bibitem{5gmsg} J. Zhao, Q. Li, Z. Yuan, Z. Zhang, und S. Lu, "5G Messaging: System Insecurity and Defenses", in 2022 IEEE Conference on Communications and Network Security (CNS), Okt. 2022, S. 37–45. doi: 10.1109/CNS56114.2022.9947238.
-
+    \bibitem{telekomsms} "Preisliste MagentaMobil Prepaid". Zugegriffen: 29. Dezember 2024. [Online]. Verfügbar unter: https://www.telekom.de/dlp/agb/pdf/52943.pdf
+    \bibitem{telekomrcs} "Preisliste Zubuchoptionen Prepaid". Zugegriffen: 29. Dezember 2024. [Online]. Verfügbar unter: https://www.telekom.de/dlp/agb/pdf/53209.pdf
 \end{thebibliography}
 
 \end{document}
