@@ -232,47 +232,44 @@ Außerdem existiert für Nachrichten keine strikte Längenbegrenzung wie bei SMS
 
 \section{Schwächen von RCS}
 
+Trotz aller Vorteile und modernen Funktionen gibt es auch einige Schwächen, die bei RCS berücksichtigt werden sollten.
+
+Da RCS im Gegensatz zu SMS über das Internet läuft, können keine Nachrichten im Hintergrund empfangen werden, wenn man an seinem Gerät Internet komplett ausgeschaltet hat.
+
+Damit die Kommunikation auch über Ländergrenzen hinweg nahtlos funktionieren kann, müssen alle Mobilfunkanbieter zusammenarbeiten.
+Funktionen von RCS sind nur verfügbar, wenn sie bei allen Kontaktteilnehmern unterstützt werden.
+Dafür braucht es idealerweise eine standardisierte Implementierung von RCS.
+Ebenfalls müssen die Hersteller von Mobilgeräten zusammenarbeiten, diese Implementierung umzusetzen und die Verbreitung von RCS voranzutreiben \cite{rcsmno}.
+
+\dots
+
 Dadurch, dass die Authentifizierung bei RCS SIM-basiert stattfindet, kann die klassische "SIM Swap"-Attacke auch hier weiterhin ausgenutzt werden \cite{sendoutsms}.
 
-\dots
+Obwohl zur Authentifizierung bei RCS eine Kombination aus der privaten International Mobile Subscriber Identity (IMSI) und einem One-Time-Password (OTT) genutzt wird, ist diese Methode nicht vollständig vor Angriffen geschützt.
+Angreifer können sich mittels einer Spoofing Attacke als einen anderen Nutzer ausgeben und deren RCS Account kompromittieren, unabhängig davon, ob die Opfer 4G, 5G oder WiFi nutzen.
+Handymodell und Betriebssystem des Geräts sind ebenfalls für die Attacke irrelevant.
+Das Hauptproblem bei dieser Authentifizierungsmethode ist, dass viele Mobilfunkanbieter nicht die komplette IMSI zum Authentifizieren nutzen, sondern nur einen kleinen Teil.
+Dieser Teil ist allerdings oft spezifisch zum Mobilfunkanbieter und kann über die Telefonnummer des Opfers leicht ermittelt werden.
+Zusätzlich können OTTs über eine mit Schadcode versetzten App abgefangen werden.
+Das OTT wird beim Authentifizieren bei RCS als unsichtbare SMS dem Opfer zugeschickt.
+Die App kann diese abgreifen und dem Angreifer übermitteln, ohne dass das Opfer was davon mitbekommt.
+Nachdem sowohl IMSI als auch OTT ermittelt wurden, kann sich der Angreifer per Spoofing als das Opfer ausgeben und sich bei RCS anmelden \cite{5gmsg}.
 
-Damit die Kommunikation auch über Ländergrenzen hinweg nahtlos funktionieren kann, müssen alle Mobilfunkanbieter zusammenarbeiten. Funktionen von RCS können nur funktionieren, wenn sie bei allen Kontaktteilnehmern unterstützt werden. Dafür braucht es idealerweise eine standardisierte Implementierung von RCS. Ebenfalls müssen die Hersteller von Mobilgeräten zusammenarbeiten, diese Implementierung umzusetzen und die Verbreitung von RCS voranzutreiben \cite{rcsmno}.
-
-\dots
-
-Unabhängig davon, ob die Opfer 4G, 5G oder WiFi nutzen, können ihre Accounts kompromittiert und ausgenutzt werden \cite{5gmsg}.
-
-\dots
-
-Eine Möglichkeit, die Ende-zu-Ende-Verschlüsselung auszuhebeln, ist die sogenannte "Downgrade" Attacke.
-Bei dieser gibt der Angreifer vor, dies nicht zu unterstützen.
+An sich stellt die Ende-zu-Ende-Verschlüsselung kein Hindernis bei der Initiierung einer Chat-Sitzung dar, aber es existiert auch eine Möglichkeit, diese auszuschalten.
+Diese Methode ist unter der Bezeichnung der "Downgrade" Attacke bekannt.
+Bei dieser gibt der Angreifer vor, die Ende-zu-Ende-Verschlüsselung nicht zu unterstützen.
 Wenn eine RCS-Funktion nicht bei beiden Geräten verfügbar ist, ist sie nicht nutzbar.
 Aus diesem Grund wird dann automatisch die Ende-zu-Ende-Verschlüsselung deaktiviert und der Angreifer kann die unverschlüsselten Nachrichten abfangen \cite{5gmsg}.
 
-Es gibt allerdings auch eine komplexere Methode, welche es ermöglicht, den Schlüssel für die Verschlüsselung über den Key Server auszutauschen.
-Dadurch wird der Chat des Opfers weiterhin als sicherer und verschlüsselt angezeigt.
-Der Angreifer kann so komplett unbemerkt sich für den anderen Teilnehmer ausgeben \cite{5gmsg}.
+Eine weitere, komplexere Methode ermöglicht es, den Schlüssel für die Verschlüsselung über den Key Server auszutauschen.
+Dadurch wird der Chat des Opfers weiterhin als sicher und verschlüsselt angezeigt.
+Der Angreifer kann sich so komplett unbemerkt für den anderen Teilnehmer ausgeben \cite{5gmsg}.
 
-\dots
+Die modernen Chat-Funktionen können ebenfalls von Angreifern genutzt werden.
+Wenn sich der Angreifer als Chatteilnehmer ausgibt, kann er die andere Person dazu überreden, ihren Standort zu teilen, um z.B. den Wohnort des Opfers herauszufinden.
+Beim File Sharing Spam wird das Versenden von Dateien dafür ausgenutzt, konstant große Dateien zu verschicken.
+Der Empfänger-Client wird automatisch versuchen, alle parallel herunterzuladen, wodurch das Gerät eventuell überladen wird \cite{5gmsg}.
 
-Mittels File Sharing Spam kann man das Gerät des Opfers überladen, indem konstant große Dateien verschickt werden.
-Der Empfänger-Client wird automatisch versuchen, alle Dateien parallel herunterzuladen \cite{5gmsg}.
-
-\begin{itemize}
-    \item kompromittierte Accounts können ausgenutzt werden, egal ob über 4G / 5G / WiFi
-          \begin{itemize}
-              \item dann bringt selbst Ende-zu-Ende-Verschlüsselung nicht viel
-          \end{itemize}
-    \item oft wird nicht komplette IMSI genutzt, sondern nur ein Teil davon, welcher aber oft zum Mobilfunkanbieter gehört und dadurch leicht über die Telefonnummer geholt werden kann
-    \item OTP SMS kann über eine dritte App abgefangen werden
-    \item Anmeldung bei RCS über gespoofte Telefonnummer und IMSI
-    \item Hack funktioniert unabhängig vom Handymodell
-\end{itemize}
-\cite{5gmsg}
-
-\dots
-
-Da RCS im Gegensatz zu SMS über das Internet läuft, können keine Nachrichten im Hintergrund empfangen werden, wenn man an seinem Gerät Internet komplett ausgeschaltet hat.
 
 \section{Fazit}
 
