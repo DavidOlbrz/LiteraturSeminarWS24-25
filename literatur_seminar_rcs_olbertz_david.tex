@@ -63,8 +63,8 @@ Das Mobilfunknetz besteht aus Basisstationen, mit denen sich die Endgeräte drah
 Falls der Empfänger aus irgendeinem Grund nicht erreichbar ist und die Nachricht nicht zugestellt werden kann, wird sie im SMSC temporär gespeichert. Sobald der Empfänger wieder erreichbar ist, wird die Nachricht endgültig zugestellt und aus dem SMSC gelöscht \cite{smshow}.
 Während der Übermittlung der Nachricht ist der Bereich zwischen dem Endgerät und der Basisstation verschlüsselt, innerhalb des Mobilfunknetzes allerdings nicht mehr \cite{sendoutsms}. Es besteht also die Möglichkeit, dass der Mobilfunknetzbetreiber die Nachrichten auslesen kann.
 
-\begin{figure}[htbp]
-    \centerline{\includegraphics{mobilfunknetz.png}}
+\begin{figure}
+    \centerline{\includesvg[width=250pt]{mobilfunknetz.svg}}
     \caption{Beispiel Mobilfunknetz}
 \end{figure}
 
@@ -179,6 +179,10 @@ Beim Verschicken von Dateien werden diese gesondert über den Content Server gel
 Dort werden sie bei Bedarf temporär zwischengespeichert.
 Dies passiert zum Beispiel dann, wenn der Empfänger gerade nicht verfügbar ist und die Datei nicht sofort zugestellt und heruntergeladen werden kann \cite{5gmsg}.
 
+\begin{figure}
+    \centerline{\includesvg[width=250pt]{rcsnetz.svg}}
+    \caption{Beispiel RCS-Netz}
+\end{figure}
 
 \subsection{Sicherheit}
 

@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1735905492.23086 "c:/Users/david/Documents/LiteraturSeminarWS24-25/literatur_seminar_rcs_olbertz_david.tex" "literatur_seminar_rcs_olbertz_david.pdf" "literatur_seminar_rcs_olbertz_david" 1735905492.93561 0
+["pdflatex"] 1735930723.63716 "c:/Users/david/Documents/LiteraturSeminarWS24-25/literatur_seminar_rcs_olbertz_david.tex" "literatur_seminar_rcs_olbertz_david.pdf" "literatur_seminar_rcs_olbertz_david" 1735930724.36945 0
   "C:/Users/david/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1735507568 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/david/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1735488817 11997742 28cfa50615ae52f1f90758055049b353 ""
   "C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -92,10 +92,15 @@
   "C:/Users/david/AppData/Local/Programs/MiKTeX/tex/latex/trimspaces/trimspaces.sty" 1253169183 1380 971a51b00a14503ddf754cab24c3f209 ""
   "C:/Users/david/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "IEEEtran.cls" 1732972588 288304 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
-  "c:/Users/david/Documents/LiteraturSeminarWS24-25/literatur_seminar_rcs_olbertz_david.tex" 1735905490 25438 9e335fa43efd6f93ccc4897dd6e2a16e ""
-  "literatur_seminar_rcs_olbertz_david.aux" 1735905492 3191 91f903f888e7f2152f28032c1d97bd58 "pdflatex"
-  "literatur_seminar_rcs_olbertz_david.tex" 1735905490 25438 9e335fa43efd6f93ccc4897dd6e2a16e ""
-  "mobilfunknetz.png" 1734879568 8775 2714e70b7fbf65797b79d44ce0407ad6 ""
+  "c:/Users/david/Documents/LiteraturSeminarWS24-25/literatur_seminar_rcs_olbertz_david.tex" 1735930722 25559 193082583d029f09a96004ca28293157 ""
+  "literatur_seminar_rcs_olbertz_david.aux" 1735930724 3311 b8304fc52b2d8fe4ce39b1603a8a744c "pdflatex"
+  "literatur_seminar_rcs_olbertz_david.tex" 1735930722 25559 193082583d029f09a96004ca28293157 ""
+  "mobilfunknetz.svg" 1735930445 83471 8080dd221dddfb96bb41cb9804fb02f4 ""
+  "rcsnetz.svg" 1735930317 139370 383f9001039afffcbbb1cd578cfa693d ""
+  "svg-inkscape/mobilfunknetz_svg-tex.pdf" 1735930535 43246 17303dde09cc4721298c0238e00f5cb3 ""
+  "svg-inkscape/mobilfunknetz_svg-tex.pdf_tex" 1735930535 2093 0d89e71276779f8d0633f71cfaeab0cd ""
+  "svg-inkscape/rcsnetz_svg-tex.pdf" 1735930688 71106 ac717f54f50490042b2281fd2f3d8516 ""
+  "svg-inkscape/rcsnetz_svg-tex.pdf_tex" 1735930688 2081 a51877de03a246a1641267a651721839 ""
   (generated)
   "literatur_seminar_rcs_olbertz_david.aux"
   "literatur_seminar_rcs_olbertz_david.log"
