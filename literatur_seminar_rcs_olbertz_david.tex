@@ -156,25 +156,29 @@ Anstatt nur mit Personen zu interagieren, existiert die Möglichkeit, mit Dienst
 
 \subsection{Technik}
 
-Damit möglichst alle Funktionen von RCS reibungslos funktionieren, müssen sich die Mobilfunk-Operatoren auf eine gängige Implementierung einigen.
-Um dies zu erreichen haben sich 2011 mehrere große Unternehmen, darunter die Deutsche Telekom, Telefonica und Vodafone angekündigt, einen Zusammenschluss zu bilden und eine gemeinsame RCS-Implementierung, auch RCS-e (Rich Communication Services enhanced) genannt, zu definieren \cite{rcsmno}.
+Der Rich Communication Service funktioniert sowohl im 4G und 5G Mobilfunknetz, als auch über WiFi \cite{5gmsg}.
 
-Da aber trotz solchen Maßnahmen immer noch Implementierungsverschiedenheiten existieren können, existiert die "Capability Discovery"-Funktion.
+Damit möglichst alle Funktionen von RCS reibungslos genutzt werden können, müssen sich die Mobilfunk-Operatoren auf eine gängige Implementierung einigen.
+Um dies zu erreichen haben 2011 mehrere große Unternehmen, darunter die Deutsche Telekom, Telefonica und Vodafone angekündigt, einen Zusammenschluss zu bilden und eine gemeinsame RCS-Implementierung, auch RCS-e (Rich Communication Services enhanced) genannt, zu definieren \cite{rcsmno}.
+
+Trotz solcher Maßnahmen können weiterhin Implementierungsunterschiede auftreten, weshalb die "Capability Discovery"-Funktion entwickelt wurde.
 Sie dient dazu, den Clients zu zeigen, welche RCS-Funktionen verfügbar sind.
-Damit eine Funktion verfügbar ist, muss sie bei beiden Clients implementiert sein bzw. vom Mobilfunkanbieter unterstützt werden.
-Falls die Funktionen verfügbar sind, werden sie automatisch aktiviert.
-Falls dies nicht der Fall sein sollte, wird dem Nutzer angeboten, seine Nachricht alternativ als SMS zu verschicken \cite{uniprof}.
-Dabei entscheidet der "Unified Composer", ob die Nachricht als SMS oder MMS (bei Mediendateien) verschickt werden muss \cite{rcsuite}.
+Damit eine Funktion genutzt werden kann, muss sie sowohl bei beiden Clients implementiert als auch vom Mobilfunkanbieter unterstützt werden.
+Verfügbare Funktionen werden automatisch aktiviert.
+Falls RCS nicht unterstützt sein sollte, wird dem Nutzer angeboten, seine Nachricht alternativ als SMS zu verschicken \cite{uniprof}.
+Dabei entscheidet der "Unified Composer", ob die Nachricht als SMS oder, im Fall von Mediendateien, als MMS versendet wird \cite{rcsuite}.
 
-\begin{itemize}
-    \item über 4G / 5G / WiFi
-    \item Authentifizierung mit One-Time-Password OTP und IMSI (International Mobile Subscriber Identity)
-    \item IMSI ist eine private ID auf der SIM
-    \item OTP zur Verifizierung wird unsichtbar als SMS verschickt und automatisch vom System geladen
-    \item Keyserver für den Schlüsselaustausch der Ende-zu-Ende-Verschlüsselung
-    \item Media Server für das Zwischenspeichern der verschickten Dateien
-\end{itemize}
-\cite{5gmsg}
+Der Kommunikationsablauf über RCS beginnt mit dem Anmelden der Nutzer beim Dienst.
+Dafür werden die benötigten Informationen der Nutzer zum Bestätigen der Identitäten mit dem Profil-Server geteilt.
+Nutzer A möchte eine Nachricht an Nutzer B verschicken.
+Sein Gerät sendet eine Verbindungsanfrage an den Nachrichten-Server.
+Dieser leitet die Anfrage über das Netzwerk-zu-Netzwerk Interface (NNI) weiter an das Netzwerk von Nutzer B.
+Wenn dieser Prozess erfolgreich abgelaufen ist, besteht eine Chat-Sitzung zwischen den Geräten beider Nutzer \cite{5gmsg}.
+
+Beim Verschicken von Dateien werden diese gesondert über den Content Server geleitet.
+Dort werden sie bei Bedarf temporär zwischengespeichert.
+Dies passiert zum Beispiel dann, wenn der Empfänger gerade nicht verfügbar ist und die Datei nicht sofort zugestellt und heruntergeladen werden kann \cite{5gmsg}.
+
 
 \subsection{Sicherheit}
 
@@ -187,6 +191,14 @@ Alle Nachrichten sind während der Übertragung durch gängige Protokolle, wie T
 Falls beide Nutzer Google Messages verwenden, sind die Nachrichten zusätzlich Ende-zu-Ende-Verschlüsselt.
 Diese Funktion funktioniert allerdings auch nur in diesem Fall, da die GSMA keine offizielle Implementierung definiert hat.
 Dadurch ist dies nicht plattformübergreifend verfügbar \cite{googlemessagessecure}.
+
+\begin{itemize}
+    \item Authentifizierung mit One-Time-Password OTP und IMSI (International Mobile Subscriber Identity)
+    \item IMSI ist eine private ID auf der SIM
+    \item OTP zur Verifizierung wird unsichtbar als SMS verschickt und automatisch vom System geladen
+    \item Keyserver für den Schlüsselaustausch der Ende-zu-Ende-Verschlüsselung
+\end{itemize}
+\cite{5gmsg}
 
 
 \section{Vorteile von RCS}
