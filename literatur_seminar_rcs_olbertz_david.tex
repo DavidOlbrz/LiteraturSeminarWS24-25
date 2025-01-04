@@ -182,27 +182,26 @@ Dies passiert zum Beispiel dann, wenn der Empfänger gerade nicht verfügbar ist
 \begin{figure}
     \centerline{\includesvg[width=250pt]{rcsnetz.svg}}
     \caption{Beispiel RCS-Netz}
+    \label{rcsnetz}
 \end{figure}
 
 \subsection{Sicherheit}
 
-Um sich bei RCS zu authentifizieren, gibt es je nach Plattform unterschiedliche Methoden.
-Auf mobilen Endgeräten wird meist die SIM-basierte Authentifizierung genutzt, sprich eine Anmeldung über die Telefonnummer. Auf anderen Geräten ohne SIM Karte werden andere Möglichkeiten für die Anmeldung genutzt, wie z.B. der Login mit Nutzername und Passwort oder die Verknüpfung mit dem mobilen Endgerät über das Einscannen eines QR-Codes \cite{uniprof}.
+Um sich bei dem Dienst zu authentifizieren, gibt es je nach Plattform unterschiedliche Methoden.
 
-\dots
+Auf mobilen Endgeräten wird meist die SIM-basierte Authentifizierung genutzt \cite{uniprof}.
+Dafür wird die International Mobile Subscriber Identity (IMSI) und ein One-Time-Passwort (OTP) eingesetzt.
+Die IMSI ist eine einzigartige, private Identifikationsnummer, welche auf der SIM Karte gespeichert ist.
+Das OTP wird als eine unsichtbare SMS an die Telefonnummer der SIM geschickt und automatisch vom System gelesen.
+Zur Authentifizierung werden dann sowohl IMSI als auch das OTP an den Profile Server gesendet \cite{5gmsg}.
+
+Auf anderen Geräten ohne SIM Karte werden andere Möglichkeiten für die Anmeldung genutzt, wie z.B. der Login mit Nutzername und Passwort oder die Verknüpfung mit dem mobilen Endgerät über das Einscannen eines QR-Codes \cite{uniprof}.
 
 Alle Nachrichten sind während der Übertragung durch gängige Protokolle, wie TLS und IPSec, verschlüsselt \cite{uniprof}.
-Falls beide Nutzer Google Messages verwenden, sind die Nachrichten zusätzlich Ende-zu-Ende-Verschlüsselt.
-Diese Funktion funktioniert allerdings auch nur in diesem Fall, da die GSMA keine offizielle Implementierung definiert hat.
-Dadurch ist dies nicht plattformübergreifend verfügbar \cite{googlemessagessecure}.
-
-\begin{itemize}
-    \item Authentifizierung mit One-Time-Password OTP und IMSI (International Mobile Subscriber Identity)
-    \item IMSI ist eine private ID auf der SIM
-    \item OTP zur Verifizierung wird unsichtbar als SMS verschickt und automatisch vom System geladen
-    \item Keyserver für den Schlüsselaustausch der Ende-zu-Ende-Verschlüsselung
-\end{itemize}
-\cite{5gmsg}
+Falls beide Nutzer Google Messages verwenden, sind die Nachrichten zusätzlich Ende-zu-Ende-Verschlüsselt \cite{googlemessagessecure}.
+Dazu wird ein separater Key Server für den Schlüsselaustausch genutzt (siehe Fig. \ref{rcsnetz}) \cite{5gmsg}.
+Diese Funktion ist allerdings nur in diesem Fall verfügbar, da die GSMA keine offizielle Implementierung definiert hat.
+Dadurch ist dies nicht unbedingt plattformübergreifend nutzbar \cite{googlemessagessecure}.
 
 
 \section{Vorteile von RCS}

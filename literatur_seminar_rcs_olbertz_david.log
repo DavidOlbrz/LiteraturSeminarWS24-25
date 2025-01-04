@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.29)  4 JAN 2025 12:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.29)  4 JAN 2025 14:53
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -437,26 +437,11 @@ File: ./svg-inkscape/rcsnetz_svg-tex.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./svg-inkscape/rcsnetz_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 250.0pt x 98.9437pt.
 )
-Underfull \hbox (badness 1953) in paragraph at lines 189--191
-\OT1/ptm/m/n/10 eine An-mel-dung []uber die Tele-fon-num-mer. Auf an-deren
- []
-
-
-Underfull \hbox (badness 3049) in paragraph at lines 194--198
-\OT1/ptm/m/n/10 Nachrichten zus[]atzlich Ende-zu-Ende-Verschl[]usselt. Diese
- []
-
-
-Underfull \hbox (badness 2865) in paragraph at lines 200--201
-[]\OT1/ptm/m/n/10 Authentifizierung mit One-Time-Password OTP und
- []
-
-
-Underfull \hbox (badness 1803) in paragraph at lines 212--214
+Underfull \hbox (badness 1803) in paragraph at lines 211--213
 []\OT1/ptm/m/n/10 Um einen In-stant Mes-sen-ger wie z.B. What-sApp zu
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 219.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 218.
 (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
@@ -466,94 +451,94 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 306--307
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
 []\OT1/ptm/m/n/8 GSMA. "RCS Uni-ver-sal Pro-file Ser-vice Def-i-ni-tion Doc-u-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--307
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
 \OT1/ptm/m/n/8 ment". Zuge-grif-fen: 06.11.2024. [On-line]. Verf[]ugbar unter:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--307
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
 \OT1/ptm/m/n/8 https://www.gsma.com/solutions-and-impact/technologies/networks/wp-
  []
 
 
-Underfull \hbox (badness 7522) in paragraph at lines 309--310
+Underfull \hbox (badness 7522) in paragraph at lines 308--309
 []\OT1/ptm/m/n/8 "WhatsApp kosten-los und n[]utzlicher machen", What-sApp.com.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 309--310
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
 \OT1/ptm/m/n/8 Zuge-grif-fen: 4. Dezem-ber 2024. [On-line]. Verf[]ugbar unter:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--312
+Underfull \hbox (badness 10000) in paragraph at lines 310--311
 []\OT1/ptm/m/n/8 WhatsApp. "What-sApp En-cryp-tion Overview Tech-ni-cal White
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--312
+Underfull \hbox (badness 10000) in paragraph at lines 310--311
 \OT1/ptm/m/n/8 https://faq.whatsapp.com/820124435853543#nachrichtenaustausch-mit-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--315
+Underfull \hbox (badness 10000) in paragraph at lines 312--314
 \OT1/ptm/m/n/8 Zuge-grif-fen: 16. Dezem-ber 2024. [On-line]. Verf[]ugbar unter:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--315
+Underfull \hbox (badness 10000) in paragraph at lines 312--314
 \OT1/ptm/m/n/8 https://support.google.com/messages/answer/7189714?sjid=174292638
  []
 
 
-Underfull \hbox (badness 3612) in paragraph at lines 316--317
+Underfull \hbox (badness 3612) in paragraph at lines 315--316
 []\OT1/ptm/m/n/8 "Gemini in Google Mes-sages ver-wen-den - Google Mes-sages".
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 316--317
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
 \OT1/ptm/m/n/8 Zuge-grif-fen: 16. Dezem-ber 2024. [On-line]. Verf[]ugbar unter:
  []
 
 
-Underfull \hbox (badness 2837) in paragraph at lines 318--320
+Underfull \hbox (badness 2837) in paragraph at lines 317--319
 []\OT1/ptm/m/n/8 "So sch[]utzen wir die Ver-traulichkeit von RCS-Chats - Google
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--320
+Underfull \hbox (badness 10000) in paragraph at lines 317--319
 \OT1/ptm/m/n/8 https://support.google.com/messages/answer/9592174?sjid=2530033474
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--320
+Underfull \hbox (badness 10000) in paragraph at lines 317--319
 \OT1/ptm/m/n/8 497695451-EU&hl=de#zippy=%2Chow-we-protect-your-data%2Cso-
  []
 
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--322
+Underfull \hbox (badness 10000) in paragraph at lines 320--321
 []\OT1/ptm/m/n/8 "Preisliste Ma-gen-ta-Mo-bil Pre-paid". Zuge-grif-fen:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--322
+Underfull \hbox (badness 10000) in paragraph at lines 320--321
 \OT1/ptm/m/n/8 29. Dezem-ber 2024. [On-line]. Verf[]ugbar unter:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--323
+Underfull \hbox (badness 10000) in paragraph at lines 321--322
 []\OT1/ptm/m/n/8 "Preisliste Zubu-chop-tio-nen Pre-paid". Zuge-grif-fen:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--323
+Underfull \hbox (badness 10000) in paragraph at lines 321--322
 \OT1/ptm/m/n/8 29. Dezem-ber 2024. [On-line]. Verf[]ugbar unter:
  []
 
@@ -577,15 +562,15 @@ L3 programming layer <2024-12-09>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6739 strings out of 473574
- 125918 string characters out of 5716127
- 548720 words of memory out of 5000000
- 29771 multiletter control sequences out of 15000+600000
+ 6740 strings out of 473574
+ 125927 string characters out of 5716127
+ 547742 words of memory out of 5000000
+ 29772 multiletter control sequences out of 15000+600000
  589449 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,10n,93p,553b,479s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on literatur_seminar_rcs_olbertz_david.pdf (5 pages, 205806 bytes).
+Output written on literatur_seminar_rcs_olbertz_david.pdf (5 pages, 205910 bytes).
 PDF statistics:
  143 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
