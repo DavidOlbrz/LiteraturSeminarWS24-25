@@ -274,6 +274,50 @@ Wenn sich der Angreifer als Chatteilnehmer ausgibt, kann er die andere Person da
 Beim File Sharing Spam wird das Versenden von Dateien dafür ausgenutzt, konstant große Dateien zu verschicken.
 Der Empfänger-Client wird automatisch versuchen, alle parallel herunterzuladen, wodurch das Gerät eventuell überladen wird \cite{5gmsg}.
 
+\dots
+
+Yang et. al. \cite{uncoversec} haben 2024 mittels eines selbst entwickelten Tools Sicherheitstests durchgeführt und weitere Probleme aufgedeckt.
+Bei den Tests kam heraus, dass mehrere Mobilfunkanbieter Server nutzen, welche öffentlich zugänglich sind und die Integrität und Vertraulichkeit von gesendeten Daten nicht gewährleisten.
+
+Durch nicht verschlüsselte Nachrichten während dem Transfer und somit der Verletzung der Vertraulichkeit können Nachrichten leicht mitgelesen werden.
+Theoretisch ist es möglich, dass der Angreifer das Signal während der Übermittlung aus der Luft abzufangen und aufzunehmen.
+
+Dieses Problem kann durch die Nutzung eines Virtual Private Networks (VPN) gelöst werden.
+Bei aktiviertem VPN wird die Nachrichtenübermittlung über den gesicherten VPN-Server geleitet und ist so theoretisch vor dem öffentlich zugänglichen Mobilfunk geschützt.
+Allerdings sollte bedacht werden, dass viele Nutzer kostenlose VPN Dienste nutzen, welche oft nicht so sicher sind, wie sie beworben werden.
+Ein Großteil der kostenlosen Anbieter überwacht heimlich den Internetverkehr über deren Server und kann so durch die fehlende Vertraulichkeit mitlesen.
+
+Zusätzlich wurde festgestellt, dass die TLS-Validierung auf der Client-Seite nicht immer ordnungsgemäß durchgeführt wird.
+Häufig wird nur geprüft, ob das Zertifikat von einer legitimen Certificate Authority ausgestellt wurde und nicht, ob zum Beispiel der angegebene Hostname mit dem offiziellen RCS-Server übereinstimmt.
+So kann der Angreifer über seinen eigenen Server einen RCS-Server imitieren, welcher über eine separate TLS-Verbindung und Domain läuft.
+Auf diese Weise kann ein Man-In-The-Middle-Angriff ausgeführt werden.
+
+Dadurch, dass bei manchen Mobilfunkanbietern die Integrität nicht geprüft wird, können Daten beim Senden manipuliert werden.
+Es kam heraus, dass die Software von einigen Smartphone-Herstellern Fehler aufweisen, welche zu Abstürzen des Dienstes führen können.
+Zum Beispiel hat Samsung eine Restriktion in die hauseigene Nachrichten-App eingebaut, wodurch Vorschaubilder nur eine bestimmte maximale Dateigröße besitzen dürfen.
+Das ist normalerweise auch kein Problem, da beim Versenden das Bild zuerst komprimiert wird und so beim Empfänger in der vorgesehenen Dateigröße ankommt.
+Wenn allerdings die URL zum Vorschaubild innerhalb der Metadaten zu einem Bild geändert werden, welches größer als erlaubt ist, kommt das Bild nicht beim Empfänger an, sondern lässt stattdessen den Dienst auf deren Gerät abstürzen.
+Bei Xiaomi findet sich ein ähnliches Problem, welches den gleichen Effekt hat.
+Wenn ein Standort empfangen wird, der eine korrupte Standort-URL enthält und nicht dem gültigen Format entspricht, stürzt der Dienst ebenfalls ab.
+
+Dieses Problem kann für eine Denial-of-Service-Attacke gegen einen Nutzer ausgenutzt werden.
+Dabei werden in regelmäßigen Abständen zu große Dateien beziehungsweise korrupte Standortdaten an das Gerät geschickt, wodurch der Dienst permanent abstürzt.
+Somit ist das Gerät von der Kommunikation über RCS abgeschnitten.
+
+Es gibt noch weitere Attacken, welche ebenfalls das Manipulieren der Metadaten ausnutzen, um Schaden anzurichten.
+Bei der "Zero Click Remote Information Leakage"-Attacke schickt der Angreifer eine Datei mit einer manipulierten Download-URL an das Opfer.
+Auf dem Gerät des Opfers wird diese Datei automatisch heruntergeladen.
+Da die URL nicht auf die ursprüngliche Datei, sondern auf einen Server des Angreifers führt, kann der Angreifer die Verbindung abfangen und Informationen über das Opfer erlangen, wie zum Beispiel seine IP-Adresse, das Handymodell und weitere Details.
+
+Ein weiterer Angriff ist das erzwungene Herunterladen von großen Dateien.
+Es wird wieder eine Datei mit manipulierter URL geschickt, welche auf eine sehr große Datei zeigt.
+Dadurch, dass diese beim Empfänger automatisch im Hintergrund heruntergeladen wird, füllt sich unbemerkt der Handyspeicher und viel mobiles Datenvolumen wird verbraucht.
+
+Schließlich gibt es noch die Möglichkeit, eine "Reflection Amplification DDOS"-Attacke gegen einen RCS-Server durchzuführen.
+Dabei wird wieder eine Datei mit manipulierter Download-URL, welche auf eine sehr große Datei zeigt, präpariert.
+Diese wird dann an mehrere Geräte geschickt, die sich im gleichen Netz befinden und somit auf den gleichen Content Server zugreifen.
+Die Geräte versuchen dann gleichzeitig von selben Server herunterzuladen, wodurch die Netzwerkbandbreite vollständig ausgenutzt und der reguläre Datenverkehr enorm beeinträchtigt wird \cite{uncoversec}.
+
 
 \section{Fazit}
 
@@ -319,6 +363,7 @@ Dazu gehören zum einen, die Sicherheitsprobleme zu beseitigen und zum anderen, 
     \bibitem{telekomsms} "Preisliste MagentaMobil Prepaid". Zugegriffen: 29. Dezember 2024. [Online]. Verfügbar unter: https://www.telekom.de/dlp/agb/pdf/52943.pdf
     \bibitem{telekomrcs} "Preisliste Zubuchoptionen Prepaid". Zugegriffen: 29. Dezember 2024. [Online]. Verfügbar unter: https://www.telekom.de/dlp/agb/pdf/53209.pdf
     \bibitem{smsstats} "Bundesnetzagentur - Digitales und Telekommunikation - Versendete SMS". Zugegriffen: 5. Januar 2025. [Online]. Verfügbar unter: https://www.bundesnetzagentur.de/DE/Fachthemen/Datenportal/1\_Digitales\_Telekommunikation/\_svg\_TK/TK\_Mobilfunk/Versendete\_SMS/Versendete\_SMS.html
+    \bibitem{uncoversec} Y. Yang u. a., "Uncovering Security Vulnerabilities in Real-world Implementation and Deployment of 5G Messaging Services", in Proceedings of the 17th ACM Conference on Security and Privacy in Wireless and Mobile Networks, in WiSec ’24. New York, NY, USA: Association for Computing Machinery, Mai 2024, S. 265–276. doi: 10.1145/3643833.3656131.
 \end{thebibliography}
 
 \end{document}
