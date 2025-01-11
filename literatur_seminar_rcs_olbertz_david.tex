@@ -55,7 +55,7 @@ Die Nachrichten können standardmäßig in der 7-Bit-Kodierung eine Länge von 1
 Das SMS Protokoll besteht aus 4 Schichten, die alle Informationen zum Versenden, wie unter anderem den Empfänger und der Nachrichteninhalt selbst, enthalten.
 Zu den Schichten gehört der Application Layer, Transfer Layer, Relay Layer und Link Layer \cite{smshow}.
 
-Damit Nachrichten überhaupt über große Distanzen versendet und empfangen werden können, wird eine gewisse Infrastruktur für den Mobilfunk benötigt.
+Damit Nachrichten überhaupt über große Distanzen versendet und empfangen werden können, wird eine gewisse Infrastruktur für den Mobilfunk benötigt (siehe Fig. \ref{mobilfunknetz}).
 Das Mobilfunknetz besteht aus Basisstationen, mit denen sich die Endgeräte drahtlos verbinden können, und aus Short Message Service Centers (SMSC), welche die versendeten Nachrichten an den korrekten Empfänger weiterleiten \cite{sendoutsms}.
 Falls der Empfänger aus irgendeinem Grund nicht erreichbar ist und die Nachricht nicht zugestellt werden kann, wird sie im SMSC temporär gespeichert. Sobald der Empfänger wieder erreichbar ist, wird die Nachricht endgültig zugestellt und aus dem SMSC gelöscht \cite{smshow}.
 Während der Übermittlung der Nachricht ist der Bereich zwischen dem Endgerät und der Basisstation verschlüsselt, innerhalb des Mobilfunknetzes allerdings nicht mehr \cite{sendoutsms}. Es besteht also die Möglichkeit, dass der Mobilfunknetzbetreiber die Nachrichten auslesen kann.
@@ -63,6 +63,7 @@ Während der Übermittlung der Nachricht ist der Bereich zwischen dem Endgerät 
 \begin{figure}
     \centerline{\includesvg[width=250pt]{mobilfunknetz.svg}}
     \caption{Beispiel Mobilfunknetz \cite{sendoutsms}}
+    \label{mobilfunknetz}
 \end{figure}
 
 External Short Message Entities (ESME) sind ebenfalls Bestandteil des Netzes und werden meist von Unternehmen genutzt.
@@ -174,6 +175,7 @@ Nutzer A möchte eine Nachricht an Nutzer B verschicken.
 Sein Gerät sendet eine Verbindungsanfrage an den Nachrichten-Server.
 Dieser leitet die Anfrage über das Netzwerk-zu-Netzwerk Interface (NNI) weiter an das Netzwerk von Nutzer B.
 Wenn dieser Prozess erfolgreich abgelaufen ist, besteht eine Chat-Sitzung zwischen den Geräten beider Nutzer \cite{5gmsg}.
+Figur \ref{rcsnetz} zeigt die im Kommunikationsprozess involvierten Netzwerkelemente.
 
 Beim Verschicken von Dateien werden diese gesondert über den Content Server geleitet.
 Dort werden sie bei Bedarf temporär zwischengespeichert.

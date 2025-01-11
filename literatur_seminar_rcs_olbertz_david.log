@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.29)  11 JAN 2025 20:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.29)  11 JAN 2025 20:54
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -401,15 +401,15 @@ Package pdftex.def Info: ./svg-inkscape/mobilfunknetz_svg-tex.pdf , page1 used o
 
 
  <./svg-inkscape/mobilfunknetz_svg-tex.pdf>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 88.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 89.
  (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 88.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 89.
  (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 1377) in paragraph at lines 98--108
+Underfull \hbox (badness 1377) in paragraph at lines 99--109
 \OT1/ptm/m/n/10 an, die []uber ein-fache Textnachrichten hin-aus gehen. Es
  []
 
@@ -418,18 +418,18 @@ Underfull \hbox (badness 1377) in paragraph at lines 98--108
 
 
 [2]
-Underfull \hbox (badness 2213) in paragraph at lines 161--163
+Underfull \hbox (badness 2213) in paragraph at lines 162--164
 []\OT1/ptm/m/n/10 Damit m[]oglichst alle Funk-tio-nen von RCS rei-bungs-
  []
 
 
-Underfull \hbox (badness 6675) in paragraph at lines 164--170
+Underfull \hbox (badness 6675) in paragraph at lines 165--171
 []\OT1/ptm/m/n/10 Trotz solcher Ma^^Y-nah-men k[]onnen weit-er-hin Im-ple-
  []
 
 
 
-Package svg Info: Last page of `./svg-inkscape/rcsnetz_svg-tex.pdf' is 1 on input line 183.
+Package svg Info: Last page of `./svg-inkscape/rcsnetz_svg-tex.pdf' is 1 on input line 185.
 (svg-inkscape/rcsnetz_svg-tex.pdf_tex
 <./svg-inkscape/rcsnetz_svg-tex.pdf, id=61, page=1, 922.94812pt x 400.96997pt>
 File: ./svg-inkscape/rcsnetz_svg-tex.pdf Graphic file (type pdf)
@@ -437,20 +437,20 @@ File: ./svg-inkscape/rcsnetz_svg-tex.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./svg-inkscape/rcsnetz_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 250.0pt x 108.61208pt.
 )
-Underfull \hbox (badness 1803) in paragraph at lines 211--213
+Underfull \hbox (badness 1803) in paragraph at lines 213--215
 []\OT1/ptm/m/n/10 Um einen In-stant Mes-sen-ger wie z.B. What-sApp zu
  []
 
 
 
 [3 <./svg-inkscape/rcsnetz_svg-tex.pdf>]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 218.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 220.
  (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 
 
-Underfull \hbox (badness 4467) in paragraph at lines 285--287
+Underfull \hbox (badness 4467) in paragraph at lines 287--289
 \OT1/ptm/m/n/10 m[]oglich, dass der An-greifer das Sig-nal w[]ahrend der
  []
 
@@ -530,15 +530,15 @@ L3 programming layer <2024-12-09>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6859 strings out of 473574
- 127697 string characters out of 5716127
- 550944 words of memory out of 5000000
- 29876 multiletter control sequences out of 15000+600000
+ 6860 strings out of 473574
+ 127712 string characters out of 5716127
+ 550966 words of memory out of 5000000
+ 29877 multiletter control sequences out of 15000+600000
  594192 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,10n,93p,553b,479s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on literatur_seminar_rcs_olbertz_david.pdf (6 pages, 353807 bytes).
+Output written on literatur_seminar_rcs_olbertz_david.pdf (6 pages, 353898 bytes).
 PDF statistics:
  150 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
