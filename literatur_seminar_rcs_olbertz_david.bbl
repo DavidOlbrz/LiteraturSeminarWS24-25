@@ -42,7 +42,7 @@ M.~Lin and J.~Arenzana~Arias, ``Rich {Communication} {Suite}: {The} challenge
   and opportunity for {MNOs},'' in \emph{2011 15th {International} {Conference}
   on {Intelligence} in {Next} {Generation} {Networks}}, Oct. 2011, pp.
   187--190, {Accessed: Nov. 21, 2024}. [Online]. Available:
-  \url{https://ieeexplore.ieee.org/abstract/document/6081071}
+  \url{https://doi.org/10.1109/ICIN.2011.6081071}
 \BIBentrySTDinterwordspacing
 
 \bibitem{sendoutsms}
@@ -51,8 +51,7 @@ B.~Reaves, N.~Scaife, D.~Tian, L.~Blue, P.~Traynor, and K.~R.~B. Butler,
   ``Sending {Out} an {SMS}: {Characterizing} the {Security} of the {SMS}
   {Ecosystem} with {Public} {Gateways},'' in \emph{2016 {IEEE} {Symposium} on
   {Security} and {Privacy} ({SP})}, May 2016, pp. 339--356, {Accessed: Nov. 06,
-  2024}. [Online]. Available:
-  \url{https://ieeexplore.ieee.org/document/7546511}
+  2024}. [Online]. Available: \url{https://doi.org/10.1109/SP.2016.28}
 \BIBentrySTDinterwordspacing
 
 \bibitem{smshow}
@@ -60,7 +59,7 @@ B.~Reaves, N.~Scaife, D.~Tian, L.~Blue, P.~Traynor, and K.~R.~B. Butler,
 J.~Brown, B.~Shipman, and R.~Vetter, ``{SMS}: {The} {Short} {Message}
   {Service},'' \emph{Computer}, vol.~40, no.~12, pp. 106--110, Dec. 2007,
   {Accessed: Nov. 6, 2024}. [Online]. Available:
-  \url{https://ieeexplore.ieee.org/document/4404822}
+  \url{https://doi.org/10.1109/MC.2007.440}
 \BIBentrySTDinterwordspacing
 
 \bibitem{watimeline}
@@ -102,8 +101,7 @@ Bundesnetzagentur, ``Bundesnetzagentur - {Digitales} und {Telekommunikation} -
 K.~Henry, Q.~Liu, and S.~Pasquereau, ``Rich {Communication} {Suite},'' in
   \emph{2009 13th {International} {Conference} on {Intelligence} in {Next}
   {Generation} {Networks}}, Oct. 2009, pp. 1--6, {Accessed: Nov. 8, 2024}.
-  [Online]. Available:
-  \url{https://ieeexplore.ieee.org/abstract/document/5357089}
+  [Online]. Available: \url{https://doi.org/10.1109/ICIN.2009.5357089}
 \BIBentrySTDinterwordspacing
 
 \bibitem{googlemessages}
@@ -133,7 +131,7 @@ J.~Zhao, Q.~Li, Z.~Yuan, Z.~Zhang, and S.~Lu, ``{5G} {Messaging}: {System}
   {Insecurity} and {Defenses},'' in \emph{2022 {IEEE} {Conference} on
   {Communications} and {Network} {Security} ({CNS})}, Oct. 2022, pp. 37--45,
   {Accessed: Dec. 29, 2024}. [Online]. Available:
-  \url{https://ieeexplore.ieee.org/document/9947238}
+  \url{https://doi.org/10.1109/CNS56114.2022.9947238}
 \BIBentrySTDinterwordspacing
 
 \bibitem{googlemessagessecure}
@@ -164,7 +162,7 @@ Y.~Yang, Y.~Zhang, T.~Wan, C.~Wang, H.~Duan, J.~Chen, and Y.~Li, ``Uncovering
   {Mobile} {Networks}}, ser. {WiSec} '24.\hskip 1em plus 0.5em minus
   0.4em\relax New York, NY, USA: Association for Computing Machinery, 2024, pp.
   265--276, {Accessed: Jan. 7, 2025}. [Online]. Available:
-  \url{https://dl.acm.org/doi/10.1145/3643833.3656131}
+  \url{https://doi.org/10.1145/3643833.3656131}
 \BIBentrySTDinterwordspacing
 
 \end{thebibliography}
