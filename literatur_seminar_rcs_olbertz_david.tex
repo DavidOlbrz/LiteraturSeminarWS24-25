@@ -52,12 +52,12 @@ Der Short Message Service, kurz SMS, ist seit den späten 1990er Jahren im Einsa
 Dafür wurde der Global System for Mobile Communications Standard etabliert, welcher von dem European Telecommunications Standards Institute entwickelt wurde \cite{smshow}.
 SMS erlaubt es Nutzern mittels eines Mobiltelefons kurze Textnachrichten an andere Personen zu verschicken, unabhängig von der Distanz \cite{sendoutsms}.
 Die Nachrichten können standardmäßig in der 7-Bit-Kodierung eine Länge von 160 Zeichen haben.
-Das SMS Protokoll besteht aus 4 Schichten, die alle Informationen zum Versenden, wie unter anderem den Empfänger und der Nachrichteninhalt selbst, enthalten.
+Das SMS Protokoll besteht aus vier Schichten, die alle Informationen zum Versenden, wie unter anderem den Empfänger und der Nachrichteninhalt selbst, enthalten.
 Zu den Schichten gehört der Application Layer, Transfer Layer, Relay Layer und Link Layer \cite{smshow}.
 
 Damit Nachrichten überhaupt über große Distanzen versendet und empfangen werden können, wird eine gewisse Infrastruktur für den Mobilfunk benötigt (siehe Fig. \ref{mobilfunknetz}).
 Das Mobilfunknetz besteht aus Basisstationen, mit denen sich die Endgeräte drahtlos verbinden können, und aus Short Message Service Centers (SMSC), welche die versendeten Nachrichten an den korrekten Empfänger weiterleiten \cite{sendoutsms}.
-Falls der Empfänger aus irgendeinem Grund nicht erreichbar ist und die Nachricht nicht zugestellt werden kann, wird sie im SMSC temporär gespeichert. Sobald der Empfänger wieder erreichbar ist, wird die Nachricht endgültig zugestellt und aus dem SMSC gelöscht \cite{smshow}.
+Falls der Empfänger aus irgendeinem Grund nicht erreichbar ist und die Nachricht nicht zugestellt werden kann, wird sie im SMSC temporär zwischengespeichert. Sobald der Empfänger wieder erreichbar ist, wird die Nachricht endgültig zugestellt und aus dem SMSC gelöscht \cite{smshow}.
 Während der Übermittlung der Nachricht ist der Bereich zwischen dem Endgerät und der Basisstation verschlüsselt, innerhalb des Mobilfunknetzes allerdings nicht mehr \cite{sendoutsms}. Es besteht also die Möglichkeit, dass der Mobilfunknetzbetreiber die Nachrichten auslesen kann.
 
 \begin{figure}
@@ -114,17 +114,17 @@ Mit WhatsApp Business ist es möglich, dass Nutzer mit Unternehmen kommunizieren
 
 \subsection{Definition}
 
-Seit dem Aufstieg von OTT sinkt die Nutzung von klassischen Kommunikationsarten wie SMS.
+Seit dem Aufstieg von OTT sinkt die Nutzung von klassischen Kommunikationsarten wie SMS \cite{ottmobinter}.
 Die Bundesnetzagentur veröffentlichte dazu zuletzt im Juli 2024 eine Statistik über die Anzahl der versendeten SMS über mehrere Jahre.
 Laut dieser ist die Nutzung von SMS im Jahr 2012 bei 59,8 Milliarden versendeten SMS gewesen.
 Im Jahr 2023 lag die Zahl allerdings nur noch bei 5,3 Milliarden.
 Das entspricht einem Abstieg von circa 91 \% \cite{smsstats}.
 2008 veröffentlichte die "Groupe Speciale Mobile Association" (GSMA) die erste Version des Universal Profiles, welche die Funktionen der Rich Communication Services (RCS) definiert \cite{rcsuite}.
 Zu den Grundideen gehört unter anderem die Verknüpfung verschiedener Dienste, wie das Nachrichtenschreiben, die Kontakte-App und die Kontakte-App.
-Außerdem sollen die Funktionen nativ im Betriebssystem implementiert sein.
+Außerdem sollen die Funktionen nativ im Betriebssystem implementiert werden.
 Für die Implementierung sind die Entwickler des Betriebssystems bzw. der Gerätehersteller zuständig.
 Beispiel dafür ist die Android-Implementierung in Google Messages \cite{googlemessages}.
-Seit 2024 ist RCS auch auf iOS-Geräten über iMessage verfügbar \cite{applemessages}.
+Seit 2024 ist RCS auch auf Apple-Geräten mit iOS 18 oder höher über iMessage verfügbar \cite{applemessages}.
 Alternativ gibt es die Möglichkeit, RCS-Funktionalität durch das Installieren einer dafür entwickelten App zu erhalten \cite{uniprof}.
 
 \subsection{Funktionen}
@@ -189,7 +189,7 @@ Dies passiert zum Beispiel dann, wenn der Empfänger gerade nicht verfügbar ist
 
 \subsection{Sicherheit}
 
-Um sich bei dem Dienst zu authentifizieren, gibt es je nach Plattform unterschiedliche Methoden.
+Um sich bei dem Dienst zu authentifizieren, werden je nach Plattform unterschiedliche Methoden angewendet.
 
 Auf mobilen Endgeräten wird meist die SIM-basierte Authentifizierung genutzt \cite{uniprof}.
 Dafür wird die International Mobile Subscriber Identity (IMSI) und ein One-Time-Passwort (OTP) eingesetzt.
@@ -197,7 +197,7 @@ Die IMSI ist eine einzigartige, private Identifikationsnummer, welche auf der SI
 Das OTP wird als eine unsichtbare SMS an die Telefonnummer der SIM geschickt und automatisch vom System gelesen.
 Zur Authentifizierung werden dann sowohl IMSI als auch das OTP an den Profile Server gesendet \cite{5gmsg}.
 
-Auf anderen Geräten ohne SIM Karte werden andere Möglichkeiten für die Anmeldung genutzt, wie z.B. der Login mit Nutzername und Passwort oder die Verknüpfung mit dem mobilen Endgerät über das Einscannen eines QR-Codes \cite{uniprof}.
+Auf Geräten ohne SIM Karte werden andere Möglichkeiten für die Anmeldung genutzt, wie z.B. der Login mit Nutzername und Passwort oder die Verknüpfung mit dem mobilen Endgerät über das Einscannen eines QR-Codes \cite{uniprof}.
 
 Alle Nachrichten sind während der Übertragung durch gängige Protokolle, wie TLS und IPSec, verschlüsselt \cite{uniprof}.
 Falls beide Nutzer Google Messages verwenden, sind die Nachrichten zusätzlich Ende-zu-Ende-Verschlüsselt \cite{googlemessagessecure}.
@@ -208,7 +208,8 @@ Dadurch ist dies nicht unbedingt plattformübergreifend nutzbar \cite{googlemess
 
 \section{Vorteile von RCS}
 
-Rich Communication Services bieten zahlreiche Vorteile, die es von herkömmlichen SMS-Diensten und teilweise auch OTT Messengern abheben.
+Rich Communication Services bietet zahlreiche Vorteile, die es von herkömmlichen SMS-Diensten abheben.
+In einigen Aspekten übertrifft es sogar OTT-Messenger.
 
 Um einen Instant Messenger wie z.B. WhatsApp zu nutzen, muss zuerst der entsprechende Client in Form einer App heruntergeladen und auf dem Gerät installiert werden.
 Zusätzlich ist noch eine Einrichtung der App erforderlich, um sie auch nutzen zu können \cite{5gmsg,rcsmno}.
@@ -228,13 +229,6 @@ Darüber hinaus verfügt RCS über viele moderne Funktionen, die man aus OTT Mes
 Ein weiterer Vorteil ist die Möglichkeit, Nachrichten nicht nur über das mobile Netz (4G / 5G) zu verschicken, sondern auch über WiFi \cite{5gmsg}.
 Dadurch kann an einem Ort, der zwar keinen Empfang hat, aber einen WiFi-Hotspot anbietet, weiterhin der Dienst genutzt werden.
 Außerdem existiert für Nachrichten keine strikte Längenbegrenzung wie bei SMS, wodurch längere Texte problemlos verschickt werden können.
-
-\dots
-
-\begin{itemize}
-    \item bei Dual-SIM ist RCS mit beiden Karten gleichzeitig möglich
-\end{itemize}
-\cite{uniprof}
 
 
 \section{Schwächen von RCS}
@@ -335,7 +329,7 @@ Es muss also nicht eine separate App installiert werden, um den Dienst nutzen zu
 Außerdem wird RCS nicht von einem einzelnen Unternehmen betrieben, sondern wird von den Mobilfunkanbietern in ihren Netzen bereitgestellt.
 
 Allerdings sind Trotz des moderneren Ansatzes mehrere Schwächen zu finden.
-Genau aus dem Grund, dass es von den verschiedenen Mobilfunkanbietern betrieben wird, kann bereits zu Problemen führen.
+Der Umstand, dass es von verschiedenen Mobilfunkanbietern betrieben wird, kann bereits zu Problemen führen.
 Damit alle Funktionen von RCS reibungslos funktionieren, muss die Implementierung überall einheitlich sein.
 Das bedeutet, dass alle Mobilfunkanbieter weltweit einen gemeinsamen Standard nutzen.
 Gleiches gilt für die Geräte- beziehungsweise Betriebssystemhersteller für die Bereitstellung des RCS-Clients.
