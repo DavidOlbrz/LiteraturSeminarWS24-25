@@ -237,7 +237,7 @@ Funktionen von RCS sind nur verfügbar, wenn sie bei allen Kontaktteilnehmern un
 Dafür braucht es idealerweise eine standardisierte Implementierung von RCS.
 Ebenfalls müssen die Hersteller von Mobilgeräten zusammenarbeiten, diese Implementierung umzusetzen und die Verbreitung von RCS voranzutreiben \cite{rcsmno}.
 
-\subsection{Sicherheitsprobleme}
+\subsection{Probleme bei der Authentifizierung}
 
 Dadurch, dass die Authentifizierung bei RCS SIM-basiert stattfindet, kann die klassische "SIM Swap"-Attacke auch hier weiterhin ausgenutzt werden \cite{sendoutsms}.
 
@@ -266,7 +266,7 @@ Wenn sich der Angreifer als Chatteilnehmer ausgibt, kann er die andere Person da
 Beim File Sharing Spam wird das Versenden von Dateien dafür ausgenutzt, konstant große Dateien zu verschicken.
 Der Empfänger-Client wird automatisch versuchen, alle parallel herunterzuladen, wodurch das Gerät eventuell überladen wird \cite{5gmsg}.
 
-\dots
+\subsection{Verletzung der Vertraulichkeit}
 
 Yang et. al. \cite{uncoversec} haben 2024 mittels eines selbst entwickelten Tools Sicherheitstests durchgeführt und weitere Probleme aufgedeckt.
 Bei den Tests kam heraus, dass mehrere Mobilfunkanbieter Server nutzen, welche öffentlich zugänglich sind und die Integrität und Vertraulichkeit von gesendeten Daten nicht gewährleisten.
@@ -283,6 +283,8 @@ Zusätzlich wurde festgestellt, dass die TLS-Validierung auf der Client-Seite ni
 Häufig wird nur geprüft, ob das Zertifikat von einer legitimen Certificate Authority ausgestellt wurde und nicht, ob zum Beispiel der angegebene Hostname mit dem offiziellen RCS-Server übereinstimmt.
 So kann der Angreifer über seinen eigenen Server einen RCS-Server imitieren, welcher über eine separate TLS-Verbindung und Domain läuft.
 Auf diese Weise kann ein Man-In-The-Middle-Angriff ausgeführt werden.
+
+\subsection{Verletzung der Integrität}
 
 Dadurch, dass bei manchen Mobilfunkanbietern die Integrität nicht geprüft wird, können Daten beim Senden manipuliert werden.
 Es kam heraus, dass die Software von einigen Smartphone-Herstellern Fehler aufweisen, welche zu Abstürzen des Dienstes führen können.
