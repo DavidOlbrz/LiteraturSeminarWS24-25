@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.29)  12 JAN 2025 16:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.29)  12 JAN 2025 16:14
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -396,7 +396,7 @@ Package pdftex.def Info: ./svg-inkscape/mobilfunknetz_svg-tex.pdf , page1 used o
 
 
  <./svg-inkscape/mobilfunknetz_svg-tex.pdf>]
-Underfull \hbox (badness 2012) in paragraph at lines 88--92
+Underfull \hbox (badness 2012) in paragraph at lines 86--90
 \OT1/ptm/m/n/10 nicht auf tra-di-tionelle Mo-bil-funk-di-en-ste (wie z.B. Tele-
  []
 
@@ -405,16 +405,16 @@ Underfull \hbox (badness 2012) in paragraph at lines 88--92
 
 
 [2]
-Underfull \hbox (badness 2213) in paragraph at lines 155--157
+Underfull \hbox (badness 2213) in paragraph at lines 153--155
 []\OT1/ptm/m/n/10 Damit m[]oglichst alle Funk-tio-nen von RCS rei-bungs-
  []
 
 
-Underfull \hbox (badness 6675) in paragraph at lines 158--164
+Underfull \hbox (badness 6675) in paragraph at lines 156--162
 []\OT1/ptm/m/n/10 Trotz solcher Ma^^Y-nah-men k[]onnen weit-er-hin Im-ple-
  []
 
-Package svg Info: Last page of `./svg-inkscape/rcsnetz_svg-tex.pdf' is 1 on input line 178.
+Package svg Info: Last page of `./svg-inkscape/rcsnetz_svg-tex.pdf' is 1 on input line 176.
 (svg-inkscape/rcsnetz_svg-tex.pdf_tex
 <./svg-inkscape/rcsnetz_svg-tex.pdf, id=60, page=1, 922.94812pt x 400.96997pt>
 File: ./svg-inkscape/rcsnetz_svg-tex.pdf Graphic file (type pdf)
@@ -424,16 +424,16 @@ Package pdftex.def Info: ./svg-inkscape/rcsnetz_svg-tex.pdf , page1 used on inpu
 )
 
 
-Underfull \hbox (badness 1803) in paragraph at lines 207--209
+Underfull \hbox (badness 1803) in paragraph at lines 205--207
 []\OT1/ptm/m/n/10 Um einen In-stant Mes-sen-ger wie z.B. What-sApp zu
  []
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 210--213
+Underfull \hbox (badness 1728) in paragraph at lines 208--211
 \OT1/ptm/m/n/10 die Standart-Nachrichten-App des Be-trieb-ssys-tems []offnen
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 214.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 212.
 (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
@@ -441,7 +441,7 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 [3 <./svg-inkscape/rcsnetz_svg-tex.pdf>]
 
 
-Underfull \hbox (badness 4467) in paragraph at lines 274--276
+Underfull \hbox (badness 4467) in paragraph at lines 272--274
 \OT1/ptm/m/n/10 m[]oglich, dass der An-greifer das Sig-nal w[]ahrend der
  []
 
@@ -450,7 +450,7 @@ Underfull \hbox (badness 4467) in paragraph at lines 274--276
 [4]
 
 
-Underfull \hbox (badness 1748) in paragraph at lines 333--336
+Underfull \hbox (badness 1748) in paragraph at lines 331--334
 \OT1/ptm/m/n/10 ni-ca-tion Ser-vices das Poten-zial hat, als Nach-fol-ger der
  []
 
@@ -535,15 +535,15 @@ L3 programming layer <2024-12-09>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6853 strings out of 473574
- 127591 string characters out of 5716127
+ 6852 strings out of 473574
+ 127575 string characters out of 5716127
  550966 words of memory out of 5000000
- 29870 multiletter control sequences out of 15000+600000
+ 29869 multiletter control sequences out of 15000+600000
  593138 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,10n,93p,487b,479s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on literatur_seminar_rcs_olbertz_david.pdf (6 pages, 345745 bytes).
+Output written on literatur_seminar_rcs_olbertz_david.pdf (6 pages, 345770 bytes).
 PDF statistics:
  145 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
