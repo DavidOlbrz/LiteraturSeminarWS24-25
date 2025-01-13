@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.29)  13 JAN 2025 13:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.29)  13 JAN 2025 17:55
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -372,18 +372,18 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Underfull \hbox (badness 1509) in paragraph at lines 36--41
+Underfull \hbox (badness 1509) in paragraph at lines 48--53
 []\OT1/ptm/m/n/10 Zur Kom-mu-nika-tion ex-istiert neben der Tele-fonie der
  []
 
 
-Underfull \hbox (badness 3375) in paragraph at lines 36--41
+Underfull \hbox (badness 3375) in paragraph at lines 48--53
 \OT1/ptm/m/n/10 al-t-bekan-nte Short Mes-sage Ser-vice (SMS), welcher es
  []
 
 
 
-Package svg Info: Last page of `./svg-inkscape/mobilfunknetz_svg-tex.pdf' is 1 on input line 64.
+Package svg Info: Last page of `./svg-inkscape/mobilfunknetz_svg-tex.pdf' is 1 on input line 76.
 (svg-inkscape/mobilfunknetz_svg-tex.pdf_tex
 <./svg-inkscape/mobilfunknetz_svg-tex.pdf, id=5, page=1, 657.2053pt x 409.7182pt>
 File: ./svg-inkscape/mobilfunknetz_svg-tex.pdf Graphic file (type pdf)
@@ -395,8 +395,8 @@ Package pdftex.def Info: ./svg-inkscape/mobilfunknetz_svg-tex.pdf , page1 used o
 [1{C:/Users/david/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
- <./svg-inkscape/mobilfunknetz_svg-tex.pdf>]
-Underfull \hbox (badness 2012) in paragraph at lines 86--90
+]
+Underfull \hbox (badness 2012) in paragraph at lines 98--102
 \OT1/ptm/m/n/10 nicht auf tra-di-tionelle Mo-bil-funk-di-en-ste (wie z.B. Tele-
  []
 
@@ -404,24 +404,24 @@ Underfull \hbox (badness 2012) in paragraph at lines 86--90
 
 
 
-[2]
-Underfull \hbox (badness 2213) in paragraph at lines 153--155
+[2 <./svg-inkscape/mobilfunknetz_svg-tex.pdf>]
+Underfull \hbox (badness 2213) in paragraph at lines 165--167
 []\OT1/ptm/m/n/10 Damit m[]oglichst alle Funk-tio-nen von RCS rei-bungs-
  []
 
 
-Underfull \hbox (badness 6675) in paragraph at lines 156--162
+Underfull \hbox (badness 6675) in paragraph at lines 168--174
 []\OT1/ptm/m/n/10 Trotz solcher Ma^^Y-nah-men k[]onnen weit-er-hin Im-ple-
  []
 
 
-Underfull \hbox (badness 4686) in paragraph at lines 175--177
+
+
+Underfull \hbox (badness 4686) in paragraph at lines 187--189
 []\OT1/ptm/m/n/10 Au^^Yerdem wer-den wichtige In-for-ma-tio-nen, wie zum
  []
 
-
-
-Package svg Info: Last page of `./svg-inkscape/rcsnetz_svg-tex.pdf' is 1 on input line 179.
+Package svg Info: Last page of `./svg-inkscape/rcsnetz_svg-tex.pdf' is 1 on input line 191.
 (svg-inkscape/rcsnetz_svg-tex.pdf_tex
 <./svg-inkscape/rcsnetz_svg-tex.pdf, id=60, page=1, 922.94812pt x 400.96997pt>
 File: ./svg-inkscape/rcsnetz_svg-tex.pdf Graphic file (type pdf)
@@ -429,38 +429,39 @@ File: ./svg-inkscape/rcsnetz_svg-tex.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./svg-inkscape/rcsnetz_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 250.0pt x 108.61208pt.
 )
-Underfull \hbox (badness 1803) in paragraph at lines 208--210
+
+[3 <./svg-inkscape/rcsnetz_svg-tex.pdf>]
+Underfull \hbox (badness 1803) in paragraph at lines 220--222
 []\OT1/ptm/m/n/10 Um einen In-stant Mes-sen-ger wie z.B. What-sApp zu
  []
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 211--214
+Underfull \hbox (badness 1728) in paragraph at lines 223--226
 \OT1/ptm/m/n/10 die Standart-Nachrichten-App des Be-trieb-ssys-tems []offnen
  []
 
-
-
-[3 <./svg-inkscape/rcsnetz_svg-tex.pdf>]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 215.
- (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 227.
+(C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 
 
-Underfull \hbox (badness 4467) in paragraph at lines 275--277
+
+[4]
+Underfull \hbox (badness 4467) in paragraph at lines 287--289
 \OT1/ptm/m/n/10 m[]oglich, dass der An-greifer das Sig-nal w[]ahrend der
  []
 
 
 
-[4]
 
-
-Underfull \hbox (badness 1748) in paragraph at lines 334--337
+Underfull \hbox (badness 1748) in paragraph at lines 346--349
 \OT1/ptm/m/n/10 ni-ca-tion Ser-vices das Poten-zial hat, als Nach-fol-ger der
  []
 
-(literatur_seminar_rcs_olbertz_david.bbl
+
+
+[5] (literatur_seminar_rcs_olbertz_david.bbl
 LaTeX Font Info:    Trying to load font information for U+msa on input line 29.
  (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -474,8 +475,6 @@ Underfull \hbox (badness 1924) in paragraph at lines 34--38
  []
 
 
-
-[5]
 Underfull \hbox (badness 10000) in paragraph at lines 67--71
 \OT1/ptm/m/n/8 DE / Sachgebiete / Telekommunikation / Unternehmen[]Institutionen /
  []
@@ -516,6 +515,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--98
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `de'. Using the pattern for
 ** the default language instead.
+
+
 )
 
 ** Conference Paper **
@@ -530,11 +531,7 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-
-
-[6
-
-] (literatur_seminar_rcs_olbertz_david.aux)
+[6] (literatur_seminar_rcs_olbertz_david.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-09>
@@ -543,13 +540,13 @@ L3 programming layer <2024-12-09>
 Here is how much of TeX's memory you used:
  6852 strings out of 473574
  127575 string characters out of 5716127
- 551966 words of memory out of 5000000
+ 553966 words of memory out of 5000000
  29869 multiletter control sequences out of 15000+600000
  593138 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,10n,93p,487b,479s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on literatur_seminar_rcs_olbertz_david.pdf (6 pages, 345914 bytes).
+Output written on literatur_seminar_rcs_olbertz_david.pdf (6 pages, 352568 bytes).
 PDF statistics:
  145 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
