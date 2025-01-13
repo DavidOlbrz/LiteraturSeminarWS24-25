@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.29)  13 JAN 2025 17:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.29)  13 JAN 2025 18:47
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -402,28 +402,54 @@ Underfull \hbox (badness 2012) in paragraph at lines 98--102
 
 
 
+Package svg Info: Last page of `./svg-inkscape/versendete_sms_svg-tex.pdf' is 2 on input line 121.
+(svg-inkscape/versendete_sms_svg-tex.pdf_tex
+<./svg-inkscape/versendete_sms_svg-tex.pdf, id=15, page=1, 1306.8825pt x 784.43062pt>
+File: ./svg-inkscape/versendete_sms_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/versendete_sms_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/versendete_sms_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 250.0pt x 150.0488pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 57.
+ (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 57.
+ (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<./svg-inkscape/versendete_sms_svg-tex.pdf, id=16, page=2, 1306.8825pt x 784.43062pt>
+File: ./svg-inkscape/versendete_sms_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/versendete_sms_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/versendete_sms_svg-tex.pdf , page2 used on input line 84.
+(pdftex.def)             Requested size: 250.0pt x 150.0488pt.
+)
 
+[2 <./svg-inkscape/mobilfunknetz_svg-tex.pdf> <./svg-inkscape/versendete_sms_svg-tex.pdf
 
-[2 <./svg-inkscape/mobilfunknetz_svg-tex.pdf>]
-Underfull \hbox (badness 2213) in paragraph at lines 165--167
+pdfTeX warning: pdflatex (file ./svg-inkscape/versendete_sms_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/versendete_sms_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/versendete_sms_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+Underfull \hbox (badness 2213) in paragraph at lines 171--173
 []\OT1/ptm/m/n/10 Damit m[]oglichst alle Funk-tio-nen von RCS rei-bungs-
  []
 
 
-Underfull \hbox (badness 6675) in paragraph at lines 168--174
+
+
+Underfull \hbox (badness 6675) in paragraph at lines 174--180
 []\OT1/ptm/m/n/10 Trotz solcher Ma^^Y-nah-men k[]onnen weit-er-hin Im-ple-
  []
 
 
-
-
-Underfull \hbox (badness 4686) in paragraph at lines 187--189
+Underfull \hbox (badness 4686) in paragraph at lines 193--195
 []\OT1/ptm/m/n/10 Au^^Yerdem wer-den wichtige In-for-ma-tio-nen, wie zum
  []
 
-Package svg Info: Last page of `./svg-inkscape/rcsnetz_svg-tex.pdf' is 1 on input line 191.
+Package svg Info: Last page of `./svg-inkscape/rcsnetz_svg-tex.pdf' is 1 on input line 197.
 (svg-inkscape/rcsnetz_svg-tex.pdf_tex
-<./svg-inkscape/rcsnetz_svg-tex.pdf, id=60, page=1, 922.94812pt x 400.96997pt>
+<./svg-inkscape/rcsnetz_svg-tex.pdf, id=70, page=1, 922.94812pt x 400.96997pt>
 File: ./svg-inkscape/rcsnetz_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/rcsnetz_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/rcsnetz_svg-tex.pdf , page1 used on input line 56.
@@ -431,16 +457,16 @@ Package pdftex.def Info: ./svg-inkscape/rcsnetz_svg-tex.pdf , page1 used on inpu
 )
 
 [3 <./svg-inkscape/rcsnetz_svg-tex.pdf>]
-Underfull \hbox (badness 1803) in paragraph at lines 220--222
+Underfull \hbox (badness 1803) in paragraph at lines 226--228
 []\OT1/ptm/m/n/10 Um einen In-stant Mes-sen-ger wie z.B. What-sApp zu
  []
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 223--226
+Underfull \hbox (badness 1728) in paragraph at lines 229--232
 \OT1/ptm/m/n/10 die Standart-Nachrichten-App des Be-trieb-ssys-tems []offnen
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 227.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 233.
 (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
@@ -448,28 +474,20 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 
 
 [4]
-Underfull \hbox (badness 4467) in paragraph at lines 287--289
+Underfull \hbox (badness 4467) in paragraph at lines 293--295
 \OT1/ptm/m/n/10 m[]oglich, dass der An-greifer das Sig-nal w[]ahrend der
  []
 
 
 
 
-Underfull \hbox (badness 1748) in paragraph at lines 346--349
+
+[5]
+Underfull \hbox (badness 1748) in paragraph at lines 352--355
 \OT1/ptm/m/n/10 ni-ca-tion Ser-vices das Poten-zial hat, als Nach-fol-ger der
  []
 
-
-
-[5] (literatur_seminar_rcs_olbertz_david.bbl
-LaTeX Font Info:    Trying to load font information for U+msa on input line 29.
- (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
- (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+(literatur_seminar_rcs_olbertz_david.bbl
 Underfull \hbox (badness 1924) in paragraph at lines 34--38
 \OT1/ptm/m/n/8 u-ment v2.4,'' Ac-cessed: Nov. 6, 2024. [On-line].
  []
@@ -512,11 +530,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--98
 \OT1/ptm/m/n/8 Fachthemen / Datenportal / 1[]Digitales[]Telekommunikation / []svg[]TK /
  []
 
+
+
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `de'. Using the pattern for
 ** the default language instead.
-
-
 )
 
 ** Conference Paper **
@@ -538,17 +556,17 @@ L3 programming layer <2024-12-09>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6852 strings out of 473574
- 127575 string characters out of 5716127
- 553966 words of memory out of 5000000
- 29869 multiletter control sequences out of 15000+600000
- 593138 words of font info for 102 fonts, out of 8000000 for 9000
+ 6879 strings out of 473574
+ 128647 string characters out of 5716127
+ 556988 words of memory out of 5000000
+ 29893 multiletter control sequences out of 15000+600000
+ 594192 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,10n,93p,487b,479s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,16n,93p,487b,493s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on literatur_seminar_rcs_olbertz_david.pdf (6 pages, 352568 bytes).
+Output written on literatur_seminar_rcs_olbertz_david.pdf (6 pages, 355623 bytes).
 PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
+ 155 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
