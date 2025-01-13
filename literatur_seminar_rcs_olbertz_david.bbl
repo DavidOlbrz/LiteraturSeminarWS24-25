@@ -134,6 +134,18 @@ J.~Zhao, Q.~Li, Z.~Yuan, Z.~Zhang, and S.~Lu, ``{5G} {Messaging}: {System}
   \url{https://doi.org/10.1109/CNS56114.2022.9947238}
 \BIBentrySTDinterwordspacing
 
+\bibitem{uncoversec}
+\BIBentryALTinterwordspacing
+Y.~Yang, Y.~Zhang, T.~Wan, C.~Wang, H.~Duan, J.~Chen, and Y.~Li, ``Uncovering
+  {Security} {Vulnerabilities} in {Real}-world {Implementation} and
+  {Deployment} of {5G} {Messaging} {Services},'' in \emph{Proceedings of the
+  17th {ACM} {Conference} on {Security} and {Privacy} in {Wireless} and
+  {Mobile} {Networks}}, ser. {WiSec} '24.\hskip 1em plus 0.5em minus
+  0.4em\relax New York, NY, USA: Association for Computing Machinery, 2024, pp.
+  265--276, {Accessed: Jan. 7, 2025}. [Online]. Available:
+  \url{https://doi.org/10.1145/3643833.3656131}
+\BIBentrySTDinterwordspacing
+
 \bibitem{googlemessagessecure}
 \BIBentryALTinterwordspacing
 Google, ``So schützen wir die {Vertraulichkeit} von {RCS}-{Chats} - {Google}
@@ -151,18 +163,6 @@ Telekom, ``Preisliste {MagentaMobil} {Prepaid},'' {Accessed: Dec. 29, 2024}.
 \BIBentryALTinterwordspacing
 ------, ``Preisliste {Zubuchoptionen} {Prepaid},'' {Accessed: Dec. 29, 2024}.
   [Online]. Available: \url{https://www.telekom.de/dlp/agb/pdf/53209.pdf}
-\BIBentrySTDinterwordspacing
-
-\bibitem{uncoversec}
-\BIBentryALTinterwordspacing
-Y.~Yang, Y.~Zhang, T.~Wan, C.~Wang, H.~Duan, J.~Chen, and Y.~Li, ``Uncovering
-  {Security} {Vulnerabilities} in {Real}-world {Implementation} and
-  {Deployment} of {5G} {Messaging} {Services},'' in \emph{Proceedings of the
-  17th {ACM} {Conference} on {Security} and {Privacy} in {Wireless} and
-  {Mobile} {Networks}}, ser. {WiSec} '24.\hskip 1em plus 0.5em minus
-  0.4em\relax New York, NY, USA: Association for Computing Machinery, 2024, pp.
-  265--276, {Accessed: Jan. 7, 2025}. [Online]. Available:
-  \url{https://doi.org/10.1145/3643833.3656131}
 \BIBentrySTDinterwordspacing
 
 \end{thebibliography}
