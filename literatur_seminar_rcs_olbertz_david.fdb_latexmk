@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex literatur_seminar_rcs_olbertz_david"] 1736787769.43041 "literatur_seminar_rcs_olbertz_david.aux" "literatur_seminar_rcs_olbertz_david.bbl" "literatur_seminar_rcs_olbertz_david" 1736790466.93638 0
+["bibtex literatur_seminar_rcs_olbertz_david"] 1736787769.43041 "literatur_seminar_rcs_olbertz_david.aux" "literatur_seminar_rcs_olbertz_david.bbl" "literatur_seminar_rcs_olbertz_david" 1736790729.76387 0
   "./references.bib" 1736694047 15232 a0f53497d6caaf6ad6d6eaa6ea6f1ebe ""
   "C:/Users/david/AppData/Local/Programs/MiKTeX/bibtex/bst/ieeetran/IEEEtran.bst" 1440622569 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "literatur_seminar_rcs_olbertz_david.aux" 1736790466 4448 dae161f3e0df13e14ce05f5daa407212 "pdflatex"
+  "literatur_seminar_rcs_olbertz_david.aux" 1736790729 4448 dae161f3e0df13e14ce05f5daa407212 "pdflatex"
   (generated)
   "literatur_seminar_rcs_olbertz_david.bbl"
   "literatur_seminar_rcs_olbertz_david.blg"
   (rewritten before read)
-["pdflatex"] 1736790465.70916 "c:/Users/david/Documents/LiteraturSeminarWS24-25/literatur_seminar_rcs_olbertz_david.tex" "literatur_seminar_rcs_olbertz_david.pdf" "literatur_seminar_rcs_olbertz_david" 1736790466.93708 0
+["pdflatex"] 1736790728.4972 "c:/Users/david/Documents/LiteraturSeminarWS24-25/literatur_seminar_rcs_olbertz_david.tex" "literatur_seminar_rcs_olbertz_david.pdf" "literatur_seminar_rcs_olbertz_david" 1736790729.7645 0
   "C:/Users/david/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1735507568 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/david/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1735488817 11997742 28cfa50615ae52f1f90758055049b353 ""
   "C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -108,15 +108,15 @@
   "C:/Users/david/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "IEEEtran.cls" 1732972588 288304 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
   "c:/Users/david/Documents/LiteraturSeminarWS24-25/literatur_seminar_rcs_olbertz_david.tex" 1736790458 30335 71fa0fd6b40943fcbb843f9bc47dc9ea ""
-  "literatur_seminar_rcs_olbertz_david.aux" 1736790466 4448 dae161f3e0df13e14ce05f5daa407212 "pdflatex"
+  "literatur_seminar_rcs_olbertz_david.aux" 1736790729 4448 dae161f3e0df13e14ce05f5daa407212 "pdflatex"
   "literatur_seminar_rcs_olbertz_david.bbl" 1736787769 7721 be14a73b40347810a2af589507c3ef26 "bibtex literatur_seminar_rcs_olbertz_david"
   "literatur_seminar_rcs_olbertz_david.tex" 1736790458 30335 71fa0fd6b40943fcbb843f9bc47dc9ea ""
-  "mobilfunknetz.svg" 1736506953 179864 7e587e4172b4d7166cb31b8438fa694b ""
-  "rcsnetz.svg" 1736508095 308595 1a0d04fbf4f8db88d39ba6ba86380c2d ""
-  "svg-inkscape/mobilfunknetz_svg-tex.pdf" 1736506971 92428 497f6e3273f5cb49c5c2c69f95f9e570 ""
-  "svg-inkscape/mobilfunknetz_svg-tex.pdf_tex" 1736506971 2087 b405a8f72466f0fd104e4f7ef03da7ac ""
-  "svg-inkscape/rcsnetz_svg-tex.pdf" 1736508110 161873 a2ff1cacb66ec3b1f026417cdf54f53c ""
-  "svg-inkscape/rcsnetz_svg-tex.pdf_tex" 1736508110 2074 31aea2f901acbfb98038d0b297012bb3 ""
+  "mobilfunknetz.svg" 1736790636 162852 cb066c00a9aeacce44eff18809e42380 ""
+  "rcsnetz.svg" 1736790717 283223 51042e1a0891fdf060b72e3f5e983a3f ""
+  "svg-inkscape/mobilfunknetz_svg-tex.pdf" 1736790650 51747 8a1b047e5d9fac10649e42caddd0d132 ""
+  "svg-inkscape/mobilfunknetz_svg-tex.pdf_tex" 1736790650 2088 4ed9b1f54ee65682e2b2a5d95398bdab ""
+  "svg-inkscape/rcsnetz_svg-tex.pdf" 1736790727 88572 65f380141904c04d5c8397c2f681a09f ""
+  "svg-inkscape/rcsnetz_svg-tex.pdf_tex" 1736790727 2074 31aea2f901acbfb98038d0b297012bb3 ""
   "svg-inkscape/versendete_sms_svg-tex.pdf" 1736790464 2819 cfd4e4fa370f6de54f8e822b033a093f ""
   "svg-inkscape/versendete_sms_svg-tex.pdf_tex" 1736790464 5597 6759442e0adbb004cd5952734d09ebb7 ""
   "versendete_sms.svg" 1736788475 7498 066fa10b9d4bb86cb7d8ede6511d95ba ""
