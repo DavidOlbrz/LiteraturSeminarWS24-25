@@ -150,7 +150,7 @@ Dadurch kann geprüft werden, ob eine Datei korrekt versendet wurde oder ob der 
 Für eine persönlichere Kommunikation können Nutzer, anstatt Textnachrichten zu schreiben, auch Sprachnachrichten direkt in der App aufnehmen und verschicken.
 Ebenso ist es möglich, den aktuellen Standort mit anderen zu teilen.
 Bei jeder verschickten Nachricht kann der Absender sehen, ob diese angekommen ist und bereits vom Empfänger gelesen wurde.
-Außerdem sieht der Chatteilnehmer in Echtzeit, wenn der Gesprächspartner gerade eine Nachricht am Eintippen ist.
+Außerdem sieht der Chatteilnehmer in Echtzeit, wenn der Gesprächspartner gerade eine Nachricht am Eintippen ist \cite{uniprof}.
 
 Mit "Enriched Calling" kann man während eines Anrufes unter anderem einen Dateitransfer durchführen.
 Dies ermöglicht Videoanrufe, bei denen die Teilnehmer live die Aufnahme ihrer Kamera teilen können \cite{uniprof}.
@@ -288,20 +288,20 @@ Der Empfänger-Client wird automatisch versuchen, alle parallel herunterzuladen,
 \subsection{Verletzung der Vertraulichkeit}
 
 Yang et. al. \cite{uncoversec} haben 2024 mittels eines selbst entwickelten Tools Sicherheitstests durchgeführt und weitere Probleme aufgedeckt.
-Bei den Tests kam heraus, dass mehrere Mobilfunkanbieter Server nutzen, welche öffentlich zugänglich sind und die Integrität und Vertraulichkeit von gesendeten Daten nicht gewährleisten.
+Bei den Tests kam heraus, dass mehrere Mobilfunkanbieter Server nutzen, welche öffentlich zugänglich sind und die Integrität und Vertraulichkeit von gesendeten Daten nicht gewährleisten \cite{uncoversec}.
 
 Durch nicht verschlüsselte Nachrichten während dem Transfer und somit der Verletzung der Vertraulichkeit können Nachrichten leicht mitgelesen werden.
-Theoretisch ist es möglich, dass der Angreifer das Signal während der Übermittlung aus der Luft abfängt und aufzeichnet.
+Theoretisch ist es möglich, dass der Angreifer das Signal während der Übermittlung aus der Luft abfängt und aufzeichnet \cite{uncoversec}.
 
 Dieses Problem kann durch die Nutzung eines Virtual Private Networks (VPN) gelöst werden.
 Bei aktiviertem VPN wird die Nachrichtenübermittlung über den gesicherten VPN-Server geleitet und ist so theoretisch vor dem öffentlich zugänglichen Mobilfunk geschützt.
 Allerdings sollte bedacht werden, dass viele Nutzer kostenlose VPN Dienste nutzen, welche oft nicht so sicher sind, wie sie beworben werden.
-Ein Großteil der kostenlosen Anbieter überwacht heimlich den Internetverkehr über deren Server und kann so durch die fehlende Vertraulichkeit mitlesen.
+Ein Großteil der kostenlosen Anbieter überwacht heimlich den Internetverkehr über deren Server und kann so durch die fehlende Vertraulichkeit mitlesen \cite{uncoversec}.
 
 Zusätzlich wurde festgestellt, dass die TLS-Validierung auf der Client-Seite nicht immer ordnungsgemäß durchgeführt wird.
 Häufig wird nur geprüft, ob das Zertifikat von einer legitimen Certificate Authority ausgestellt wurde und nicht, ob zum Beispiel der angegebene Hostname mit dem offiziellen RCS-Server übereinstimmt.
 So kann der Angreifer über seinen eigenen Server einen RCS-Server imitieren, welcher über eine separate TLS-Verbindung und Domain läuft.
-Auf diese Weise kann ein Man-In-The-Middle-Angriff ausgeführt werden.
+Auf diese Weise kann ein Man-In-The-Middle-Angriff ausgeführt werden \cite{uncoversec}.
 
 \subsection{Verletzung der Integrität}
 
@@ -311,20 +311,20 @@ Zum Beispiel hat Samsung eine Restriktion in die hauseigene Nachrichten-App eing
 Das ist normalerweise auch kein Problem, da beim Versenden das Bild zuerst komprimiert wird und so beim Empfänger in der vorgesehenen Dateigröße ankommt.
 Wenn allerdings die URL zum Vorschaubild innerhalb der Metadaten zu einem Bild geändert werden, welches größer als erlaubt ist, kommt das Bild nicht beim Empfänger an, sondern lässt stattdessen den Dienst auf deren Gerät abstürzen.
 Bei Xiaomi findet sich ein ähnliches Problem, welches den gleichen Effekt hat.
-Wenn ein Standort empfangen wird, der eine korrupte Standort-URL enthält und nicht dem gültigen Format entspricht, stürzt der Dienst ebenfalls ab.
+Wenn ein Standort empfangen wird, der eine korrupte Standort-URL enthält und nicht dem gültigen Format entspricht, stürzt der Dienst ebenfalls ab \cite{uncoversec}.
 
 Dieses Problem kann für eine Denial-of-Service-Attacke gegen einen Nutzer ausgenutzt werden.
 Dabei werden in regelmäßigen Abständen zu große Dateien beziehungsweise korrupte Standortdaten an das Gerät geschickt, wodurch der Dienst permanent abstürzt.
-Somit ist das Gerät von der Kommunikation über RCS abgeschnitten.
+Somit ist das Gerät von der Kommunikation über RCS abgeschnitten \cite{uncoversec}.
 
 Es gibt noch weitere Attacken, welche ebenfalls das Manipulieren der Metadaten ausnutzen, um Schaden anzurichten.
 Bei der "Zero Click Remote Information Leakage"-Attacke schickt der Angreifer eine Datei mit einer manipulierten Download-URL an das Opfer.
 Auf dem Gerät des Opfers wird diese Datei automatisch heruntergeladen.
-Da die URL nicht auf die ursprüngliche Datei, sondern auf einen Server des Angreifers führt, kann der Angreifer die Verbindung abfangen und Informationen über das Opfer erlangen, wie zum Beispiel seine IP-Adresse, das Handymodell und weitere Details.
+Da die URL nicht auf die ursprüngliche Datei, sondern auf einen Server des Angreifers führt, kann der Angreifer die Verbindung abfangen und Informationen über das Opfer erlangen, wie zum Beispiel seine IP-Adresse, das Handymodell und weitere Details \cite{uncoversec}.
 
 Ein weiterer Angriff ist das erzwungene Herunterladen von großen Dateien.
 Es wird wieder eine Datei mit manipulierter URL geschickt, welche auf eine sehr große Datei zeigt.
-Dadurch, dass diese beim Empfänger automatisch im Hintergrund heruntergeladen wird, füllt sich unbemerkt der Handyspeicher und viel mobiles Datenvolumen wird verbraucht.
+Dadurch, dass diese beim Empfänger automatisch im Hintergrund heruntergeladen wird, füllt sich unbemerkt der Handyspeicher und viel mobiles Datenvolumen wird verbraucht \cite{uncoversec}.
 
 Schließlich gibt es noch die Möglichkeit, eine "Reflection Amplification DDOS"-Attacke gegen einen RCS-Server durchzuführen.
 Dabei wird wieder eine Datei mit manipulierter Download-URL, welche auf eine sehr große Datei zeigt, präpariert.
