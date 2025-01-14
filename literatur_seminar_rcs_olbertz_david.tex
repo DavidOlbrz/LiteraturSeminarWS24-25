@@ -27,10 +27,10 @@
 
 \begin{abstract}
     Durch die zunehmende Nutzung von Over-the-Top Messengern wie WhatsApp verliert der traditionelle Kommunikationsdienst SMS an Bedeutung.
-    Um dem entgegenzuwirken wurde von der GSMA der Dienst Rich Communication Services (RCS) eingeführt, um eine moderne Alternative anzubieten.
+    Um dem entgegenzuwirken, wurde von der GSMA der Dienst Rich Communication Services (RCS) eingeführt, um eine moderne Alternative anzubieten.
     Diese Arbeit beschäftigt sich mit der Frage, ob RCS ein geeigneter Nachfolger für die SMS ist.
 
-    Um dies zu beantworten werden Informationen zu dem Thema aus unterschiedlichen wissenschaftlichen Publikationen zusammengetragen und analysiert.
+    Um dies zu beantworten, werden Informationen zu dem Thema aus unterschiedlichen wissenschaftlichen Publikationen zusammengetragen und analysiert.
 
     Zunächst wird ein Überblick über die aktuellen Kommunikationsdienste, wie der Short Message Service (SMS) und die weit verbreiteten Over-the-Top (OTT) Instant Messenger, geschaffen.
 
@@ -47,7 +47,7 @@ Es ermöglicht unter anderem die Kommunikation über große Distanzen hinweg, eg
 
 Zur Kommunikation existiert neben der Telefonie der altbekannte Short Message Service (SMS), welcher es ermöglicht, einfache Kurznachrichten zu versenden.
 Allerdings wird diese Kommunikationsmethode mittlerweile immer weniger genutzt und wurde größtenteils durch Over-the-Top Instant Messenger, welche deutlich mehr Funktionalitäten bieten, wie z.B. Gruppenchats und das Teilen von Medien.
-Zusätzlich sind Nachrichten meist Ende-zu-Ende-Verschlüsselt und das Senden ist gebührenfrei \cite{ottmobinter}.
+Zusätzlich sind Nachrichten meist Ende-zu-Ende-verschlüsselt und das Senden ist gebührenfrei \cite{ottmobinter}.
 Dieser Trend bewegte die GSM Association dazu, einen neuen moderneren Kommunikationsstandard zu entwickeln, welcher ähnliche Funktionen wie die Over-the-Top Instant Messenger bieten.
 Anders ist, dass es von Mobilfunkbetreibern anstatt von einem großen Unternehmen betrieben wird und dadurch auf fast allen Endgeräten verfügbar ist \cite{uniprof,rcsmno}.
 
@@ -61,10 +61,10 @@ Dabei werden auch die Eigenschaften von RCS mit denen von SMS verglichen, wobei 
 \subsection{Short Message Service}
 
 Der Short Message Service, kurz SMS, ist seit den späten 1990er Jahren im Einsatz \cite{sendoutsms}.
-Dafür wurde der Global System for Mobile Communications Standard etabliert, welcher von dem European Telecommunications Standards Institute entwickelt wurde \cite{smshow}.
+Dafür wurde der "Global System for Mobile Communications" Standard etabliert, welcher von dem European Telecommunications Standards Institute entwickelt wurde \cite{smshow}.
 SMS erlaubt es Nutzern mittels eines Mobiltelefons kurze Textnachrichten an andere Personen zu verschicken, unabhängig von der Distanz \cite{sendoutsms}.
-Die Nachrichten können standardmäßig in der 7-Bit-Kodierung eine Länge von 160 Zeichen haben.
-Das SMS Protokoll besteht aus vier Schichten, die alle Informationen zum Versenden, wie unter anderem den Empfänger und der Nachrichteninhalt selbst, enthalten.
+Die Nachrichten können standardmäßig in der 7-Bit-Codierung eine Länge von 160 Zeichen haben.
+Das SMS-Protokoll besteht aus vier Schichten, die alle Informationen zum Versenden, wie unter anderem den Empfänger und den Nachrichteninhalt selbst, enthalten.
 Zu den Schichten gehört der Application Layer, Transfer Layer, Relay Layer und Link Layer \cite{smshow}.
 
 Damit Nachrichten über große Distanzen versendet und empfangen werden können, wird eine entsprechende Infrastruktur für den Mobilfunk benötigt (siehe Fig. \ref{mobilfunknetz}).
@@ -79,23 +79,23 @@ Während der Übermittlung der Nachricht ist der Bereich zwischen dem Endgerät 
 \end{figure}
 
 External Short Message Entities (ESME) sind ebenfalls Bestandteil des Netzes und werden meist von Unternehmen genutzt.
-Verwendungszweck dafür ist das Senden und Empfangen einer großen Menge an Nachrichten.
+Der Verwendungszweck dafür ist das Senden und Empfangen einer großen Menge an Nachrichten.
 Dies wird z.B. für das Versenden von One-Time-Passwords oder Notfallmeldungen eingesetzt.
-ESMEs fungieren also als Schnittstelle und erlauben so einen direkten Zugriff auf die SMSCs oder Verkaufen den Zugriff an Dritte weiter.
-Es existieren zum Beispiel Systeme, die einzelne Telefonnummern auf einer Website öffentlich zugänglich machen, damit Nutzer ohne Angabe persönlicher Daten darüber Nachrichten empfangenen kann.
+ESMEs fungieren also als Schnittstelle und erlauben so einen direkten Zugriff auf die SMSCs oder verkaufen den Zugriff an Dritte weiter.
+Es existieren zum Beispiel Systeme, die einzelne Telefonnummern auf einer Website öffentlich zugänglich machen, damit Nutzer ohne Angabe persönlicher Daten darüber Nachrichten empfangenen können.
 Das wird teilweise noch weiter getrieben, sodass es Dienste gibt, bei denen man ganz einfach an Telefonnummern kommt, mit denen auch Nachrichten versendet werden können.
 Da hier wieder keine Angaben persönlicher Daten notwendig sind, werden solche Nummern oft für Betrugszwecke ausgenutzt.
 Nicht zuletzt sollte aus Sicht des Datenschutzes beachtet werden, dass die gesendeten und empfangenen Nachrichten eventuell für längere Zeit von ESMEs gespeichert werden \cite{sendoutsms}.
 
 Eine weitere Betrugsmasche ist die sogenannte SIM Swap Attack.
 Bei dieser meldet sich der Angreifer bei dem Mobilfunkanbieter und gibt sich als das Opfer aus.
-Er kann behaupten, seine SIM Karte verloren zu haben, um eine Ersatz-SIM zu erhalten.
-So kann er dann die SMS Nachrichten abfangen und zum Beispiel an One-Time-Passwörter gelangen, um sich in Accounts des Opfers einzuloggen \cite{sendoutsms}.
+Er kann behaupten, seine SIM-Karte verloren zu haben, um eine Ersatz-SIM zu erhalten.
+So kann er dann die SMS-Nachrichten abfangen und zum Beispiel an One-Time-Passwörter gelangen, um sich in Accounts des Opfers einzuloggen \cite{sendoutsms}.
 
 
 \subsection{Over-the-Top Instant Messenger}
 
-Durch die weite Verbreitung des Internets und der steigenden Nutzung von Smartphones haben sich in den vergangenen Jahren neue Kommunikationswege entwickelt.
+Durch die weite Verbreitung des Internets und die steigende Nutzung von Smartphones haben sich in den vergangenen Jahren neue Kommunikationswege entwickelt.
 Einer davon sind die sogenannten Over-the-Top (OTT) Dienste beziehungsweise OTT-Messenger.
 OTT steht dafür, dass diese nicht auf traditionelle Mobilfunkdienste (wie z.B. Telefonie und SMS) angewiesen sind, sondern über das Internet betrieben werden \cite{ottbund}.
 Um OTT-Messenger verwenden zu können, muss jeder Nutzer den entsprechenden Client auf seinem Gerät installieren \cite{rcsmno}.
@@ -103,9 +103,9 @@ Um OTT-Messenger verwenden zu können, muss jeder Nutzer den entsprechenden Clie
 Ein populäres Beispiel für einen OTT-Messenger ist der vollständig kostenlos nutzbarer WhatsApp Messenger von Meta Platforms Inc \cite{wakostenlos}.
 Dieser bietet zahlreiche Funktionen an, die über einfache Textnachrichten hinaus gehen.
 Es ist möglich, verschiedene Arten von Medien zu versenden, wie unter anderem Fotos, Videos, Audio und Dokumente.
-Weitere Nachrichtentypen, wie Live-Standort und Kontaktdaten sind ebenfalls vorhanden.
+Weitere Nachrichtentypen, wie Live-Standort und Kontaktdaten, sind ebenfalls vorhanden.
 Auf Nachrichten kann mit Emojis reagiert werden und es wird angezeigt, wenn der andere Teilnehmer gerade etwas am Eintippen ist \cite{wafaq}.
-Damit die Sicherheit und Privatsphäre der Nutzer gewährleistet sind, sind alle Nachrichten Ende-zu-Ende-Verschlüsselt und können nur auf den entsprechenden Endgeräten der Nutzer entschlüsselt werden.
+Damit die Sicherheit und Privatsphäre der Nutzer gewährleistet sind, sind alle Nachrichten Ende-zu-Ende-verschlüsselt und können nur auf den entsprechenden Endgeräten der Nutzer entschlüsselt werden.
 Der komplette Nachrichtenverkehr wird über die WhatsApp-Server abgewickelt \cite{waencryption}.
 Gruppenchats erlauben die Kommunikation mit mehreren Personen gleichzeitig. Die Telefonie-Funktion beinhaltet den Videoanruf, welcher Live-Videos von den teilnehmenden Personen übertragen \cite{wafaq}.
 Wer WhatsApp gerade nicht auf einem mobilen Endgerät nutzen möchte, kann auf WhatsApp Web oder WhatsApp Desktop ausweichen, um den Dienst auch auf anderen Plattformen wie Desktop-PCs zu nutzen.
@@ -152,7 +152,7 @@ Ebenso ist es möglich, den aktuellen Standort mit anderen zu teilen.
 Bei jeder verschickten Nachricht kann der Absender sehen, ob diese angekommen ist und bereits vom Empfänger gelesen wurde.
 Außerdem sieht der Chatteilnehmer in Echtzeit, wenn der Gesprächspartner gerade eine Nachricht am Eintippen ist.
 
-Mit "Enriched Calling" kann man während einem Anruf unter anderem einen Dateitransfer durchführen.
+Mit "Enriched Calling" kann man während eines Anrufes unter anderem einen Dateitransfer durchführen.
 Dies ermöglicht Videoanrufe, bei denen die Teilnehmer live die Aufnahme ihrer Kamera teilen können \cite{uniprof}.
 
 Die Idee beim "Enriched Phonebook" war, dass Nutzer sich ihr eigenes Profil einrichten können, welches er mit Informationen über sich selbst füllen kann.
@@ -166,10 +166,10 @@ Anstatt nur mit Personen zu interagieren, existiert die Möglichkeit, mit Dienst
 
 \subsection{Technik}
 
-Der Rich Communication Service funktioniert sowohl im 4G und 5G Mobilfunknetz, als auch über WiFi \cite{5gmsg}.
+Der Rich Communication Service funktioniert sowohl im 4G und 5G Mobilfunknetz, als auch über Wi-Fi \cite{5gmsg}.
 
 Damit möglichst alle Funktionen von RCS reibungslos genutzt werden können, müssen sich die Mobilfunk-Operatoren auf eine gängige Implementierung einigen.
-Um dies zu erreichen haben 2011 mehrere große Unternehmen, darunter die Deutsche Telekom, Telefonica und Vodafone angekündigt, einen Zusammenschluss zu bilden und eine gemeinsame RCS-Implementierung, auch RCS-e (Rich Communication Services enhanced) genannt, zu definieren \cite{rcsmno}.
+Um dies zu erreichen, haben 2011 mehrere große Unternehmen, darunter die Deutsche Telekom, Telefonica und Vodafone angekündigt, einen Zusammenschluss zu bilden und eine gemeinsame RCS-Implementierung, auch RCS-e (Rich Communication Services enhanced) genannt, zu definieren \cite{rcsmno}.
 
 Trotz solcher Maßnahmen können weiterhin Implementierungsunterschiede auftreten, weshalb die "Capability Discovery"-Funktion entwickelt wurde.
 Sie dient dazu, den Clients zu zeigen, welche RCS-Funktionen verfügbar sind.
@@ -182,7 +182,7 @@ Der Kommunikationsablauf über RCS beginnt mit der Anmeldung beim Dienst.
 Dafür werden die benötigten Informationen der Nutzer zum Bestätigen der Identitäten mit dem Profil-Server geteilt.
 Nutzer A möchte eine Nachricht an Nutzer B verschicken.
 Sein Gerät sendet eine Verbindungsanfrage an den Nachrichten-Server.
-Dieser leitet die Anfrage über das Netzwerk-zu-Netzwerk Interface (NNI) weiter an das Netzwerk von Nutzer B.
+Dieser leitet die Anfrage über das Netzwerk-zu-Netzwerk-Interface (NNI) weiter an das Netzwerk von Nutzer B.
 Wenn dieser Prozess erfolgreich abgelaufen ist, besteht eine Chat-Sitzung zwischen den Geräten beider Chatteilnehmer \cite{5gmsg}.
 Fig. \ref{rcsnetz} zeigt die im Kommunikationsprozess involvierten Netzwerkelemente.
 
@@ -205,14 +205,14 @@ Um sich bei dem Dienst zu authentifizieren, werden je nach Plattform unterschied
 
 Auf mobilen Endgeräten wird meist die SIM-basierte Authentifizierung genutzt \cite{uniprof}.
 Dafür wird die International Mobile Subscriber Identity (IMSI) und ein One-Time-Passwort (OTP) eingesetzt.
-Die IMSI ist eine einzigartige, private Identifikationsnummer, welche auf der SIM Karte gespeichert ist.
+Die IMSI ist eine einzigartige, private Identifikationsnummer, welche auf der SIM-Karte gespeichert ist.
 Das OTP wird als eine unsichtbare SMS an die Telefonnummer der SIM geschickt und automatisch vom System gelesen.
 Zur Authentifizierung werden dann sowohl IMSI als auch das OTP an den Profile Server gesendet \cite{5gmsg}.
 
-Auf Geräten ohne SIM Karte werden andere Möglichkeiten für die Anmeldung genutzt, wie z.B. der Login mit Nutzername und Passwort oder die Verknüpfung mit dem mobilen Endgerät über das Einscannen eines QR-Codes \cite{uniprof}.
+Auf Geräten ohne SIM-Karte werden andere Möglichkeiten für die Anmeldung genutzt, wie z.B. der Login mit Nutzername und Passwort oder die Verknüpfung mit dem mobilen Endgerät über das Einscannen eines QR-Codes \cite{uniprof}.
 
 Alle Nachrichten sind während der Übertragung durch gängige Protokolle, wie TLS und IPSec, verschlüsselt \cite{uniprof}.
-Falls beide Nutzer Google Messages verwenden, sind die Nachrichten zusätzlich Ende-zu-Ende-Verschlüsselt \cite{googlemessagessecure}.
+Falls beide Nutzer Google Messages verwenden, sind die Nachrichten zusätzlich Ende-zu-Ende-verschlüsselt \cite{googlemessagessecure}.
 Dazu wird ein separater Key Server für den Schlüsselaustausch genutzt (siehe Fig. \ref{rcsnetz}) \cite{5gmsg}.
 Diese Funktion ist allerdings nur in diesem Fall verfügbar, da die GSMA keine offizielle Implementierung definiert hat.
 Dadurch ist dies nicht unbedingt plattformübergreifend nutzbar \cite{googlemessagessecure}.
@@ -228,18 +228,18 @@ Zusätzlich ist eine Einrichtung erforderlich, bevor der Messenger einsatzbereit
 
 Im Gegensatz dazu muss für die Verwendung von RCS nicht viel vom Nutzer selbst getan werden, da es direkt im Betriebssystem integriert ist.
 Sofern unterstützt, wird RCS automatisch im Hintergrund konfiguriert.
-Der Nutzer kann die Standart-Nachrichten-App des Betriebssystems öffnen und sofort den Dienst in Anspruch nehmen (solange der Gesprächspartner ebenfalls RCS unterstützt) \cite{5gmsg,rcsmno}.
+Der Nutzer kann die Standard-Nachrichten-App des Betriebssystems öffnen und sofort den Dienst in Anspruch nehmen (solange der Gesprächspartner ebenfalls RCS unterstützt) \cite{5gmsg,rcsmno}.
 
 Während das Versenden einer SMS meist eine kleine Gebühr kostet (0,09 €, Telekom MagentaMobil Prepaid \cite{telekomsms}), fallen bei RCS keine Zusatzkosten an (0,00 €, Telekom MagentaMobil Prepaid \cite{telekomrcs}).
 
 Des Weiteren ist es möglich, RCS nicht nur auf einem Mobilgerät zu verwenden, wie es bei SMS der Fall ist.
-Aufgrund der Multi-Plattform-Funktionalität kann der Dienst auch über mehrere Geräte mit unterschiedlichen Plattformen genutzt werden, welche unter Umständen keine SIM Karte besitzen und nur über WiFi kommunizieren.
+Aufgrund der Multi-Plattform-Funktionalität kann der Dienst auch über mehrere Geräte mit unterschiedlichen Plattformen genutzt werden, welche unter Umständen keine SIM-Karte besitzen und nur über Wi-Fi kommunizieren.
 So ist die Nutzung beispielsweise auch auf Laptops oder Tablets gewährleistet \cite{rcsmno,uniprof}.
 
-Darüber hinaus verfügt RCS über viele moderne Funktionen, die man aus OTT-Messengern kennt, wie zum Beispiel das Versenden von Dateien oder dem Standort \cite{wafaq,uniprof}.
+Darüber hinaus verfügt RCS über viele moderne Funktionen, die man aus OTT-Messengern kennt, wie zum Beispiel das Versenden von Dateien oder den Standort \cite{wafaq,uniprof}.
 
-Ein weiterer Vorteil ist die Möglichkeit, Nachrichten nicht nur über das mobile Netz (4G / 5G) zu verschicken, sondern auch über WiFi \cite{5gmsg}.
-Dadurch kann an einem Ort, der zwar keinen Empfang hat, aber einen WiFi-Hotspot anbietet, weiterhin der Dienst genutzt werden.
+Ein weiterer Vorteil ist die Möglichkeit, Nachrichten nicht nur über das mobile Netz (4G / 5G) zu verschicken, sondern auch über Wi-Fi \cite{5gmsg}.
+Dadurch kann an einem Ort, der zwar keinen Empfang hat, aber einen Wi-Fi-Hotspot anbietet, weiterhin der Dienst genutzt werden.
 Außerdem existiert für Nachrichten keine strikte Längenbegrenzung wie bei SMS, wodurch längere Texte problemlos verschickt werden können.
 
 
@@ -249,7 +249,7 @@ Außerdem existiert für Nachrichten keine strikte Längenbegrenzung wie bei SMS
 
 Trotz aller Vorteile und modernen Funktionen gibt es auch einige Schwächen, die bei RCS berücksichtigt werden sollten.
 
-Da RCS im Gegensatz zu SMS über das Internet läuft, können keine Nachrichten im Hintergrund empfangen werden, wenn man an seinem Gerät Internet komplett ausgeschaltet hat.
+Da RCS im Gegensatz zu SMS über das Internet läuft, können keine Nachrichten im Hintergrund empfangen werden, wenn man an seinem Gerät das Internet komplett ausgeschaltet hat.
 
 Damit die Kommunikation auch über Ländergrenzen hinweg nahtlos funktionieren kann, müssen alle Mobilfunkanbieter zusammenarbeiten.
 Funktionen von RCS sind nur verfügbar, wenn sie bei allen Kontaktteilnehmern unterstützt werden.
@@ -261,10 +261,10 @@ Ebenfalls müssen die Hersteller von Mobilgeräten zusammenarbeiten, diese Imple
 Dadurch, dass die Authentifizierung bei RCS SIM-basiert stattfindet, kann die klassische "SIM Swap"-Attacke auch hier weiterhin ausgenutzt werden \cite{sendoutsms}.
 
 Obwohl zur Authentifizierung bei RCS eine Kombination aus der privaten International Mobile Subscriber Identity (IMSI) und einem One-Time-Password (OTT) genutzt wird, ist diese Methode nicht vollständig vor Angriffen geschützt.
-Angreifer können sich mittels einer Spoofing Attacke als einen anderen Nutzer ausgeben und deren RCS Account kompromittieren, unabhängig davon, ob die Opfer sich in einem 4G-, 5G- oder WiFi-Netz befinden.
+Angreifer können sich mittels einer Spoofing-Attacke als einen anderen Nutzer ausgeben und deren RCS Account kompromittieren, unabhängig davon, ob die Opfer sich in einem 4G-, 5G- oder Wi-Fi-Netz befinden.
 Handymodell und Betriebssystem des Geräts sind ebenfalls für die Attacke irrelevant.
 Das Hauptproblem bei dieser Authentifizierungsmethode ist, dass viele Mobilfunkanbieter nicht die komplette IMSI zum Authentifizieren nutzen, sondern nur einen kleinen Teil.
-Dieser Teil ist allerdings oft spezifisch zum Mobilfunkanbieter und kann über die Telefonnummer des Opfers leicht ermittelt werden.
+Dieser Teil ist allerdings oft spezifisch für den Mobilfunkanbieter und kann über die Telefonnummer des Opfers leicht ermittelt werden.
 Zusätzlich können OTTs über eine mit Schadcode versetzten App abgefangen werden.
 Das OTT wird beim Authentifizieren bei RCS als unsichtbare SMS dem Opfer zugeschickt.
 Die App kann diese abgreifen und dem Angreifer übermitteln, ohne dass das Opfer was davon mitbekommt.
@@ -291,7 +291,7 @@ Yang et. al. \cite{uncoversec} haben 2024 mittels eines selbst entwickelten Tool
 Bei den Tests kam heraus, dass mehrere Mobilfunkanbieter Server nutzen, welche öffentlich zugänglich sind und die Integrität und Vertraulichkeit von gesendeten Daten nicht gewährleisten.
 
 Durch nicht verschlüsselte Nachrichten während dem Transfer und somit der Verletzung der Vertraulichkeit können Nachrichten leicht mitgelesen werden.
-Theoretisch ist es möglich, dass der Angreifer das Signal während der Übermittlung aus der Luft abzufangen und aufzunehmen.
+Theoretisch ist es möglich, dass der Angreifer das Signal während der Übermittlung aus der Luft abfängt und aufzeichnet.
 
 Dieses Problem kann durch die Nutzung eines Virtual Private Networks (VPN) gelöst werden.
 Bei aktiviertem VPN wird die Nachrichtenübermittlung über den gesicherten VPN-Server geleitet und ist so theoretisch vor dem öffentlich zugänglichen Mobilfunk geschützt.
@@ -339,15 +339,15 @@ Neben dem Schreiben von Textnachrichten ist es auch möglich, Mediendateien zu v
 Somit entspricht RCS den Anforderungen der heutigen digitalen Kommunikation.
 
 Ein wichtiger Vorteil von RCS ist, dass es nativ im Betriebssystem integriert ist.
-Es muss also nicht eine separate App installiert werden, um den Dienst nutzen zu können.
+Es muss also keine separate App installiert werden, um den Dienst nutzen zu können.
 Außerdem wird RCS nicht von einem einzelnen Unternehmen betrieben, sondern wird von den Mobilfunkanbietern in ihren Netzen bereitgestellt.
 
-Allerdings sind Trotz des moderneren Ansatzes mehrere Schwächen zu finden.
+Allerdings sind trotz des moderneren Ansatzes mehrere Schwächen zu finden.
 Der Umstand, dass es von verschiedenen Mobilfunkanbietern betrieben wird, kann bereits zu Problemen führen.
 Damit alle Funktionen von RCS reibungslos funktionieren, muss die Implementierung überall einheitlich sein.
 Das bedeutet, dass alle Mobilfunkanbieter weltweit einen gemeinsamen Standard nutzen.
 Gleiches gilt für die Geräte- beziehungsweise Betriebssystemhersteller für die Bereitstellung des RCS-Clients.
-Sicherheitsprobleme, wie Spoofing oder das Manipulieren der Metadaten stellen ebenfalls schwerwiegende Probleme dar.
+Sicherheitsprobleme, wie Spoofing oder das Manipulieren der Metadaten, stellen ebenfalls schwerwiegende Probleme dar.
 
 Zusammenfassend lässt sich sagen, dass Rich Communication Services das Potenzial hat, als Nachfolger der SMS zu ersetzen.
 Es müssen allerdings noch Verbesserungen durchgeführt werden, damit RCS sicher als Ersatz genutzt werden kann.
