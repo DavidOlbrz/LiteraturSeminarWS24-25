@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.29)  14 JAN 2025 16:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.29)  14 JAN 2025 18:22
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -372,18 +372,18 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Underfull \hbox (badness 1509) in paragraph at lines 46--51
+Underfull \hbox (badness 1509) in paragraph at lines 46--52
 []\OT1/ptm/m/n/10 Zur Kom-mu-nika-tion ex-istiert neben der Tele-fonie der
  []
 
 
-Underfull \hbox (badness 3375) in paragraph at lines 46--51
+Underfull \hbox (badness 3375) in paragraph at lines 46--52
 \OT1/ptm/m/n/10 al-t-bekan-nte Short Mes-sage Ser-vice (SMS), welcher es
  []
 
 
 
-Package svg Info: Last page of `./svg-inkscape/mobilfunknetz_svg-tex.pdf' is 1 on input line 74.
+Package svg Info: Last page of `./svg-inkscape/mobilfunknetz_svg-tex.pdf' is 1 on input line 76.
 (svg-inkscape/mobilfunknetz_svg-tex.pdf_tex
 <./svg-inkscape/mobilfunknetz_svg-tex.pdf, id=5, page=1, 656.0761pt x 409.7182pt>
 File: ./svg-inkscape/mobilfunknetz_svg-tex.pdf Graphic file (type pdf)
@@ -391,7 +391,7 @@ File: ./svg-inkscape/mobilfunknetz_svg-tex.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./svg-inkscape/mobilfunknetz_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 250.0pt x 156.1259pt.
 )
-Underfull \hbox (badness 2913) in paragraph at lines 79--87
+Underfull \hbox (badness 2913) in paragraph at lines 81--89
 []\OT1/ptm/m/n/10 External Short Mes-sage En-ti-ties (ESME) sind eben-
  []
 
@@ -401,18 +401,18 @@ Underfull \hbox (badness 2913) in paragraph at lines 79--87
 
 
 ]
-Underfull \hbox (badness 3291) in paragraph at lines 96--100
+Underfull \hbox (badness 3291) in paragraph at lines 98--102
 \OT1/ptm/m/n/10 Nutzung von Smart-phones haben sich in den ver-gan-
  []
 
 
-Underfull \hbox (badness 2012) in paragraph at lines 96--100
+Underfull \hbox (badness 2012) in paragraph at lines 98--102
 \OT1/ptm/m/n/10 nicht auf tra-di-tionelle Mo-bil-funk-di-en-ste (wie z.B. Tele-
  []
 
 
 
-Package svg Info: Last page of `./svg-inkscape/versendete_sms_svg-tex.pdf' is 2 on input line 119.
+Package svg Info: Last page of `./svg-inkscape/versendete_sms_svg-tex.pdf' is 2 on input line 121.
 (svg-inkscape/versendete_sms_svg-tex.pdf_tex
 <./svg-inkscape/versendete_sms_svg-tex.pdf, id=15, page=1, 1306.8825pt x 784.43062pt>
 File: ./svg-inkscape/versendete_sms_svg-tex.pdf Graphic file (type pdf)
@@ -441,23 +441,23 @@ pdfTeX warning: pdflatex (file ./svg-inkscape/versendete_sms_svg-tex.pdf): PDF i
 
 pdfTeX warning: pdflatex (file ./svg-inkscape/versendete_sms_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 2213) in paragraph at lines 169--171
+
+
+Underfull \hbox (badness 2213) in paragraph at lines 171--173
 []\OT1/ptm/m/n/10 Damit m[]oglichst alle Funk-tio-nen von RCS rei-bungs-
  []
 
 
-
-
-Underfull \hbox (badness 6675) in paragraph at lines 172--178
+Underfull \hbox (badness 6675) in paragraph at lines 174--180
 []\OT1/ptm/m/n/10 Trotz solcher Ma^^Y-nah-men k[]onnen weit-er-hin Im-ple-
  []
 
 
-Underfull \hbox (badness 4686) in paragraph at lines 191--193
+Underfull \hbox (badness 4686) in paragraph at lines 193--195
 []\OT1/ptm/m/n/10 Au^^Yerdem wer-den wichtige In-for-ma-tio-nen, wie zum
  []
 
-Package svg Info: Last page of `./svg-inkscape/rcsnetz_svg-tex.pdf' is 1 on input line 195.
+Package svg Info: Last page of `./svg-inkscape/rcsnetz_svg-tex.pdf' is 1 on input line 197.
 (svg-inkscape/rcsnetz_svg-tex.pdf_tex
 <./svg-inkscape/rcsnetz_svg-tex.pdf, id=70, page=1, 922.94812pt x 400.96997pt>
 File: ./svg-inkscape/rcsnetz_svg-tex.pdf Graphic file (type pdf)
@@ -465,24 +465,21 @@ File: ./svg-inkscape/rcsnetz_svg-tex.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./svg-inkscape/rcsnetz_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 250.0pt x 108.61208pt.
 )
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-[3 <./svg-inkscape/rcsnetz_svg-tex.pdf>]
-Underfull \hbox (badness 1803) in paragraph at lines 224--226
+[3]
+Underfull \hbox (badness 1803) in paragraph at lines 226--228
 []\OT1/ptm/m/n/10 Um einen In-stant Mes-sen-ger wie z.B. What-sApp zu
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 231.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 233.
 (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 
 
 
-[4]
-Underfull \hbox (badness 4467) in paragraph at lines 291--293
+[4 <./svg-inkscape/rcsnetz_svg-tex.pdf>]
+Underfull \hbox (badness 4467) in paragraph at lines 293--295
 \OT1/ptm/m/n/10 m[]oglich, dass der An-greifer das Sig-nal w[]ahrend der
  []
 
@@ -491,17 +488,12 @@ Underfull \hbox (badness 4467) in paragraph at lines 291--293
 
 
 [5]
-Underfull \hbox (badness 1748) in paragraph at lines 350--353
+Underfull \hbox (badness 1748) in paragraph at lines 352--355
 \OT1/ptm/m/n/10 ni-ca-tion Ser-vices das Poten-zial hat, als Nach-fol-ger der
  []
 
 (literatur_seminar_rcs_olbertz_david.bbl
-Underfull \hbox (badness 1924) in paragraph at lines 34--38
-\OT1/ptm/m/n/8 u-ment v2.4,'' Ac-cessed: Nov. 6, 2024. [On-line].
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--71
+Underfull \hbox (badness 10000) in paragraph at lines 60--64
 \OT1/ptm/m/n/8 DE / Sachgebiete / Telekommunikation / Unternehmen[]Institutionen /
  []
 
@@ -509,40 +501,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--71
 ** loaded for the language `de'. Using the pattern for
 ** the default language instead.
 
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--91
+Underfull \hbox (badness 10000) in paragraph at lines 80--84
 \OT1/ptm/m/n/8 8562-[]6 / 455962147[]1148247109601582[]1673264986279156121[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--91
+Underfull \hbox (badness 10000) in paragraph at lines 80--84
 \OT1/ptm/m/n/8 n . pdf ? []nc[]cat = 101 & ccb = 1-[]7 & []nc[]sid = e280be & []nc[]ohc =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--91
+Underfull \hbox (badness 10000) in paragraph at lines 80--84
 \OT1/ptm/m/n/8 EeDO1ShMWBwQ7kNvgFH0HX5 & []nc[]zt = 14 & []nc[]ht = scontent .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--91
+Underfull \hbox (badness 10000) in paragraph at lines 80--84
 \OT1/ptm/m/n/8 xx & []nc[]gid = Ah3I6FJFlIToW6syXPpijVw & oh = 00[]AYBVIh7S5p[]
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 94--98
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 87--91
 []\OT1/ptm/m/n/8 Bundesnetzagentur, ``Bun-desnet-za-gen-tur - Dig-i-tales und
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--98
+Underfull \hbox (badness 10000) in paragraph at lines 87--91
 \OT1/ptm/m/n/8 Fachthemen / Datenportal / 1[]Digitales[]Telekommunikation / []svg[]TK /
  []
 
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `de'. Using the pattern for
 ** the default language instead.
+
+Underfull \hbox (badness 1924) in paragraph at lines 116--120
+\OT1/ptm/m/n/8 u-ment v2.4,'' Ac-cessed: Nov. 6, 2024. [On-line].
+ []
+
 )
 
 ** Conference Paper **
@@ -572,7 +569,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  94i,16n,93p,487b,493s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on literatur_seminar_rcs_olbertz_david.pdf (6 pages, 242530 bytes).
+Output written on literatur_seminar_rcs_olbertz_david.pdf (6 pages, 242713 bytes).
 PDF statistics:
  155 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

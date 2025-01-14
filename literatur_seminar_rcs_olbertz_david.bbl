@@ -29,13 +29,6 @@ N.~Wellmann, ``Are {OTT} messaging and mobile telecommunication an interrelated
   \url{https://doi.org/10.1016/j.telpol.2019.101831}
 \BIBentrySTDinterwordspacing
 
-\bibitem{uniprof}
-\BIBentryALTinterwordspacing
-GSMA, ``{RCS} {Universal} {Profile} {Service} {Definition} {Document} v2.4,''
-  {Accessed: Nov. 6, 2024}. [Online]. Available:
-  \url{https://www.gsma.com/solutions-and-impact/technologies/networks/wp-content/uploads/2019/10/RCC.71-v2.4.pdf}
-\BIBentrySTDinterwordspacing
-
 \bibitem{rcsmno}
 \BIBentryALTinterwordspacing
 M.~Lin and J.~Arenzana~Arias, ``Rich {Communication} {Suite}: {The} challenge
@@ -116,6 +109,13 @@ Google, ``"{RCS}-{Chats}" in {Google} {Messages} aktivieren - {Google}
 Apple, ``\BIBforeignlanguage{de}{Was ist der {Unterschied} zwischen {iMessage},
   {RCS} und {SMS}/{MMS}? - {Apple} {Support} ({DE})},'' {Accessed: Dec. 16,
   2024}. [Online]. Available: \url{https://support.apple.com/de-de/104972}
+\BIBentrySTDinterwordspacing
+
+\bibitem{uniprof}
+\BIBentryALTinterwordspacing
+GSMA, ``{RCS} {Universal} {Profile} {Service} {Definition} {Document} v2.4,''
+  {Accessed: Nov. 6, 2024}. [Online]. Available:
+  \url{https://www.gsma.com/solutions-and-impact/technologies/networks/wp-content/uploads/2019/10/RCC.71-v2.4.pdf}
 \BIBentrySTDinterwordspacing
 
 \bibitem{geminiinteg}
