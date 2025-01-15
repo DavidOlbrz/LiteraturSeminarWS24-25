@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.29)  15 JAN 2025 12:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.29)  15 JAN 2025 16:05
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -330,60 +330,89 @@ File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )) (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2024/12/21 v24.15 The multilingual framework for pdfLaTeX, LuaLaTeX and XeLaTeX
+\babel@savecnt=\count302
+\U@D=\dimen188
+\l@unhyphenated=\language79
+ (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read3
+\bbl@dirlevel=\count303
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngerman.ldf
+Language: ngerman 2024/12/10 v2.15 German support for babel (post-1996 orthography)
+ (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngermanb.ldf
+Language: ngermanb 2024/12/10 v2.15 German support for babel (post-1996 orthography)
+Package babel Info: Making " an active character on input line 122.
+))) (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/de\babel-ngerman.tex
+Package babel Info: Importing font and identification data for ngerman
+(babel)             from babel-de.ini. Reported on input line 11.
 ) (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count302
+\l__color_backend_stack_int=\count304
 \l__pdf_internal_box=\box58
 ) (literatur_seminar_rcs_olbertz_david.aux)
 \openout1 = `literatur_seminar_rcs_olbertz_david.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
 
 -- Lines per column: 56 (exact).
 (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count303
-\scratchdimen=\dimen188
+\scratchcounter=\count305
+\scratchdimen=\dimen189
 \scratchbox=\box59
-\nofMPsegments=\count304
-\nofMParguments=\count305
+\nofMPsegments=\count306
+\nofMParguments=\count307
 \everyMPshowfont=\toks31
-\MPscratchCnt=\count306
-\MPscratchDim=\dimen189
-\MPnumerator=\count307
-\makeMPintoPDFobject=\count308
+\MPscratchCnt=\count308
+\MPscratchDim=\dimen190
+\MPnumerator=\count309
+\makeMPintoPDFobject=\count310
 \everyMPtoPDFconversion=\toks32
 ) (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+ (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+ (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)) (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
  (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Underfull \hbox (badness 1509) in paragraph at lines 46--52
-[]\OT1/ptm/m/n/10 Zur Kom-mu-nika-tion ex-istiert neben der Tele-fonie der
- []
-
-
-Underfull \hbox (badness 3375) in paragraph at lines 46--52
-\OT1/ptm/m/n/10 al-t-bekan-nte Short Mes-sage Ser-vice (SMS), welcher es
+Underfull \hbox (badness 2221) in paragraph at lines 31--42
+[]\OT1/ptm/b/it/9 Zusammenfassung\OT1/ptm/b/n/9 ---Durch die zu-neh-men-de Nut-zung von
  []
 
 
 
-Package svg Info: Last page of `./svg-inkscape/mobilfunknetz_svg-tex.pdf' is 1 on input line 76.
+Package svg Info: Last page of `./svg-inkscape/mobilfunknetz_svg-tex.pdf' is 1 on input line 79.
 (svg-inkscape/mobilfunknetz_svg-tex.pdf_tex
 <./svg-inkscape/mobilfunknetz_svg-tex.pdf, id=5, page=1, 656.0761pt x 409.7182pt>
 File: ./svg-inkscape/mobilfunknetz_svg-tex.pdf Graphic file (type pdf)
@@ -391,28 +420,13 @@ File: ./svg-inkscape/mobilfunknetz_svg-tex.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./svg-inkscape/mobilfunknetz_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 250.0pt x 156.1259pt.
 )
-Underfull \hbox (badness 2913) in paragraph at lines 81--89
-[]\OT1/ptm/m/n/10 External Short Mes-sage En-ti-ties (ESME) sind eben-
- []
-
-
 
 [1{C:/Users/david/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
 ]
-Underfull \hbox (badness 3291) in paragraph at lines 98--102
-\OT1/ptm/m/n/10 Nutzung von Smart-phones haben sich in den ver-gan-
- []
 
-
-Underfull \hbox (badness 2012) in paragraph at lines 98--102
-\OT1/ptm/m/n/10 nicht auf tra-di-tionelle Mo-bil-funk-di-en-ste (wie z.B. Tele-
- []
-
-
-
-Package svg Info: Last page of `./svg-inkscape/versendete_sms_svg-tex.pdf' is 2 on input line 121.
+Package svg Info: Last page of `./svg-inkscape/versendete_sms_svg-tex.pdf' is 2 on input line 124.
 (svg-inkscape/versendete_sms_svg-tex.pdf_tex
 <./svg-inkscape/versendete_sms_svg-tex.pdf, id=15, page=1, 1306.8825pt x 784.43062pt>
 File: ./svg-inkscape/versendete_sms_svg-tex.pdf Graphic file (type pdf)
@@ -442,22 +456,7 @@ pdfTeX warning: pdflatex (file ./svg-inkscape/versendete_sms_svg-tex.pdf): PDF i
 pdfTeX warning: pdflatex (file ./svg-inkscape/versendete_sms_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 
-
-Underfull \hbox (badness 2213) in paragraph at lines 171--173
-[]\OT1/ptm/m/n/10 Damit m[]oglichst alle Funk-tio-nen von RCS rei-bungs-
- []
-
-
-Underfull \hbox (badness 6675) in paragraph at lines 174--180
-[]\OT1/ptm/m/n/10 Trotz solcher Ma^^Y-nah-men k[]onnen weit-er-hin Im-ple-
- []
-
-
-Underfull \hbox (badness 4686) in paragraph at lines 193--195
-[]\OT1/ptm/m/n/10 Au^^Yerdem wer-den wichtige In-for-ma-tio-nen, wie zum
- []
-
-Package svg Info: Last page of `./svg-inkscape/rcsnetz_svg-tex.pdf' is 1 on input line 197.
+Package svg Info: Last page of `./svg-inkscape/rcsnetz_svg-tex.pdf' is 1 on input line 200.
 (svg-inkscape/rcsnetz_svg-tex.pdf_tex
 <./svg-inkscape/rcsnetz_svg-tex.pdf, id=70, page=1, 922.94812pt x 400.96997pt>
 File: ./svg-inkscape/rcsnetz_svg-tex.pdf Graphic file (type pdf)
@@ -467,32 +466,18 @@ Package pdftex.def Info: ./svg-inkscape/rcsnetz_svg-tex.pdf , page1 used on inpu
 )
 
 [3]
-Underfull \hbox (badness 1803) in paragraph at lines 226--228
-[]\OT1/ptm/m/n/10 Um einen In-stant Mes-sen-ger wie z.B. What-sApp zu
- []
-
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 233.
-(C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 236.
+ (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 
 
 
 [4 <./svg-inkscape/rcsnetz_svg-tex.pdf>]
-Underfull \hbox (badness 4467) in paragraph at lines 293--295
-\OT1/ptm/m/n/10 m[]oglich, dass der An-greifer das Sig-nal w[]ahrend der
- []
 
 
 
-
-
-[5]
-Underfull \hbox (badness 1748) in paragraph at lines 352--355
-\OT1/ptm/m/n/10 ni-ca-tion Ser-vices das Poten-zial hat, als Nach-fol-ger der
- []
-
-(literatur_seminar_rcs_olbertz_david.bbl
+[5] (literatur_seminar_rcs_olbertz_david.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 60--64
 \OT1/ptm/m/n/8 DE / Sachgebiete / Telekommunikation / Unternehmen[]Institutionen /
  []
@@ -524,7 +509,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--84
 
 
 Underfull \hbox (badness 1874) in paragraph at lines 87--91
-[]\OT1/ptm/m/n/8 Bundesnetzagentur, ``Bun-desnet-za-gen-tur - Dig-i-tales und
+[]\OT1/ptm/m/n/8 Bundesnetzagentur, ``Bun-des-netz-agen-tur - Di-gi-ta-les und
  []
 
 
@@ -536,8 +521,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--91
 ** loaded for the language `de'. Using the pattern for
 ** the default language instead.
 
-Underfull \hbox (badness 1924) in paragraph at lines 116--120
-\OT1/ptm/m/n/8 u-ment v2.4,'' Ac-cessed: Nov. 6, 2024. [On-line].
+Underfull \hbox (badness 1668) in paragraph at lines 116--120
+\OT1/ptm/m/n/8 cu-ment v2.4,'' Ac-ces-sed: Nov. 6, 2024. [On-li-ne].
  []
 
 )
@@ -561,15 +546,15 @@ L3 programming layer <2024-12-09>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6879 strings out of 473574
- 128647 string characters out of 5716127
- 557988 words of memory out of 5000000
- 29893 multiletter control sequences out of 15000+600000
+ 8281 strings out of 473574
+ 155150 string characters out of 5716127
+ 596357 words of memory out of 5000000
+ 31256 multiletter control sequences out of 15000+600000
  594192 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,16n,93p,487b,493s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,16n,93p,487b,494s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on literatur_seminar_rcs_olbertz_david.pdf (6 pages, 242722 bytes).
+Output written on literatur_seminar_rcs_olbertz_david.pdf (6 pages, 243795 bytes).
 PDF statistics:
  155 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

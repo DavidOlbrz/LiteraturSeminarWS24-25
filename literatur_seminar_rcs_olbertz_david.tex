@@ -11,8 +11,11 @@
 \usepackage{xcolor}
 \usepackage{svg}
 \usepackage{url}
+\usepackage[ngerman]{babel}
+
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
 \begin{document}
 
 \title{Rich Communication Services\\als Nachfolger der SMS}
@@ -61,7 +64,7 @@ Dabei werden auch die Eigenschaften von RCS mit denen von SMS verglichen, wobei 
 \subsection{Short Message Service}
 
 Der Short Message Service, kurz SMS, ist seit den späten 1990er Jahren im Einsatz \cite{sendoutsms}.
-Dafür wurde der "Global System for Mobile Communications" Standard etabliert, welcher von dem European Telecommunications Standards Institute entwickelt wurde \cite{smshow}.
+Dafür wurde der "`Global System for Mobile Communications"'-Standard etabliert, welcher von dem European Telecommunications Standards Institute entwickelt wurde \cite{smshow}.
 SMS erlaubt es Nutzern mittels eines Mobiltelefons kurze Textnachrichten an andere Personen zu verschicken, unabhängig von der Distanz \cite{sendoutsms}.
 Die Nachrichten können standardmäßig in der 7-Bit-Codierung eine Länge von 160 Zeichen haben.
 Das SMS-Protokoll besteht aus vier Schichten, die alle Informationen zum Versenden, wie unter anderem den Empfänger und den Nachrichteninhalt selbst, enthalten.
@@ -87,7 +90,7 @@ Das wird teilweise noch weiter getrieben, sodass es Dienste gibt, bei denen man 
 Da hier wieder keine Angaben persönlicher Daten notwendig sind, werden solche Nummern oft für Betrugszwecke ausgenutzt.
 Nicht zuletzt sollte aus Sicht des Datenschutzes beachtet werden, dass die gesendeten und empfangenen Nachrichten eventuell für längere Zeit von ESMEs gespeichert werden \cite{sendoutsms}.
 
-Eine weitere Betrugsmasche ist die sogenannte "SIM Swap Attack".
+Eine weitere Betrugsmasche ist die sogenannte "`SIM Swap Attack"'.
 Bei dieser meldet sich der Angreifer bei dem Mobilfunkanbieter und gibt sich als das Opfer aus.
 Er kann behaupten, seine SIM-Karte verloren zu haben, um eine Ersatz-SIM zu erhalten.
 So kann er dann die SMS-Nachrichten abfangen und zum Beispiel an One-Time-Passwörter gelangen, um sich in Accounts des Opfers einzuloggen \cite{sendoutsms}.
@@ -128,7 +131,7 @@ Die Bundesnetzagentur veröffentlichte dazu zuletzt im Juli 2024 eine Statistik 
 Laut dieser ist die Nutzung von SMS im Jahr 2012 bei 59,8 Milliarden versendeten SMS gewesen.
 Im Jahr 2023 lag die Zahl allerdings nur noch bei 5,3 Milliarden (siehe Fig. \ref{versendetesms}).
 Das entspricht einem Abstieg von circa 91 \% \cite{smsstats}.
-2008 veröffentlichte die "Groupe Speciale Mobile Association" (GSMA) die erste Version des Universal Profiles, welche die Standards der Rich Communication Services (RCS) spezifiziert und deren Umsetzung definiert \cite{rcsuite}.
+2008 veröffentlichte die "`Groupe Speciale Mobile Association"' (GSMA) die erste Version des Universal Profiles, welche die Standards der Rich Communication Services (RCS) spezifiziert und deren Umsetzung definiert \cite{rcsuite}.
 Die Grundidee dabei ist die Unterstützung mehrerer moderner Funktionen, wie man sie auch aus OTT-Messengern kennt.
 Außerdem sollen diese nativ im Betriebssystem implementiert werden.
 Für die Implementierung sind die Entwickler des Betriebssystems bzw. der Gerätehersteller zuständig.
@@ -138,9 +141,9 @@ Alternativ gibt es die Möglichkeit, RCS-Funktionalität durch das Installieren 
 
 \subsection{Funktionen}
 
-Die Funktionen von RCS sind grundsätzlich in drei Kategorien eingeteilt: "Enriched Messaging", "Enriched Calling" und "Enriched Phonebook" \cite{rcsuite,uniprof}.
+Die Funktionen von RCS sind grundsätzlich in drei Kategorien eingeteilt: "`Enriched Messaging"', "`Enriched Calling"' und "`Enriched Phonebook"' \cite{rcsuite,uniprof}.
 
-Beim "Enriched Messaging" gibt es das klassische "1-to-1 Messaging", sprich den Nachrichtenaustausch zwischen zwei Personen, wie man es auch von SMS kennt.
+Beim "`Enriched Messaging"' gibt es das klassische "`1-to-1 Messaging"', sprich den Nachrichtenaustausch zwischen zwei Personen, wie man es auch von SMS kennt.
 Dazu kommt die Möglichkeit, in Gruppenchats mit mehreren Personen gleichzeitig miteinander zu kommunizieren.
 Innerhalb der Chats ist es möglich, Dateien zu versenden.
 Dabei kann jeder Dateityp verschickt werden. Bestimmte Dateiformate werden im Chat besonders dargestellt, wie z.B. der Standort mit Kartenvorschau, direkt im Chat abspielbare Audio-Dateien und animierte GIFs.
@@ -152,10 +155,10 @@ Ebenso ist es möglich, den aktuellen Standort mit anderen zu teilen.
 Bei jeder verschickten Nachricht kann der Absender sehen, ob diese angekommen ist und bereits vom Empfänger gelesen wurde.
 Außerdem sieht der Chatteilnehmer in Echtzeit, wenn der Gesprächspartner gerade eine Nachricht am Eintippen ist \cite{uniprof}.
 
-Mit "Enriched Calling" kann man während eines Anrufes unter anderem einen Dateitransfer durchführen.
+Mit "`Enriched Calling"' kann man während eines Anrufes unter anderem einen Dateitransfer durchführen.
 Dies ermöglicht Videoanrufe, bei denen die Teilnehmer live die Aufnahme ihrer Kamera teilen können \cite{uniprof}.
 
-Die Idee beim "Enriched Phonebook" war, dass Nutzer sich ihr eigenes Profil einrichten können, welches er mit Informationen über sich selbst füllen kann.
+Die Idee beim "`Enriched Phonebook"' war, dass Nutzer sich ihr eigenes Profil einrichten können, welches er mit Informationen über sich selbst füllen kann.
 Dazu würden zum Beispiel Name, Profilbild oder auch eine kurze Statusmeldung gehören.
 Das Profil wäre für seine Kontakte sichtbar.
 Allerdings ist das Enriched Phonebook aktuell nicht Teil des Universal Profiles der GSMA \cite{rcsuite,uniprof}.
@@ -171,12 +174,12 @@ Der Rich Communication Service funktioniert sowohl im 4G und 5G Mobilfunknetz, a
 Damit möglichst alle Funktionen von RCS reibungslos genutzt werden können, müssen sich die Mobilfunk-Operatoren auf eine gängige Implementierung einigen.
 Um dies zu erreichen, haben 2011 mehrere große Unternehmen, darunter die Deutsche Telekom, Telefonica und Vodafone angekündigt, einen Zusammenschluss zu bilden und eine gemeinsame RCS-Implementierung, auch RCS-e (Rich Communication Services enhanced) genannt, zu definieren \cite{rcsmno}.
 
-Trotz solcher Maßnahmen können weiterhin Implementierungsunterschiede auftreten, weshalb die "Capability Discovery"-Funktion entwickelt wurde.
+Trotz solcher Maßnahmen können weiterhin Implementierungsunterschiede auftreten, weshalb die "`Capability Discovery"'-Funktion entwickelt wurde.
 Sie dient dazu, den Clients zu zeigen, welche RCS-Funktionen verfügbar sind.
 Damit eine Funktion genutzt werden kann, muss sie sowohl bei beiden Clients implementiert als auch vom Mobilfunkanbieter unterstützt werden.
 Verfügbare Funktionen werden automatisch aktiviert.
 Falls RCS nicht unterstützt sein sollte, wird dem Nutzer angeboten, seine Nachricht alternativ als SMS zu verschicken \cite{uniprof}.
-Dabei entscheidet der "Unified Composer", ob die Nachricht als SMS oder, im Fall von Mediendateien, als MMS versendet wird \cite{rcsuite}.
+Dabei entscheidet der "`Unified Composer"', ob die Nachricht als SMS oder, im Fall von Mediendateien, als MMS versendet wird \cite{rcsuite}.
 
 Der Kommunikationsablauf über RCS beginnt mit der Anmeldung beim Dienst.
 Dafür werden die benötigten Informationen der Nutzer zum Bestätigen der Identitäten mit dem Profil-Server geteilt.
@@ -258,7 +261,7 @@ Ebenfalls müssen die Hersteller von Mobilgeräten zusammenarbeiten, diese Imple
 
 \subsection{Probleme bei der Authentifizierung}
 
-Dadurch, dass die Authentifizierung bei RCS SIM-basiert stattfindet, kann die klassische "SIM Swap"-Attacke auch hier weiterhin ausgenutzt werden \cite{sendoutsms}.
+Dadurch, dass die Authentifizierung bei RCS SIM-basiert stattfindet, kann die klassische "`SIM Swap"'-Attacke auch hier weiterhin ausgenutzt werden \cite{sendoutsms}.
 
 Obwohl zur Authentifizierung bei RCS eine Kombination aus der privaten International Mobile Subscriber Identity (IMSI) und einem One-Time-Password (OTT) genutzt wird, ist diese Methode nicht vollständig vor Angriffen geschützt.
 Angreifer können sich mittels einer Spoofing-Attacke als einen anderen Nutzer ausgeben und deren RCS Account kompromittieren, unabhängig davon, ob die Opfer sich in einem 4G-, 5G- oder Wi-Fi-Netz befinden.
@@ -271,7 +274,7 @@ Die App kann diese abgreifen und dem Angreifer übermitteln, ohne dass das Opfer
 Nachdem sowohl IMSI als auch OTT ermittelt wurden, kann sich der Angreifer per Spoofing als das Opfer ausgeben und sich bei RCS anmelden \cite{5gmsg}.
 
 An sich stellt die Ende-zu-Ende-Verschlüsselung kein Hindernis bei der Initiierung einer Chat-Sitzung dar, aber es existiert auch eine Möglichkeit, diese auszuschalten.
-Diese Methode ist unter der Bezeichnung der "Downgrade"-Attacke bekannt.
+Diese Methode ist unter der Bezeichnung der "`Downgrade"'-Attacke bekannt.
 Bei dieser gibt der Angreifer vor, die Ende-zu-Ende-Verschlüsselung nicht zu unterstützen.
 Wenn eine RCS-Funktion nicht bei beiden Geräten verfügbar ist, ist sie nicht nutzbar.
 Aus diesem Grund wird dann automatisch die Ende-zu-Ende-Verschlüsselung deaktiviert und der Angreifer kann die unverschlüsselten Nachrichten abfangen \cite{5gmsg}.
@@ -301,7 +304,7 @@ Ein Großteil der kostenlosen Anbieter überwacht heimlich den Internetverkehr �
 Zusätzlich wurde festgestellt, dass die TLS-Validierung auf der Client-Seite nicht immer ordnungsgemäß durchgeführt wird.
 Häufig wird nur geprüft, ob das Zertifikat von einer legitimen Certificate Authority ausgestellt wurde und nicht, ob zum Beispiel der angegebene Hostname mit dem offiziellen RCS-Server übereinstimmt.
 So kann der Angreifer über seinen eigenen Server einen RCS-Server imitieren, welcher über eine separate TLS-Verbindung und Domain läuft.
-Auf diese Weise kann ein "Man-In-The-Middle"-Angriff ausgeführt werden \cite{uncoversec}.
+Auf diese Weise kann ein "`Man-In-The-Middle"'-Angriff ausgeführt werden \cite{uncoversec}.
 
 \subsection{Verletzung der Integrität}
 
@@ -313,12 +316,12 @@ Wenn allerdings die URL zum Vorschaubild innerhalb der Metadaten zu einem Bild g
 Bei Xiaomi findet sich ein ähnliches Problem, welches den gleichen Effekt hat.
 Wenn ein Standort empfangen wird, der eine korrupte Standort-URL enthält und nicht dem gültigen Format entspricht, stürzt der Dienst ebenfalls ab \cite{uncoversec}.
 
-Dieses Problem kann für eine "Denial-of-Service"-Attacke gegen einen Nutzer ausgenutzt werden.
+Dieses Problem kann für eine "`Denial-of-Service"'-Attacke gegen einen Nutzer ausgenutzt werden.
 Dabei werden in regelmäßigen Abständen zu große Dateien beziehungsweise korrupte Standortdaten an das Gerät geschickt, wodurch der Dienst permanent abstürzt.
 Somit ist das Gerät von der Kommunikation über RCS abgeschnitten \cite{uncoversec}.
 
 Es gibt noch weitere Attacken, welche ebenfalls das Manipulieren der Metadaten ausnutzen, um Schaden anzurichten.
-Bei der "Zero Click Remote Information Leakage"-Attacke schickt der Angreifer eine Datei mit einer manipulierten Download-URL an das Opfer.
+Bei der "`Zero Click Remote Information Leakage"'-Attacke schickt der Angreifer eine Datei mit einer manipulierten Download-URL an das Opfer.
 Auf dem Gerät des Opfers wird diese Datei automatisch heruntergeladen.
 Da die URL nicht auf die ursprüngliche Datei, sondern auf einen Server des Angreifers führt, kann der Angreifer die Verbindung abfangen und Informationen über das Opfer erlangen, wie zum Beispiel seine IP-Adresse, das Handymodell und weitere Details \cite{uncoversec}.
 
@@ -326,7 +329,7 @@ Ein weiterer Angriff ist das erzwungene Herunterladen von großen Dateien.
 Es wird wieder eine Datei mit manipulierter URL geschickt, welche auf eine sehr große Datei zeigt.
 Dadurch, dass diese beim Empfänger automatisch im Hintergrund heruntergeladen wird, füllt sich unbemerkt der Handyspeicher und viel mobiles Datenvolumen wird verbraucht \cite{uncoversec}.
 
-Schließlich gibt es noch die Möglichkeit, eine "Reflection Amplification DDoS"-Attacke gegen einen RCS-Server durchzuführen.
+Schließlich gibt es noch die Möglichkeit, eine "`Reflection Amplification DDoS"'-Attacke gegen einen RCS-Server durchzuführen.
 Dabei wird wieder eine Datei mit manipulierter Download-URL, welche auf eine sehr große Datei zeigt, präpariert.
 Diese wird dann an mehrere Geräte geschickt, die sich im gleichen Netz befinden und somit auf den gleichen Content Server zugreifen.
 Die Geräte versuchen dann gleichzeitig von selben Server herunterzuladen, wodurch die Netzwerkbandbreite vollständig ausgenutzt und der reguläre Datenverkehr enorm beeinträchtigt wird \cite{uncoversec}.
