@@ -87,7 +87,7 @@ Das wird teilweise noch weiter getrieben, sodass es Dienste gibt, bei denen man 
 Da hier wieder keine Angaben persönlicher Daten notwendig sind, werden solche Nummern oft für Betrugszwecke ausgenutzt.
 Nicht zuletzt sollte aus Sicht des Datenschutzes beachtet werden, dass die gesendeten und empfangenen Nachrichten eventuell für längere Zeit von ESMEs gespeichert werden \cite{sendoutsms}.
 
-Eine weitere Betrugsmasche ist die sogenannte SIM Swap Attack.
+Eine weitere Betrugsmasche ist die sogenannte "SIM Swap Attack".
 Bei dieser meldet sich der Angreifer bei dem Mobilfunkanbieter und gibt sich als das Opfer aus.
 Er kann behaupten, seine SIM-Karte verloren zu haben, um eine Ersatz-SIM zu erhalten.
 So kann er dann die SMS-Nachrichten abfangen und zum Beispiel an One-Time-Passwörter gelangen, um sich in Accounts des Opfers einzuloggen \cite{sendoutsms}.
@@ -271,7 +271,7 @@ Die App kann diese abgreifen und dem Angreifer übermitteln, ohne dass das Opfer
 Nachdem sowohl IMSI als auch OTT ermittelt wurden, kann sich der Angreifer per Spoofing als das Opfer ausgeben und sich bei RCS anmelden \cite{5gmsg}.
 
 An sich stellt die Ende-zu-Ende-Verschlüsselung kein Hindernis bei der Initiierung einer Chat-Sitzung dar, aber es existiert auch eine Möglichkeit, diese auszuschalten.
-Diese Methode ist unter der Bezeichnung der "Downgrade" Attacke bekannt.
+Diese Methode ist unter der Bezeichnung der "Downgrade"-Attacke bekannt.
 Bei dieser gibt der Angreifer vor, die Ende-zu-Ende-Verschlüsselung nicht zu unterstützen.
 Wenn eine RCS-Funktion nicht bei beiden Geräten verfügbar ist, ist sie nicht nutzbar.
 Aus diesem Grund wird dann automatisch die Ende-zu-Ende-Verschlüsselung deaktiviert und der Angreifer kann die unverschlüsselten Nachrichten abfangen \cite{5gmsg}.
@@ -301,7 +301,7 @@ Ein Großteil der kostenlosen Anbieter überwacht heimlich den Internetverkehr �
 Zusätzlich wurde festgestellt, dass die TLS-Validierung auf der Client-Seite nicht immer ordnungsgemäß durchgeführt wird.
 Häufig wird nur geprüft, ob das Zertifikat von einer legitimen Certificate Authority ausgestellt wurde und nicht, ob zum Beispiel der angegebene Hostname mit dem offiziellen RCS-Server übereinstimmt.
 So kann der Angreifer über seinen eigenen Server einen RCS-Server imitieren, welcher über eine separate TLS-Verbindung und Domain läuft.
-Auf diese Weise kann ein Man-In-The-Middle-Angriff ausgeführt werden \cite{uncoversec}.
+Auf diese Weise kann ein "Man-In-The-Middle"-Angriff ausgeführt werden \cite{uncoversec}.
 
 \subsection{Verletzung der Integrität}
 
@@ -313,7 +313,7 @@ Wenn allerdings die URL zum Vorschaubild innerhalb der Metadaten zu einem Bild g
 Bei Xiaomi findet sich ein ähnliches Problem, welches den gleichen Effekt hat.
 Wenn ein Standort empfangen wird, der eine korrupte Standort-URL enthält und nicht dem gültigen Format entspricht, stürzt der Dienst ebenfalls ab \cite{uncoversec}.
 
-Dieses Problem kann für eine Denial-of-Service-Attacke gegen einen Nutzer ausgenutzt werden.
+Dieses Problem kann für eine "Denial-of-Service"-Attacke gegen einen Nutzer ausgenutzt werden.
 Dabei werden in regelmäßigen Abständen zu große Dateien beziehungsweise korrupte Standortdaten an das Gerät geschickt, wodurch der Dienst permanent abstürzt.
 Somit ist das Gerät von der Kommunikation über RCS abgeschnitten \cite{uncoversec}.
 
@@ -326,7 +326,7 @@ Ein weiterer Angriff ist das erzwungene Herunterladen von großen Dateien.
 Es wird wieder eine Datei mit manipulierter URL geschickt, welche auf eine sehr große Datei zeigt.
 Dadurch, dass diese beim Empfänger automatisch im Hintergrund heruntergeladen wird, füllt sich unbemerkt der Handyspeicher und viel mobiles Datenvolumen wird verbraucht \cite{uncoversec}.
 
-Schließlich gibt es noch die Möglichkeit, eine "Reflection Amplification DDOS"-Attacke gegen einen RCS-Server durchzuführen.
+Schließlich gibt es noch die Möglichkeit, eine "Reflection Amplification DDoS"-Attacke gegen einen RCS-Server durchzuführen.
 Dabei wird wieder eine Datei mit manipulierter Download-URL, welche auf eine sehr große Datei zeigt, präpariert.
 Diese wird dann an mehrere Geräte geschickt, die sich im gleichen Netz befinden und somit auf den gleichen Content Server zugreifen.
 Die Geräte versuchen dann gleichzeitig von selben Server herunterzuladen, wodurch die Netzwerkbandbreite vollständig ausgenutzt und der reguläre Datenverkehr enorm beeinträchtigt wird \cite{uncoversec}.
