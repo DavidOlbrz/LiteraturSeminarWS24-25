@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.29)  15 JAN 2025 16:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.29)  15 JAN 2025 17:07
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -406,13 +406,8 @@ Package grfext Info: Graphics extension search list:
  (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Underfull \hbox (badness 2221) in paragraph at lines 31--42
-[]\OT1/ptm/b/it/9 Zusammenfassung\OT1/ptm/b/n/9 ---Durch die zu-neh-men-de Nut-zung von
- []
 
-
-
-Package svg Info: Last page of `./svg-inkscape/mobilfunknetz_svg-tex.pdf' is 1 on input line 79.
+Package svg Info: Last page of `./svg-inkscape/mobilfunknetz_svg-tex.pdf' is 1 on input line 82.
 (svg-inkscape/mobilfunknetz_svg-tex.pdf_tex
 <./svg-inkscape/mobilfunknetz_svg-tex.pdf, id=5, page=1, 656.0761pt x 409.7182pt>
 File: ./svg-inkscape/mobilfunknetz_svg-tex.pdf Graphic file (type pdf)
@@ -426,7 +421,7 @@ Package pdftex.def Info: ./svg-inkscape/mobilfunknetz_svg-tex.pdf , page1 used o
 
 ]
 
-Package svg Info: Last page of `./svg-inkscape/versendete_sms_svg-tex.pdf' is 2 on input line 124.
+Package svg Info: Last page of `./svg-inkscape/versendete_sms_svg-tex.pdf' is 2 on input line 127.
 (svg-inkscape/versendete_sms_svg-tex.pdf_tex
 <./svg-inkscape/versendete_sms_svg-tex.pdf, id=15, page=1, 1306.8825pt x 784.43062pt>
 File: ./svg-inkscape/versendete_sms_svg-tex.pdf Graphic file (type pdf)
@@ -456,7 +451,7 @@ pdfTeX warning: pdflatex (file ./svg-inkscape/versendete_sms_svg-tex.pdf): PDF i
 pdfTeX warning: pdflatex (file ./svg-inkscape/versendete_sms_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 
-Package svg Info: Last page of `./svg-inkscape/rcsnetz_svg-tex.pdf' is 1 on input line 200.
+Package svg Info: Last page of `./svg-inkscape/rcsnetz_svg-tex.pdf' is 1 on input line 203.
 (svg-inkscape/rcsnetz_svg-tex.pdf_tex
 <./svg-inkscape/rcsnetz_svg-tex.pdf, id=70, page=1, 922.94812pt x 400.96997pt>
 File: ./svg-inkscape/rcsnetz_svg-tex.pdf Graphic file (type pdf)
@@ -466,7 +461,7 @@ Package pdftex.def Info: ./svg-inkscape/rcsnetz_svg-tex.pdf , page1 used on inpu
 )
 
 [3]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 236.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 239.
  (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
@@ -554,7 +549,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  94i,16n,93p,487b,494s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on literatur_seminar_rcs_olbertz_david.pdf (6 pages, 243795 bytes).
+Output written on literatur_seminar_rcs_olbertz_david.pdf (6 pages, 243139 bytes).
 PDF statistics:
  155 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

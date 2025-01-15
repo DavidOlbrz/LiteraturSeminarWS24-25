@@ -28,17 +28,20 @@
 
 \maketitle
 
+\renewcommand{\abstractname}{Abstract}
+
 \begin{abstract}
     Durch die zunehmende Nutzung von Over-the-Top Messengern wie WhatsApp verliert der traditionelle Kommunikationsdienst SMS an Bedeutung.
     Als Reaktion darauf wurde von der GSMA der Dienst Rich Communication Services (RCS) eingeführt, um eine moderne Alternative anzubieten.
-    Diese Arbeit beschäftigt sich mit der Frage, ob RCS ein geeigneter Nachfolger für die SMS ist.
+    Diese Arbeit beschäftigt sich mit der Frage, ob RCS ein geeigneter Nachfolger für SMS ist.
     Um dies zu beantworten, werden Informationen zu dem Thema aus unterschiedlichen wissenschaftlichen Publikationen zusammengetragen und analysiert.
     Zunächst wird ein Überblick über die aktuellen Kommunikationsdienste, wie der Short Message Service (SMS) und die weit verbreiteten Over-the-Top (OTT) Instant Messenger, geschaffen.
     Anschließend wird RCS im Detail betrachtet.
     Dabei stehen sowohl die einzelnen Funktionen und technische Ausführung als auch Aspekte der Sicherheit im Vordergrund.
     Basierend auf diesen Rechercheergebnissen werden die Vorteile von RCS, wie zahlreiche moderne Funktionen und die nahtlose Integration in das Betriebssystem, dargestellt.
     Andererseits gibt es auch Schwächen, darunter die Anfälligkeit für Angriffe wie Spoofing oder Manipulation von Metadaten, sowie die fehlende Zusammenarbeit der Mobilfunkanbieter, die die Verfügbarkeit und Verbreitung einschränkt.
-    Tendenziell kann RCS als Nachfolger der SMS gesehen werden, allerdings müssen die Schwächen weitestgehend beseitigt werden.
+    Tendenziell kann RCS als Nachfolger der SMS gesehen werden.
+    Allerdings müssen dafür die Schwächen weitestgehend beseitigt werden.
 \end{abstract}
 
 
@@ -56,7 +59,7 @@ Dieser Trend bewegte die GSM Association dazu, einen neuen moderneren Kommunikat
 Ziel dieser Seminararbeit ist, die Frage zu beantworten, ob Rich Communication Services (RCS) als Nachfolger der SMS betrachtet werden kann.
 Zu diesem Zweck werden verschiedene bereits veröffentlichte wissenschaftliche Publikationen zu ähnlichen Themen analysiert und die Informationen strukturiert zusammengefasst.
 Zuerst werden die aktuell gängigen Technologien behandelt und anschließend auf RCS im Detail eingegangen.
-Neben der Definition und Funktionsweise werden auch weitere Aspekte, wie die Vor- und Nachteile der RCS, dargestellt.
+Neben der Definition und Funktionsweise werden auch weitere Aspekte, wie die Vor- und Nachteile von RCS, dargestellt.
 Dabei werden auch die Eigenschaften von RCS mit denen von SMS verglichen, wobei besonders die Sicherheit eine große Rolle spielt.
 
 \section{Entwicklung}
@@ -70,7 +73,7 @@ Die Nachrichten können standardmäßig in der 7-Bit-Codierung eine Länge von 1
 Das SMS-Protokoll besteht aus vier Schichten, die alle Informationen zum Versenden, wie unter anderem den Empfänger und den Nachrichteninhalt selbst, enthalten.
 Zu den Schichten gehört der Application Layer, Transfer Layer, Relay Layer und Link Layer \cite{smshow}.
 
-Damit Nachrichten über große Distanzen versendet und empfangen werden können, wird eine entsprechende Infrastruktur für den Mobilfunk benötigt (siehe Fig. \ref{mobilfunknetz}).
+Damit Nachrichten über große Distanzen versendet und empfangen werden können, wird eine entsprechende Infrastruktur für den Mobilfunk benötigt (siehe Abb. \ref{mobilfunknetz}).
 Das Mobilfunknetz besteht aus Basisstationen, mit denen sich die Endgeräte drahtlos verbinden können, und aus Short Message Service Centers (SMSC), welche die versendeten Nachrichten an den korrekten Empfänger weiterleiten \cite{sendoutsms}.
 Falls die Zielperson aus irgendeinem Grund nicht erreichbar sein sollte und die Nachricht nicht zugestellt werden kann, wird sie temporär im SMSC zwischengespeichert. Sobald die Erreichbarkeit wiederhergestellt ist, wird die Nachricht zugestellt und anschließend aus dem SMSC gelöscht \cite{smshow}.
 Während der Übermittlung der Nachricht ist der Bereich zwischen dem Endgerät und der Basisstation verschlüsselt, innerhalb des Mobilfunknetzes allerdings nicht mehr \cite{sendoutsms}. Es besteht also die Möglichkeit, dass der Mobilfunknetzbetreiber die Nachrichten auslesen kann.
@@ -85,7 +88,7 @@ External Short Message Entities (ESME) sind ebenfalls Bestandteil des Netzes und
 Der Verwendungszweck dafür ist das Senden und Empfangen einer großen Menge an Nachrichten.
 Dies wird z.B. für das Versenden von One-Time-Passwords oder Notfallmeldungen eingesetzt.
 ESMEs fungieren also als Schnittstelle und erlauben so einen direkten Zugriff auf die SMSCs oder verkaufen den Zugriff an Dritte weiter.
-Es existieren zum Beispiel Systeme, die einzelne Telefonnummern auf einer Website öffentlich zugänglich machen, damit Nutzer ohne Angabe persönlicher Daten darüber Nachrichten empfangenen können.
+Es existieren zum Beispiel Systeme, die einzelne Telefonnummern auf einer Website öffentlich zugänglich machen, damit Nutzer ohne Angabe persönlicher Daten darüber Nachrichten empfangen können.
 Das wird teilweise noch weiter getrieben, sodass es Dienste gibt, bei denen man ganz einfach an Telefonnummern kommt, mit denen auch Nachrichten versendet werden können.
 Da hier wieder keine Angaben persönlicher Daten notwendig sind, werden solche Nummern oft für Betrugszwecke ausgenutzt.
 Nicht zuletzt sollte aus Sicht des Datenschutzes beachtet werden, dass die gesendeten und empfangenen Nachrichten eventuell für längere Zeit von ESMEs gespeichert werden \cite{sendoutsms}.
@@ -103,9 +106,9 @@ Einer davon sind die sogenannten Over-the-Top (OTT) Dienste beziehungsweise OTT-
 OTT steht dafür, dass diese nicht auf traditionelle Mobilfunkdienste (wie z.B. Telefonie und SMS) angewiesen sind, sondern über das Internet betrieben werden \cite{ottbund}.
 Um OTT-Messenger verwenden zu können, muss jeder Nutzer den entsprechenden Client auf seinem Gerät installieren \cite{rcsmno}.
 
-Ein populäres Beispiel für einen OTT-Messenger ist der vollständig kostenlos nutzbarer WhatsApp Messenger von Meta Platforms Inc \cite{wakostenlos}.
+Ein populäres Beispiel für einen OTT-Messenger ist der vollständig kostenlos nutzbare WhatsApp Messenger von Meta Platforms Inc \cite{wakostenlos}.
 Dieser bietet zahlreiche Funktionen an, die über einfache Textnachrichten hinaus gehen.
-Es ist möglich, verschiedene Arten von Medien zu versenden, wie unter anderem Fotos, Videos, Audio und Dokumente.
+Es ist möglich, verschiedene Arten von Medien zu versenden, wie unter anderem Fotos, Videos, Audios und Dokumente.
 Weitere Nachrichtentypen, wie Live-Standort und Kontaktdaten, sind ebenfalls vorhanden.
 Auf Nachrichten kann mit Emojis reagiert werden und es wird angezeigt, wenn der andere Teilnehmer gerade etwas am Eintippen ist \cite{wafaq}.
 Damit die Sicherheit und Privatsphäre der Nutzer gewährleistet sind, sind alle Nachrichten Ende-zu-Ende-verschlüsselt und können nur auf den entsprechenden Endgeräten der Nutzer entschlüsselt werden.
@@ -129,7 +132,7 @@ Mit WhatsApp Business ist es möglich, dass Nutzer mit Unternehmen kommunizieren
 Seit dem Aufstieg von OTT sinkt die Nutzung von klassischen Kommunikationsarten wie SMS \cite{ottmobinter}.
 Die Bundesnetzagentur veröffentlichte dazu zuletzt im Juli 2024 eine Statistik über die Anzahl der versendeten SMS über mehrere Jahre.
 Laut dieser ist die Nutzung von SMS im Jahr 2012 bei 59,8 Milliarden versendeten SMS gewesen.
-Im Jahr 2023 lag die Zahl allerdings nur noch bei 5,3 Milliarden (siehe Fig. \ref{versendetesms}).
+Im Jahr 2023 lag die Zahl allerdings nur noch bei 5,3 Milliarden (siehe Abb. \ref{versendetesms}).
 Das entspricht einem Abstieg von circa 91 \% \cite{smsstats}.
 2008 veröffentlichte die "`Groupe Speciale Mobile Association"' (GSMA) die erste Version des Universal Profiles, welche die Standards der Rich Communication Services (RCS) spezifiziert und deren Umsetzung definiert \cite{rcsuite}.
 Die Grundidee dabei ist die Unterstützung mehrerer moderner Funktionen, wie man sie auch aus OTT-Messengern kennt.
@@ -149,7 +152,7 @@ Innerhalb der Chats ist es möglich, Dateien zu versenden.
 Dabei kann jeder Dateityp verschickt werden. Bestimmte Dateiformate werden im Chat besonders dargestellt, wie z.B. der Standort mit Kartenvorschau, direkt im Chat abspielbare Audio-Dateien und animierte GIFs.
 Bilder und Videos werden ebenfalls gesondert abgebildet.
 Nach dem Senden von Dateien kann deren Übermittlungsstatus eingesehen werden.
-Dadurch kann geprüft werden, ob eine Datei korrekt versendet wurde oder ob der Transfer noch aussteht oder sogar fehlgeschlagen ist.
+Dadurch kann geprüft werden, ob eine Datei korrekt versendet wurde, der Transfer noch aussteht oder sogar fehlgeschlagen ist.
 Für eine persönlichere Kommunikation können Nutzer, anstatt Textnachrichten zu schreiben, auch Sprachnachrichten direkt in der App aufnehmen und verschicken.
 Ebenso ist es möglich, den aktuellen Standort mit anderen zu teilen.
 Bei jeder verschickten Nachricht kann der Absender sehen, ob diese angekommen ist und bereits vom Empfänger gelesen wurde.
@@ -171,10 +174,10 @@ Anstatt nur mit Personen zu interagieren, existiert die Möglichkeit, mit Dienst
 
 Der Rich Communication Service funktioniert sowohl im 4G und 5G Mobilfunknetz, als auch über Wi-Fi \cite{5gmsg}.
 
-Damit möglichst alle Funktionen von RCS reibungslos genutzt werden können, müssen sich die Mobilfunk-Operatoren auf eine gängige Implementierung einigen.
+Damit möglichst alle Funktionen von RCS reibungslos genutzt werden können, müssen sich die Mobilfunkbetreiber auf eine gängige Implementierung einigen.
 Um dies zu erreichen, haben 2011 mehrere große Unternehmen, darunter die Deutsche Telekom, Telefonica und Vodafone angekündigt, einen Zusammenschluss zu bilden und eine gemeinsame RCS-Implementierung, auch RCS-e (Rich Communication Services enhanced) genannt, zu definieren \cite{rcsmno}.
 
-Trotz solcher Maßnahmen können weiterhin Implementierungsunterschiede auftreten, weshalb die "`Capability Discovery"'-Funktion entwickelt wurde.
+Trotz solcher Maßnahmen können weiterhin Implementierungsunterschiede auftreten, weshalb die "`Capability Discov\-ery"'-Funktion entwickelt wurde.
 Sie dient dazu, den Clients zu zeigen, welche RCS-Funktionen verfügbar sind.
 Damit eine Funktion genutzt werden kann, muss sie sowohl bei beiden Clients implementiert als auch vom Mobilfunkanbieter unterstützt werden.
 Verfügbare Funktionen werden automatisch aktiviert.
@@ -182,12 +185,12 @@ Falls RCS nicht unterstützt sein sollte, wird dem Nutzer angeboten, seine Nachr
 Dabei entscheidet der "`Unified Composer"', ob die Nachricht als SMS oder, im Fall von Mediendateien, als MMS versendet wird \cite{rcsuite}.
 
 Der Kommunikationsablauf über RCS beginnt mit der Anmeldung beim Dienst.
-Dafür werden die benötigten Informationen der Nutzer zum Bestätigen der Identitäten mit dem Profil-Server geteilt.
+Dafür werden die benötigten Informationen der Nutzer zum Bestätigen der Identitäten mit dem Profile Server geteilt.
 Nutzer A möchte eine Nachricht an Nutzer B verschicken.
 Sein Gerät sendet eine Verbindungsanfrage an den Nachrichten-Server.
 Dieser leitet die Anfrage über das Netzwerk-zu-Netzwerk-Interface (NNI) weiter an das Netzwerk von Nutzer B.
 Wenn dieser Prozess erfolgreich abgelaufen ist, besteht eine Chat-Sitzung zwischen den Geräten beider Chatteilnehmer \cite{5gmsg}.
-Fig. \ref{rcsnetz} zeigt die im Kommunikationsprozess involvierten Netzwerkelemente.
+Abbildung \ref{rcsnetz} zeigt die im Kommunikationsprozess involvierten Netzwerkelemente.
 
 Beim Verschicken von Dateien werden diese gesondert über den Content Server geleitet.
 Dort werden sie bei Bedarf temporär zwischengespeichert.
@@ -216,7 +219,7 @@ Auf Geräten ohne SIM-Karte werden andere Möglichkeiten für die Anmeldung genu
 
 Alle Nachrichten sind während der Übertragung durch gängige Protokolle, wie TLS und IPSec, verschlüsselt \cite{uniprof}.
 Falls beide Nutzer Google Messages verwenden, sind die Nachrichten zusätzlich Ende-zu-Ende-verschlüsselt \cite{googlemessagessecure}.
-Dazu wird ein separater Key Server für den Schlüsselaustausch genutzt (siehe Fig. \ref{rcsnetz}) \cite{5gmsg}.
+Dazu wird ein separater Key Server für den Schlüsselaustausch genutzt (siehe Abb. \ref{rcsnetz}) \cite{5gmsg}.
 Diese Funktion ist allerdings nur in diesem Fall verfügbar, da die GSMA keine offizielle Implementierung definiert hat.
 Dadurch ist dies nicht unbedingt plattformübergreifend nutzbar \cite{googlemessagessecure}.
 
@@ -332,7 +335,7 @@ Dadurch, dass diese beim Empfänger automatisch im Hintergrund heruntergeladen w
 Schließlich gibt es noch die Möglichkeit, eine "`Reflection Amplification DDoS"'-Attacke gegen einen RCS-Server durchzuführen.
 Dabei wird wieder eine Datei mit manipulierter Download-URL, welche auf eine sehr große Datei zeigt, präpariert.
 Diese wird dann an mehrere Geräte geschickt, die sich im gleichen Netz befinden und somit auf den gleichen Content Server zugreifen.
-Die Geräte versuchen dann gleichzeitig von selben Server herunterzuladen, wodurch die Netzwerkbandbreite vollständig ausgenutzt und der reguläre Datenverkehr enorm beeinträchtigt wird \cite{uncoversec}.
+Die Geräte versuchen dann gleichzeitig vom selben Server herunterzuladen, wodurch die Netzwerkbandbreite vollständig ausgenutzt und der reguläre Datenverkehr enorm beeinträchtigt wird \cite{uncoversec}.
 
 
 \section{Fazit}
@@ -348,11 +351,11 @@ Durch die automatische Einrichtung im Hintergrund kann er nahtlos genutzt werden
 Allerdings sind trotz des moderneren Ansatzes mehrere Schwächen zu finden.
 Der Umstand, dass es von verschiedenen Mobilfunkanbietern betrieben wird, kann bereits zu Problemen führen.
 Damit alle Funktionen von RCS reibungslos funktionieren, muss die Implementierung überall einheitlich sein.
-Das bedeutet, dass alle Mobilfunkanbieter weltweit einen gemeinsamen Standard nutzen.
+Das bedeutet, dass alle Mobilfunkanbieter weltweit einen gemeinsamen Standard nutzen sollten.
 Gleiches gilt für die Geräte- beziehungsweise Betriebssystemhersteller für die Bereitstellung des RCS-Clients.
 Sicherheitsprobleme, wie Spoofing oder das Manipulieren der Metadaten, stellen ebenfalls schwerwiegende Probleme dar.
 
-Zusammenfassend lässt sich sagen, dass Rich Communication Services das Potenzial hat, als Nachfolger der SMS zu ersetzen.
+Zusammenfassend lässt sich sagen, dass Rich Communication Services das Potenzial hat, als Nachfolger die SMS zu ersetzen.
 Es müssen allerdings noch Verbesserungen durchgeführt werden, damit RCS sicher als Ersatz genutzt werden kann.
 Dazu gehören zum einen, die Sicherheitsprobleme zu beseitigen und zum anderen, durch eine standardisierte Implementierung und Zusammenarbeit der Mobilfunkanbieter und Hersteller die Technologie zu fördern und weiterzuverbreiten.
 
